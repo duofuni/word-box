@@ -88,7 +88,7 @@ const toggleMeaning = (index) => {
 const loadWords = async () => {
   try {
     loading.value = true
-    const response = await fetch('/words.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}words.json`)
     if (!response.ok) {
       throw new Error('加载词汇数据失败')
     }

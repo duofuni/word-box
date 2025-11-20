@@ -7,7 +7,7 @@
     <div
       class="absolute inset-0 pointer-events-none z-0"
       :style="{
-        backgroundImage: 'url(/apollo-bust.jpg), url(/apollo-bust-long.jpg)',
+        backgroundImage: `url(${baseUrl}apollo-bust.jpg), url(${baseUrl}apollo-bust-long.jpg)`,
         backgroundSize: '110% auto, 100% 50%',
         backgroundPosition: '-16px 9%, center bottom',
         backgroundRepeat: 'no-repeat, no-repeat',
@@ -172,6 +172,8 @@
 </template>
 
 <script setup>
+const baseUrl = import.meta.env.BASE_URL
+
 const modules = [
   {
     name: "flashcard",

@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   base: process.env.NODE_ENV === 'production' ?
-    './' // 使用相对路径，打包后的资源路径为 ./assets/...
+    '/word-box/' // GitHub Pages 子路径
     :
     '/',
   server: {
