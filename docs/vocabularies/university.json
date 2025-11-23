@@ -1,0 +1,27 @@
+{
+  "id": "university",
+  "name": "大学",
+  "vocabularies": [
+    {
+      "id": "cet4",
+      "name": "四级英语",
+      "description": "大学英语四级词汇表",
+      "wordCount": 150,
+      "file": "vocabularies/university_cet4.json"
+    },
+    {
+      "id": "cet4-highfreq",
+      "name": "四级英语-高频词",
+      "description": "大学英语四级高频词汇",
+      "wordCount": 100,
+      "file": "vocabularies/university_cet4-highfreq.json"
+    },
+    {
+      "id": "cet6",
+      "name": "六级英语",
+      "description": "六级英语新大纲词汇表",
+      "wordCount": 150,
+      "file": "vocabularies/university_cet6.json"
+    }
+  ]
+}

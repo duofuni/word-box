@@ -1,0 +1,13 @@
+{
+  "id": "junior-high",
+  "name": "初中",
+  "vocabularies": [
+    {
+      "id": "junior-basic",
+      "name": "初中基础词汇",
+      "description": "初中英语基础词汇表",
+      "wordCount": 50,
+      "file": "vocabularies/junior-high_junior-basic.json"
+    }
+  ]
+}
