@@ -44,6 +44,7 @@
           class="pb-[10px] relative group"
         >
           <div class="text-xl font-bold text-[#333] mb-2 group-hover:text-blue-600 transition-colors flex items-center gap-2">
+            <span v-if="word.emoji || word.image" class="text-2xl">{{ word.emoji || word.image }}</span>
             <span class="text-blue-400 opacity-0 group-hover:opacity-100 transition-opacity">✦</span>
             {{ word.word }}
           </div>
@@ -75,6 +76,9 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useVocabulary } from '../composables/useVocabulary'
+
+const { loadVocabularyData, getSelectedWords } = useVocabulary()
 
 const words = ref([])
 const loading = ref(true)
@@ -88,11 +92,15 @@ const toggleMeaning = (index) => {
 const loadWords = async () => {
   try {
     loading.value = true
-    const response = await fetch(`${import.meta.env.BASE_URL}words.json`)
-    if (!response.ok) {
-      throw new Error('加载词汇数据失败')
+    await loadVocabularyData()
+    // Load words with emoji enhancement
+    const wordData = await getSelectedWords({ withEmoji: true })
+    
+    if (wordData.length === 0) {
+      error.value = '请先选择词库'
+      return
     }
-    const wordData = await response.json()
+    
     words.value = wordData
     // 初始化所有单词的显示状态为隐藏
     wordData.forEach((_, index) => {

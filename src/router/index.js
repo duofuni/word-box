@@ -9,11 +9,18 @@ import WordLink from '../views/WordLink.vue'
 import WordSpot from '../views/WordSpot.vue'
 import WordQuiz from '../views/WordQuiz.vue'
 import WordEliminate from '../views/WordEliminate.vue'
+import WordStack from '../views/WordStack.vue'
+import WordSelect from '../views/WordSelect.vue'
 
 const routes = [{
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/word-select',
+    name: 'WordSelect',
+    component: WordSelect
   },
   {
     path: '/word-flashcard',
@@ -44,6 +51,11 @@ const routes = [{
     path: '/word-eliminate',
     name: 'WordEliminate',
     component: WordEliminate
+  },
+  {
+    path: '/word-stack',
+    name: 'WordStack',
+    component: WordStack
   },
 
 ]

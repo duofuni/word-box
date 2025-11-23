@@ -108,6 +108,8 @@ export const colors = {
     gsap: 'from-purple-50 via-pink-50 to-orange-50',
     // 单词消除背景
     eliminate: 'from-gray-900 to-black',
+    // 词了个词背景
+    wordstack: 'from-gray-900 to-black',
   },
   
   // 模块主题色
@@ -196,6 +198,17 @@ export const colors = {
       moves: '#3b82f6',         // blue-500
       gradientFrom: '#3b82f6',
       gradientTo: '#06b6d4',    // cyan-500
+    },
+    wordstack: {
+      primary: '#ec4899',       // pink-500
+      hover: '#db2777',         // pink-600
+      gradient: 'from-pink-500 to-rose-500',
+      iconBg: 'bg-pink-500',
+      iconHover: 'bg-pink-600',
+      score: '#22c55e',         // green-500
+      moves: '#3b82f6',         // blue-500
+      gradientFrom: '#ec4899',
+      gradientTo: '#f43f5e',    // rose-500
     },
   },
   

@@ -228,6 +228,9 @@
 <script setup>
 import { ref, onMounted, computed, nextTick, watch } from "vue";
 import { getGradientClass, getModuleColors } from '../config/colors';
+import { useVocabulary } from '../composables/useVocabulary';
+
+const { loadVocabularyData, getSelectedWords } = useVocabulary();
 
 const gradientClass = computed(() => getGradientClass('spot'));
 const moduleColors = getModuleColors('spot');
@@ -531,11 +534,14 @@ const getColorScheme = (level) => {
 const loadWords = async () => {
   try {
     loading.value = true;
-    const response = await fetch(`${import.meta.env.BASE_URL}words.json`);
-    if (!response.ok) {
-      throw new Error("加载词汇数据失败");
+    await loadVocabularyData();
+    const wordData = await getSelectedWords();
+    
+    if (wordData.length === 0) {
+      error.value = "请先选择词库";
+      return;
     }
-    const wordData = await response.json();
+    
     words.value = wordData;
     initLevel();
   } catch (err) {

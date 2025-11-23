@@ -1,0 +1,412 @@
+[
+  {
+    "word": "dog",
+    "meaning": "n. 狗",
+    "emoji": "🐕"
+  },
+  {
+    "word": "cat",
+    "meaning": "n. 猫",
+    "emoji": "🐱"
+  },
+  {
+    "word": "horse",
+    "meaning": "n. 马",
+    "emoji": "🐴"
+  },
+  {
+    "word": "cow",
+    "meaning": "n. 牛",
+    "emoji": "🐄"
+  },
+  {
+    "word": "pig",
+    "meaning": "n. 猪",
+    "emoji": "🐷"
+  },
+  {
+    "word": "sheep",
+    "meaning": "n. 羊",
+    "emoji": "🐑"
+  },
+  {
+    "word": "rabbit",
+    "meaning": "n. 兔子",
+    "emoji": "🐰"
+  },
+  {
+    "word": "mouse",
+    "meaning": "n. 老鼠",
+    "emoji": "🐭"
+  },
+  {
+    "word": "monkey",
+    "meaning": "n. 猴子",
+    "emoji": "🐒"
+  },
+  {
+    "word": "lion",
+    "meaning": "n. 狮子",
+    "emoji": "🦁"
+  },
+  {
+    "word": "tiger",
+    "meaning": "n. 老虎",
+    "emoji": "🐅"
+  },
+  {
+    "word": "elephant",
+    "meaning": "n. 大象",
+    "emoji": "🐘"
+  },
+  {
+    "word": "bear",
+    "meaning": "n. 熊",
+    "emoji": "🐻"
+  },
+  {
+    "word": "fox",
+    "meaning": "n. 狐狸",
+    "emoji": "🦊"
+  },
+  {
+    "word": "wolf",
+    "meaning": "n. 狼",
+    "emoji": "🐺"
+  },
+  {
+    "word": "zebra",
+    "meaning": "n. 斑马",
+    "emoji": "🦓"
+  },
+  {
+    "word": "deer",
+    "meaning": "n. 鹿",
+    "emoji": "🦌"
+  },
+  {
+    "word": "giraffe",
+    "meaning": "n. 长颈鹿",
+    "emoji": "🦒"
+  },
+  {
+    "word": "leopard",
+    "meaning": "n. 豹子",
+    "emoji": "🐆"
+  },
+  {
+    "word": "rhinoceros",
+    "meaning": "n. 犀牛",
+    "emoji": "🦏"
+  },
+  {
+    "word": "hippopotamus",
+    "meaning": "n. 河马",
+    "emoji": "🦛"
+  },
+  {
+    "word": "camel",
+    "meaning": "n. 骆驼",
+    "emoji": "🐪"
+  },
+  {
+    "word": "kangaroo",
+    "meaning": "n. 袋鼠",
+    "emoji": "🦘"
+  },
+  {
+    "word": "koala",
+    "meaning": "n. 考拉",
+    "emoji": "🐨"
+  },
+  {
+    "word": "panda",
+    "meaning": "n. 熊猫",
+    "emoji": "🐼"
+  },
+  {
+    "word": "seal",
+    "meaning": "n. 海豹",
+    "emoji": "🦭"
+  },
+  {
+    "word": "gorilla",
+    "meaning": "n. 大猩猩",
+    "emoji": "🦍"
+  },
+  {
+    "word": "skunk",
+    "meaning": "n. 臭鼬",
+    "emoji": "🦨"
+  },
+  {
+    "word": "badger",
+    "meaning": "n. 獾",
+    "emoji": "🦡"
+  },
+  {
+    "word": "otter",
+    "meaning": "n. 水獭",
+    "emoji": "🦦"
+  },
+  {
+    "word": "hedgehog",
+    "meaning": "n. 刺猬",
+    "emoji": "🦔"
+  },
+  {
+    "word": "beaver",
+    "meaning": "n. 河狸",
+    "emoji": "🦫"
+  },
+  {
+    "word": "bat",
+    "meaning": "n. 蝙蝠",
+    "emoji": "🦇"
+  },
+  {
+    "word": "hamster",
+    "meaning": "n. 仓鼠",
+    "emoji": "🐹"
+  },
+  {
+    "word": "chipmunk",
+    "meaning": "n. 花栗鼠",
+    "emoji": "🐿️"
+  },
+  {
+    "word": "polar bear",
+    "meaning": "n. 北极熊",
+    "emoji": "🐻‍❄️"
+  },
+  {
+    "word": "donkey",
+    "meaning": "n. 驴",
+    "emoji": "🫏"
+  },
+  {
+    "word": "racoon",
+    "meaning": "n. 浣熊",
+    "emoji": "🦝"
+  },
+  {
+    "word": "bison",
+    "meaning": "n. 北美野牛",
+    "emoji": "🦬"
+  },
+  {
+    "word": "bird",
+    "meaning": "n. 鸟",
+    "emoji": "🐦"
+  },
+  {
+    "word": "penguin",
+    "meaning": "n. 企鹅",
+    "emoji": "🐧"
+  },
+  {
+    "word": "owl",
+    "meaning": "n. 猫头鹰",
+    "emoji": "🦉"
+  },
+  {
+    "word": "rooster",
+    "meaning": "n. 公鸡",
+    "emoji": "🐓"
+  },
+  {
+    "word": "duck",
+    "meaning": "n. 鸭子",
+    "emoji": "🦆"
+  },
+  {
+    "word": "swan",
+    "meaning": "n. 天鹅",
+    "emoji": "🦢"
+  },
+  {
+    "word": "peacock",
+    "meaning": "n. 孔雀",
+    "emoji": "🦚"
+  },
+  {
+    "word": "parrot",
+    "meaning": "n. 鹦鹉",
+    "emoji": "🦜"
+  },
+  {
+    "word": "vulture",
+    "meaning": "n. 秃鹫",
+    "emoji": "🦅"
+  },
+  {
+    "word": "flamingo",
+    "meaning": "n. 火烈鸟",
+    "emoji": "🦩"
+  },
+  {
+    "word": "chicken",
+    "meaning": "n. 鸡",
+    "emoji": "🐔"
+  },
+  {
+    "word": "turkey",
+    "meaning": "n. 火鸡",
+    "emoji": "🦃"
+  },
+  {
+    "word": "pigeon",
+    "meaning": "n. 鸽子",
+    "emoji": "🕊️"
+  },
+  {
+    "word": "raven",
+    "meaning": "n. 渡鸦",
+    "emoji": "🐦‍⬛"
+  },
+  {
+    "word": "frog",
+    "meaning": "n. 青蛙",
+    "emoji": "🐸"
+  },
+  {
+    "word": "snake",
+    "meaning": "n. 蛇",
+    "emoji": "🐍"
+  },
+  {
+    "word": "turtle",
+    "meaning": "n. 乌龟",
+    "emoji": "🐢"
+  },
+  {
+    "word": "crocodile",
+    "meaning": "n. 鳄鱼",
+    "emoji": "🐊"
+  },
+  {
+    "word": "lizard",
+    "meaning": "n. 蜥蜴",
+    "emoji": "🦎"
+  },
+  {
+    "word": "fish",
+    "meaning": "n. 鱼",
+    "emoji": "🐟"
+  },
+  {
+    "word": "whale",
+    "meaning": "n. 鲸鱼",
+    "emoji": "🐳"
+  },
+  {
+    "word": "dolphin",
+    "meaning": "n. 海豚",
+    "emoji": "🐬"
+  },
+  {
+    "word": "shark",
+    "meaning": "n. 鲨鱼",
+    "emoji": "🦈"
+  },
+  {
+    "word": "octopus",
+    "meaning": "n. 章鱼",
+    "emoji": "🐙"
+  },
+  {
+    "word": "crab",
+    "meaning": "n. 螃蟹",
+    "emoji": "🦀"
+  },
+  {
+    "word": "shrimp",
+    "meaning": "n. 虾",
+    "emoji": "🦐"
+  },
+  {
+    "word": "squid",
+    "meaning": "n. 鱿鱼/乌贼",
+    "emoji": "🦑"
+  },
+  {
+    "word": "oyster",
+    "meaning": "n. 牡蛎/蚝",
+    "emoji": "🦪"
+  },
+  {
+    "word": "lobster",
+    "meaning": "n. 龙虾",
+    "emoji": "🦞"
+  },
+  {
+    "word": "spider",
+    "meaning": "n. 蜘蛛",
+    "emoji": "🕷️"
+  },
+  {
+    "word": "ant",
+    "meaning": "n. 蚂蚁",
+    "emoji": "🐜"
+  },
+  {
+    "word": "bee",
+    "meaning": "n. 蜜蜂",
+    "emoji": "🐝"
+  },
+  {
+    "word": "butterfly",
+    "meaning": "n. 蝴蝶",
+    "emoji": "🦋"
+  },
+  {
+    "word": "worm",
+    "meaning": "n. 蠕虫/蚯蚓",
+    "emoji": "🪱"
+  },
+  {
+    "word": "mosquito",
+    "meaning": "n. 蚊子",
+    "emoji": "🦟"
+  },
+  {
+    "word": "locust",
+    "meaning": "n. 蝗虫",
+    "emoji": "🦗"
+  },
+  {
+    "word": "ladybug",
+    "meaning": "n. 瓢虫",
+    "emoji": "🐞"
+  },
+  {
+    "word": "cockroach",
+    "meaning": "n. 蟑螂",
+    "emoji": "🪳"
+  },
+  {
+    "word": "fly",
+    "meaning": "n. 苍蝇",
+    "emoji": "🪰"
+  },
+  {
+    "word": "scorpion",
+    "meaning": "n. 蝎子",
+    "emoji": "🦂"
+  },
+  {
+    "word": "beetle",
+    "meaning": "n. 甲虫",
+    "emoji": "🪲"
+  },
+  {
+    "word": "caterpillar",
+    "meaning": "n. 毛毛虫",
+    "emoji": "🐛"
+  },
+  {
+    "word": "snail",
+    "meaning": "n. 蜗牛",
+    "emoji": "🐌"
+  }
+]

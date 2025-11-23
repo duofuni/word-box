@@ -1,0 +1,30 @@
+[
+  {
+    "id": "daily",
+    "name": "日常"
+  },
+  {
+    "id": "junior-high",
+    "name": "初中"
+  },
+  {
+    "id": "senior-high",
+    "name": "高中"
+  },
+  {
+    "id": "new-concept",
+    "name": "新概念"
+  },
+  {
+    "id": "university",
+    "name": "大学"
+  },
+  {
+    "id": "study-abroad",
+    "name": "留学"
+  },
+  {
+    "id": "professional",
+    "name": "专业英语"
+  }
+]

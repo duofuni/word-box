@@ -57,8 +57,21 @@
       </div>
     </div>
 
+    <!-- 错误提示 -->
+    <div v-if="error" class="w-full max-w-2xl relative z-10">
+      <div class="glass-effect rounded-3xl shadow-xl p-8 border border-white/50 text-center">
+        <div class="text-red-500 text-lg font-semibold mb-4">{{ error }}</div>
+        <router-link
+          to="/word-select"
+          class="inline-block px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-xl font-bold hover:shadow-lg transition-all"
+        >
+          去选择词库
+        </router-link>
+      </div>
+    </div>
+
     <!-- 游戏区域 -->
-    <div v-if="count > 0" class="w-full max-w-2xl relative z-10">
+    <div v-else-if="count > 0" class="w-full max-w-2xl relative z-10">
       <!-- 当前单词卡片 -->
       <div ref="questionCard" class="glass-effect rounded-3xl shadow-xl p-8 mb-6 transform transition-all duration-300 hover:scale-105 border border-white/50">
         <div class="text-center mb-6">
@@ -135,8 +148,12 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted, nextTick } from 'vue'
 import { gsap } from 'gsap'
+import { useVocabulary } from '../composables/useVocabulary'
+
+const { loadVocabularyData, getSelectedWords } = useVocabulary()
 
 const words = ref([])
+const error = ref('')
 const count = ref(20) // 初始数字
 const currentWordIndex = ref(0)
 const options = ref([])
@@ -167,28 +184,21 @@ const setOptionRef = (el, index) => {
 
 const loadWords = async () => {
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}words.json`)
-    if (!response.ok) {
-      throw new Error('加载词汇数据失败')
+    error.value = ''
+    await loadVocabularyData()
+    const wordData = await getSelectedWords()
+    
+    if (wordData.length === 0) {
+      error.value = '请先选择词库'
+      return
     }
-    const wordData = await response.json()
+    
     // 打乱顺序
     words.value = wordData.sort(() => Math.random() - 0.5)
     initQuestion()
   } catch (err) {
     console.error('加载词汇数据失败:', err)
-    // 使用默认词汇
-    words.value = [
-      { word: 'hello', meaning: '你好' },
-      { word: 'world', meaning: '世界' },
-      { word: 'apple', meaning: '苹果' },
-      { word: 'book', meaning: '书' },
-      { word: 'cat', meaning: '猫' },
-      { word: 'dog', meaning: '狗' },
-      { word: 'house', meaning: '房子' },
-      { word: 'car', meaning: '汽车' },
-    ]
-    initQuestion()
+    error.value = '加载词汇数据失败，请重试或选择其他词库'
   }
 }
 

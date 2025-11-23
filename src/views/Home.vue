@@ -15,9 +15,38 @@
       }"
     ></div>
 
-    <div class="max-w-4xl w-full relative z-10">
+      <div class="max-w-4xl w-full relative z-10">
+      <!-- 设置按钮 -->
+      <div class="absolute top-0 right-0 z-20">
+        <button
+          @click="showSettings = true"
+          class="w-10 h-10 flex items-center justify-center bg-white/80 backdrop-blur-sm rounded-full shadow-md hover:shadow-lg transition-all duration-200 hover:scale-110"
+          title="设置"
+        >
+          <svg
+            class="w-5 h-5 text-gray-700"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+            />
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+            />
+          </svg>
+        </button>
+      </div>
+
       <!-- 标题区域 -->
-      <div class="text-center mb-12 fade-in-up">
+      <div class="text-center mb-8 fade-in-up">
         <div class="inline-block mb-4 ornamental-border">
           <h1
             class="text-4xl font-bold mb-0 relative"
@@ -36,6 +65,67 @@
         >
           选择学习模式，开始你的单词之旅
         </p>
+      </div>
+
+      <!-- 当前词库区域 -->
+      <div class="mb-6 fade-in-up-delay">
+        <div
+          class="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-white/50"
+          style="background-color: rgba(255, 255, 255, 0.9);"
+        >
+          <div class="flex items-center justify-between">
+            <div class="flex items-center gap-3 flex-1">
+              <div class="w-10 h-10 bg-gradient-to-br from-blue-100 to-indigo-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="text-sm text-gray-600 mb-1" style="font-family: 'Inter', sans-serif;">
+                  当前词库
+                </div>
+                <div
+                  v-if="vocabInfo"
+                  class="text-lg font-bold text-gray-800 truncate"
+                  style="font-family: 'Inter', sans-serif;"
+                >
+                  {{ vocabInfo.vocabulary.name }}
+                </div>
+                <div
+                  v-else
+                  class="text-lg font-bold text-gray-500"
+                  style="font-family: 'Inter', sans-serif;"
+                >
+                  暂未选择词库
+                </div>
+              </div>
+            </div>
+            <router-link
+              to="/word-select"
+              class="px-4 py-2 bg-white rounded-full text-sm font-medium text-gray-700 hover:bg-gray-50 shadow-sm hover:shadow-md transition-all duration-200 whitespace-nowrap"
+              style="font-family: 'Inter', sans-serif;"
+            >
+              切换 >
+            </router-link>
+          </div>
+        </div>
+      </div>
+
+      <!-- 快速开始按钮 -->
+      <div class="mb-8 fade-in-up-delay">
+        <button
+          @click="quickStart"
+          :disabled="!vocabInfo"
+          class="w-full py-4 bg-gradient-to-r from-orange-400 to-orange-500 rounded-2xl text-white font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-[1.02] active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed"
+          style="font-family: 'Inter', sans-serif;"
+        >
+          <div class="flex items-center justify-center gap-2">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            快速开始
+          </div>
+        </button>
       </div>
 
       <!-- 功能卡片区域 -->
@@ -167,12 +257,88 @@
           </div>
         </router-link>
       </div>
+
+      <!-- 底部导航按钮 -->
+      <div class="mt-8 grid grid-cols-3 gap-3 fade-in-up-delay">
+        <router-link
+          to="/word-select"
+          class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105 active:scale-95"
+          style="background-color: rgba(255, 255, 255, 0.9);"
+        >
+          <div class="flex flex-col items-center gap-2">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+            </svg>
+            <span class="text-xs font-medium text-gray-700" style="font-family: 'Inter', sans-serif;">
+              选择词库
+            </span>
+          </div>
+        </router-link>
+        
+        <button
+          class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105 active:scale-95"
+          style="background-color: rgba(255, 255, 255, 0.9);"
+          @click="showWrongWords"
+        >
+          <div class="flex flex-col items-center gap-2">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <span class="text-xs font-medium text-gray-700" style="font-family: 'Inter', sans-serif;">
+              错题词库
+            </span>
+          </div>
+        </button>
+        
+        <button
+          class="bg-white/90 backdrop-blur-sm rounded-xl p-4 text-center shadow-md hover:shadow-lg transition-all duration-200 hover:scale-105 active:scale-95"
+          style="background-color: rgba(255, 255, 255, 0.9);"
+          @click="showMyWords"
+        >
+          <div class="flex flex-col items-center gap-2">
+            <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <span class="text-xs font-medium text-gray-700" style="font-family: 'Inter', sans-serif;">
+              我的词库
+            </span>
+          </div>
+        </button>
+      </div>
     </div>
+
+    <!-- 设置弹窗 -->
+    <SettingsModal :isOpen="showSettings" @close="showSettings = false" />
   </div>
 </template>
 
 <script setup>
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
+import { useRouter } from 'vue-router'
+import { useVocabulary } from '../composables/useVocabulary'
+import { useBackgroundMusic } from '../composables/useBackgroundMusic'
+import SettingsModal from '../components/SettingsModal.vue'
+
 const baseUrl = import.meta.env.BASE_URL
+const router = useRouter()
+const { getSelectedVocabularyInfo, hasSelectedVocabulary } = useVocabulary()
+const { initAudio, loadMusicSettings, saveMusicSettings } = useBackgroundMusic()
+
+const vocabInfo = ref(null)
+const showSettings = ref(false)
+
+// 初始化音乐（App.vue 已经初始化了，这里只是确保设置加载）
+onMounted(async () => {
+  // App.vue 已经初始化了音频，这里只需要加载设置
+  await loadMusicSettings()
+  // Load vocabulary info
+  vocabInfo.value = await getSelectedVocabularyInfo()
+})
+
+// 页面卸载时保存设置
+onBeforeUnmount(() => {
+  saveMusicSettings()
+})
 
 const modules = [
   {
@@ -217,5 +383,30 @@ const modules = [
     route: "/word-eliminate",
     iconType: "chart",
   },
+  {
+    name: "wordstack",
+    title: "词了个词",
+    description: "消除三层单词，匹配三个相同单词即可消除，挑战你的策略",
+    route: "/word-stack",
+    iconType: "chart",
+  },
 ];
+
+const quickStart = () => {
+  if (vocabInfo.value) {
+    // Randomly select a game module
+    const randomModule = modules[Math.floor(Math.random() * modules.length)]
+    router.push(randomModule.route)
+  }
+}
+
+const showWrongWords = () => {
+  // TODO: Implement wrong words vocabulary
+  alert('错题词库功能开发中...')
+}
+
+const showMyWords = () => {
+  // TODO: Implement my words vocabulary
+  alert('我的词库功能开发中...')
+}
 </script>

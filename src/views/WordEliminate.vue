@@ -40,8 +40,22 @@
       </div>
     </div>
 
+    <!-- 错误提示 -->
+    <div v-if="error" class="w-full max-w-6xl mb-4">
+      <div class="bg-red-900/50 border border-red-500 rounded-lg p-6 text-center">
+        <div class="text-red-400 text-lg font-semibold mb-2">{{ error }}</div>
+        <router-link
+          to="/word-select"
+          class="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+        >
+          去选择词库
+        </router-link>
+      </div>
+    </div>
+
     <!-- 游戏区域 -->
     <div 
+      v-else
       ref="gameContainer"
       id="game"
       class="relative w-full max-w-6xl overflow-hidden mx-auto"
@@ -106,6 +120,9 @@
 <script setup>
 import { ref, onMounted, computed, onUnmounted, nextTick } from 'vue'
 import { gsap } from 'gsap'
+import { useVocabulary } from '../composables/useVocabulary'
+
+const { loadVocabularyData, getSelectedWords } = useVocabulary()
 
 const R = Math.random
 const moves = ref(0)
@@ -114,6 +131,7 @@ const levelMoves = ref(0) // 当前关卡步数
 const isLocked = ref(false)
 const tiles = ref([])
 const words = ref([])
+const error = ref('')
 const gameContainer = ref(null)
 const tileRefs = ref({})
 const tileAnimations = ref({}) // 存储每个tile的动画实例
@@ -607,27 +625,20 @@ const handleLevelCompleteClick = () => {
 // 加载单词数据
 const loadWords = async () => {
   try {
-    const response = await fetch(`${import.meta.env.BASE_URL}words.json`)
-    if (!response.ok) {
-      throw new Error('加载词汇数据失败')
+    error.value = ''
+    await loadVocabularyData()
+    const wordData = await getSelectedWords()
+    
+    if (wordData.length === 0) {
+      error.value = '请先选择词库'
+      return
     }
-    const wordData = await response.json()
+    
     words.value = wordData
     initGame()
   } catch (err) {
     console.error('加载词汇数据失败:', err)
-    // 使用默认词汇
-    words.value = [
-      { word: 'hello', meaning: '你好' },
-      { word: 'world', meaning: '世界' },
-      { word: 'apple', meaning: '苹果' },
-      { word: 'book', meaning: '书' },
-      { word: 'cat', meaning: '猫' },
-      { word: 'dog', meaning: '狗' },
-      { word: 'house', meaning: '房子' },
-      { word: 'car', meaning: '汽车' },
-    ]
-    initGame()
+    error.value = '加载词汇数据失败，请重试或选择其他词库'
   }
 }
 

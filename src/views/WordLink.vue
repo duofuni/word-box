@@ -85,7 +85,7 @@
         {{ error }}
       </div>
 
-      <div v-else class="relative">
+      <div v-else class="relative" ref="gameContainer">
         <!-- 闪电连线 SVG -->
         <svg
           v-if="lightningPath"
@@ -301,6 +301,9 @@
 <script setup>
 import { ref, onMounted, onBeforeUnmount, computed, nextTick } from "vue";
 import { gsap } from "gsap";
+import { useVocabulary } from '../composables/useVocabulary';
+
+const { loadVocabularyData, getSelectedWords } = useVocabulary();
 
 const words = ref([]);
 const leftWords = ref([]);
@@ -319,16 +322,21 @@ const rightCardRefs = ref([]);
 const lightningGlowRef = ref(null);
 const lightningPathRef = ref(null);
 const lightningCoreRef = ref(null);
+const connectionSvg = ref(null);
+const gameContainer = ref(null);
 const matchedWords = ref(new Set()); // 记录已匹配的单词ID
 
 const loadWords = async () => {
   try {
     loading.value = true;
-    const response = await fetch(`${import.meta.env.BASE_URL}words.json`);
-    if (!response.ok) {
-      throw new Error("加载词汇数据失败");
+    await loadVocabularyData();
+    const wordData = await getSelectedWords();
+    
+    if (wordData.length === 0) {
+      error.value = "请先选择词库";
+      return;
     }
-    const wordData = await response.json();
+    
     words.value = wordData;
     initGame();
   } catch (err) {
@@ -535,13 +543,18 @@ const selectRightWord = (index) => {
 
 const getElementPosition = (element) => {
   if (!element) return { x: 0, y: 0 };
+  
+  // 获取游戏容器（SVG 的父容器）
+  const container = gameContainer.value;
+  if (!container) return { x: 0, y: 0 };
+  
   const rect = element.getBoundingClientRect();
-  const svgContainer = document.querySelector("svg");
-  if (!svgContainer) return { x: 0, y: 0 };
-  const svgRect = svgContainer.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  
+  // 计算相对于游戏容器的位置
   return {
-    x: rect.left - svgRect.left + rect.width / 2,
-    y: rect.top - svgRect.top + rect.height / 2,
+    x: rect.left - containerRect.left + rect.width / 2,
+    y: rect.top - containerRect.top + rect.height / 2,
   };
 };
 
@@ -572,7 +585,7 @@ const createLightningPath = (start, end) => {
   return path;
 };
 
-const updateConnectionPath = () => {
+const updateConnectionPath = async () => {
   if (selectedLeftIndex.value === null || selectedRightIndex.value === null) {
     lightningPath.value = "";
     // 清除闪电动画
@@ -582,18 +595,21 @@ const updateConnectionPath = () => {
     return;
   }
 
+  // 等待 DOM 更新，确保元素位置已更新
+  await nextTick();
+  await new Promise(resolve => requestAnimationFrame(resolve));
+
   const leftCard = leftCardRefs.value[selectedLeftIndex.value];
   const rightCard = rightCardRefs.value[selectedRightIndex.value];
 
-  if (leftCard && rightCard) {
+  if (leftCard && rightCard && gameContainer.value) {
     const start = getElementPosition(leftCard);
     const end = getElementPosition(rightCard);
     lightningPath.value = createLightningPath(start, end);
     
     // 使用 GSAP 实现闪电动画
-    nextTick(() => {
-      animateLightning();
-    });
+    await nextTick();
+    animateLightning();
   }
 };
 

@@ -1,0 +1,13 @@
+{
+  "id": "new-concept",
+  "name": "新概念",
+  "vocabularies": [
+    {
+      "id": "new-concept-basic",
+      "name": "新概念英语",
+      "description": "新概念英语词汇表",
+      "wordCount": 14,
+      "file": "vocabularies/new-concept_new-concept-basic.json"
+    }
+  ]
+}

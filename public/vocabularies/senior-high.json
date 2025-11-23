@@ -1,0 +1,13 @@
+{
+  "id": "senior-high",
+  "name": "高中",
+  "vocabularies": [
+    {
+      "id": "senior-basic",
+      "name": "高中基础词汇",
+      "description": "高中英语基础词汇表",
+      "wordCount": 20,
+      "file": "vocabularies/senior-high_senior-basic.json"
+    }
+  ]
+}

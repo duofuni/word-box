@@ -1,1938 +1,2028 @@
-[
-    {
-        "word": "grief",
-        "meaning": "n. 悲伤,悲痛;悲痛的缘由,伤心事;担心,忧虑"
-    },
-    {
-        "word": "company",
-        "meaning": "n. 公司;陪伴"
-    },
-    {
-        "word": "wolves",
-        "meaning": "n. 狼(wolf的复数形式);贪婪者"
-    },
-    {
-        "word": "associated",
-        "meaning": "adj. 联合的;相关的;有关联的;【计】关联的"
-    },
-    {
-        "word": "professor",
-        "meaning": "n. (学院或大学的)教员;(尤指高职称的)教授"
-    },
-    {
-        "word": "humans",
-        "meaning": "n. 人类"
-    },
-    {
-        "word": "lovable",
-        "meaning": "adj. 可爱的"
-    },
-    {
-        "word": "communicate",
-        "meaning": "v. 沟通,交流;传达,传递"
-    },
-    {
-        "word": "communication",
-        "meaning": "n. 通信,交流;沟通方式;信息"
-    },
-    {
-        "word": "their",
-        "meaning": "det. 在提及性别不详的人时;她们的,他们的,它…"
-    },
-    {
-        "word": "variety",
-        "meaning": "n. 种类;变化,多样性"
-    },
-    {
-        "word": "nonprofit",
-        "meaning": "adj. 非盈利的;非营利的; n. 非营利组织"
-    },
-    {
-        "word": "attract",
-        "meaning": "v. 吸引"
-    },
-    {
-        "word": "encourage",
-        "meaning": "v. 鼓励,支持"
-    },
-    {
-        "word": "pretty",
-        "meaning": "adj. 漂亮的,俊俏的; adv. 很,颇,相当"
-    },
-    {
-        "word": "complex",
-        "meaning": "adj. 复杂的,难解的;复合的(读作/kɑmˈplɛks/)…"
-    },
-    {
-        "word": "digital",
-        "meaning": "adj. 数字显示的;数码的"
-    },
-    {
-        "word": "far",
-        "meaning": "adv. (空间或时间)远,久远;很大程度上,大大…"
-    },
-    {
-        "word": "advance",
-        "meaning": "n. 预先;进步,进展;增长; v. 提前;提升;预付"
-    },
-    {
-        "word": "instructor",
-        "meaning": "n. 指导者,教员,教练"
-    },
-    {
-        "word": "following",
-        "meaning": "adj. 接着的;下列的,下述的; n. 下列事物;一批…"
-    },
-    {
-        "word": "closely",
-        "meaning": "adv. 紧密地;接近地;严密地;亲近地;密切地"
-    },
-    {
-        "word": "confident",
-        "meaning": "adj. 自信的"
-    },
-    {
-        "word": "challenge",
-        "meaning": "n. 挑战;质疑; vt. 挑战"
-    },
-    {
-        "word": "temporary",
-        "meaning": "adj. 临时的"
-    },
-    {
-        "word": "attend",
-        "meaning": "v. 护理,照顾;处理;参加"
-    },
-    {
-        "word": "fall",
-        "meaning": "v. 发生,适逢;被打败;下跌,下降;跌落; vi. 落…"
-    },
-    {
-        "word": "particular",
-        "meaning": "adj. 特别的,不寻常的;格外的;挑剔的,讲究的;…"
-    },
-    {
-        "word": "graduation",
-        "meaning": "n. 毕业典礼;毕业,毕业典礼"
-    },
-    {
-        "word": "career",
-        "meaning": "n. 职业,事业"
-    },
-    {
-        "word": "impress",
-        "meaning": "v. 给……留下深刻印象"
-    },
-    {
-        "word": "goal",
-        "meaning": "n. 目标;(进球)得分"
-    },
-    {
-        "word": "gain",
-        "meaning": "v. 获得; n. 增加"
-    },
-    {
-        "word": "likely",
-        "meaning": "adj. 有可能的;适合的; adv. 很可能"
-    },
-    {
-        "word": "purely",
-        "meaning": "adv. 仅仅,纯粹地;清白地;纯洁地;完全地;贞…"
-    },
-    {
-        "word": "generally",
-        "meaning": "adv. 普遍地,广泛地 ;一般地,通常;笼统地,概…"
-    },
-    {
-        "word": "achieved",
-        "meaning": "adj. 获得的;达到的;实现的; 动词achieve的过去…"
-    },
-    {
-        "word": "demand",
-        "meaning": "v. 强烈要求,坚决要求; n. 需求,需要"
-    },
-    {
-        "word": "ideally",
-        "meaning": "adv. 理想地,在观念上地,完美地"
-    },
-    {
-        "word": "insight",
-        "meaning": "n. 深刻的理解,洞察力"
-    },
-    {
-        "word": "figure",
-        "meaning": "n. 身形,身影;数字; v. 想出"
-    },
-    {
-        "word": "identify",
-        "meaning": "v. 识别出;认出;确定,鉴定"
-    },
-    {
-        "word": "gaps",
-        "meaning": "n. 不同;[植物学]裂;间隔;缺口"
-    },
-    {
-        "word": "invaluable",
-        "meaning": "adj. 非常宝贵的,极为有用的"
-    },
-    {
-        "word": "necessity",
-        "meaning": "n. 必需品"
-    },
-    {
-        "word": "desired",
-        "meaning": "adj. 渴望的,想得到的"
-    },
-    {
-        "word": "guidance",
-        "meaning": "n. 指导,引导"
-    },
-    {
-        "word": "happiness",
-        "meaning": "n. 幸福,快乐"
-    },
-    {
-        "word": "honestly",
-        "meaning": "adv. 公正地;真诚地,诚实地;正直地;真的,不…"
-    },
-    {
-        "word": "examine",
-        "meaning": "vt. 检查;测验"
-    },
-    {
-        "word": "entirely",
-        "meaning": "adv. 全部地;完全地;完整地;彻底地"
-    },
-    {
-        "word": "depend",
-        "meaning": "vi. 依靠"
-    },
-    {
-        "word": "towards",
-        "meaning": "prep. 向;朝,对着;关于;(=toward)向,朝"
-    },
-    {
-        "word": "pet",
-        "meaning": "n. 宠物;宠儿; adj. 宠爱的,钟爱的; v. 宠爱,…"
-    },
-    {
-        "word": "satisfied",
-        "meaning": "adj. 感到满意的;满意的,满足的"
-    },
-    {
-        "word": "few",
-        "meaning": "adj. 很少的,几乎没有的;有些;很少;少数的;…"
-    },
-    {
-        "word": "achieve",
-        "meaning": "v. 实现,(尤指凭长期努力)达到(某目标)"
-    },
-    {
-        "word": "self-esteem",
-        "meaning": "n. 自尊;自负"
-    },
-    {
-        "word": "boost",
-        "meaning": "vt. 使增长,使兴旺; n. 提高,增长;激励;推动;…"
-    },
-    {
-        "word": "track",
-        "meaning": "v. 跟踪,追赶; n. 跑道;小路;足迹"
-    },
-    {
-        "word": "fit",
-        "meaning": "n. 匹配,相配;合身; v. 使适合; adj. 合适的"
-    },
-    {
-        "word": "shoe",
-        "meaning": "n. 鞋; v. 给……钉蹄铁"
-    },
-    {
-        "word": "appearance",
-        "meaning": "n. 外貌,外表;出现,公开露面"
-    },
-    {
-        "word": "ultimately",
-        "meaning": "adv. 最终,最后"
-    },
-    {
-        "word": "verify",
-        "meaning": "v. 验证;查证,证明,证实"
-    },
-    {
-        "word": "realistically",
-        "meaning": "adv. 实际地;现实地;逼真地"
-    },
-    {
-        "word": "worse",
-        "meaning": "adv. 更坏地,更恶劣地; adj. 更坏的,更恶劣的;…"
-    },
-    {
-        "word": "tough",
-        "meaning": "adj. 健壮的;棘手的"
-    },
-    {
-        "word": "escape",
-        "meaning": "v. 逃跑,逃脱; n. 逃跑,逃脱"
-    },
-    {
-        "word": "same",
-        "meaning": "pron. 同样的人或事物; adj. 相同的,完全相同的…"
-    },
-    {
-        "word": "guilty",
-        "meaning": "adj. 内疚的;负罪的"
-    },
-    {
-        "word": "tend",
-        "meaning": "v. 照顾,照料;倾向,趋于"
-    },
-    {
-        "word": "relieve",
-        "meaning": "v. 减轻"
-    },
-    {
-        "word": "combat",
-        "meaning": "n. 战斗,格斗; v. 与……战斗,与……斗争(读…"
-    },
-    {
-        "word": "sincere",
-        "meaning": "adj. 真诚的,诚恳的"
-    },
-    {
-        "word": "construction",
-        "meaning": "n. 建筑;建造;施工;建筑物;构造;(句子､短语…"
-    },
-    {
-        "word": "auction",
-        "meaning": "n. 拍卖会;拍卖; v. 拍卖"
-    },
-    {
-        "word": "bid",
-        "meaning": "n. 出价;投标;努力争取; v. 出价;投标"
-    },
-    {
-        "word": "delighted",
-        "meaning": "adj. 高兴的,愉快的,快乐的;乐意的,荣幸的"
-    },
-    {
-        "word": "bound",
-        "meaning": "adj. 必然的;受约束的,(在法律或道德上)有义…"
-    },
-    {
-        "word": "prisoner",
-        "meaning": "n. 囚犯,俘虏;拘留犯;被关起来的人"
-    },
-    {
-        "word": "execution",
-        "meaning": "n. 死刑;实行,执行;演奏,表演;【法】签署;…"
-    },
-    {
-        "word": "ripe",
-        "meaning": "adj. 熟的,成熟的"
-    },
-    {
-        "word": "preacher",
-        "meaning": "n. 传道士"
-    },
-    {
-        "word": "guarantee",
-        "meaning": "n. 保证;保证金;担保,担保物;保修单; v. 保证…"
-    },
-    {
-        "word": "diploma",
-        "meaning": "n. 毕业文凭,毕业证书"
-    },
-    {
-        "word": "awesome",
-        "meaning": "adj. 极好的,令人惊叹的;可怕的"
-    },
-    {
-        "word": "substance",
-        "meaning": "n. 物质;实质"
-    },
-    {
-        "word": "pathetic",
-        "meaning": "adj. 可怜的;不足的;无力的;不成功的"
-    },
-    {
-        "word": "cruel",
-        "meaning": "adj. 残忍的,残酷的;伤人的;冷酷的;引起痛苦的"
-    },
-    {
-        "word": "vacancy",
-        "meaning": "n. (职位)空缺"
-    },
-    {
-        "word": "squirrels",
-        "meaning": "n. 松鼠"
-    },
-    {
-        "word": "nuts",
-        "meaning": "adj. 疯的;狂热的;愚蠢的; n. 坚果,果仁;螺…"
-    },
-    {
-        "word": "legislation",
-        "meaning": "n. 法律,法规"
-    },
-    {
-        "word": "diverse",
-        "meaning": "adj. 多样的"
-    },
-    {
-        "word": "lodging",
-        "meaning": "n. 租住的房间;寄宿,借宿"
-    },
-    {
-        "word": "disagreement",
-        "meaning": "n. 分歧,不和;不一致"
-    },
-    {
-        "word": "ray",
-        "meaning": "n. 光线;射线; v. 放射,照射"
-    },
-    {
-        "word": "effective",
-        "meaning": "adj. 有效的;生效的"
-    },
-    {
-        "word": "vehicle",
-        "meaning": "n. 车辆"
-    },
-    {
-        "word": "detective",
-        "meaning": "n. 侦探,警探; adj. 侦探的"
-    },
-    {
-        "word": "athletes",
-        "meaning": "n. 运动员(athlete 的复数)"
-    },
-    {
-        "word": "agricultural",
-        "meaning": "adj. 农业的;农艺的"
-    },
-    {
-        "word": "perception",
-        "meaning": "n. 洞察力,理解力;感知;观念,看法;认识"
-    },
-    {
-        "word": "inquisitive",
-        "meaning": "adj. 好奇的,好打听的"
-    },
-    {
-        "word": "amazed",
-        "meaning": "adj. 惊奇的,吃惊的;惊讶的;大为惊奇"
-    },
-    {
-        "word": "cutesy",
-        "meaning": "adj. 矫揉造作的;忸怩作态的"
-    },
-    {
-        "word": "sweater",
-        "meaning": "n. 毛衣,厚运动衫,羊毛衫,针织套衫;毛衣;线衣"
-    },
-    {
-        "word": "comedy",
-        "meaning": "n. 喜剧,喜剧片,滑稽节目"
-    },
-    {
-        "word": "sunscreen",
-        "meaning": "n. 防晒霜;防晒霜(又作sunblock);(防晒油中…"
-    },
-    {
-        "word": "transaction",
-        "meaning": "n. 交易;学报"
-    },
-    {
-        "word": "mutual",
-        "meaning": "adj. 互相的;共同的"
-    },
-    {
-        "word": "equality",
-        "meaning": "n. 同等,平等;【数】等式"
-    },
-    {
-        "word": "peel",
-        "meaning": "v. 剥皮,削皮,去壳;剥皮,剥掉;脱落;去皮;…"
-    },
-    {
-        "word": "accidental",
-        "meaning": "adj. 偶然的,意外的;非本质的"
-    },
-    {
-        "word": "metals",
-        "meaning": "n. 五金; 名词metal的复数形式."
-    },
-    {
-        "word": "maid",
-        "meaning": "n. 女仆;少女,未婚女子;女服务员"
-    },
-    {
-        "word": "empress",
-        "meaning": "n. 皇后;女皇"
-    },
-    {
-        "word": "cautious",
-        "meaning": "adj. 小心的,谨慎的"
-    },
-    {
-        "word": "bath",
-        "meaning": "n. 洗澡;浴缸;浴盆;洗澡水;浴室; v. 给……洗…"
-    },
-    {
-        "word": "doves",
-        "meaning": "n. 鸽子"
-    },
-    {
-        "word": "investment",
-        "meaning": "n. 投资"
-    },
-    {
-        "word": "cargo",
-        "meaning": "n. 货物"
-    },
-    {
-        "word": "decline",
-        "meaning": "n. 衰退,衰落;下降; v. 【语】使发生词尾变化,…"
-    },
-    {
-        "word": "narrative",
-        "meaning": "n. 叙述; adj. 叙述的"
-    },
-    {
-        "word": "conducted",
-        "meaning": "vt. 实施;为人;[物]传导(热,电等);指挥(军…"
-    },
-    {
-        "word": "processor",
-        "meaning": "n. 加工机"
-    },
-    {
-        "word": "tackle",
-        "meaning": "v. 对付,处理,解决(难题);(足球等比赛中)…"
-    },
-    {
-        "word": "hostile",
-        "meaning": "adj. 怀有敌意的;敌对的,敌方的"
-    },
-    {
-        "word": "lean",
-        "meaning": "v. 倾斜;斜靠; adj. 瘦且健康的"
-    },
-    {
-        "word": "workforce",
-        "meaning": "n. 劳动力"
-    },
-    {
-        "word": "badly",
-        "meaning": "adv. 严重地;非常"
-    },
-    {
-        "word": "elementary",
-        "meaning": "adj. 基本的;初级的;非常简单的;小学的;简单的"
-    },
-    {
-        "word": "energetic",
-        "meaning": "adj. 精力充沛的,充满活力的"
-    },
-    {
-        "word": "conflict",
-        "meaning": "n. 冲突,争执,矛盾; vi. 冲突,抵触(读作/kən…"
-    },
-    {
-        "word": "passive",
-        "meaning": "adj. 被动的;消极的; n. 被动语态"
-    },
-    {
-        "word": "tiring",
-        "meaning": "adj. 累人的"
-    },
-    {
-        "word": "stylish",
-        "meaning": "adj. 时尚的,漂亮的"
-    },
-    {
-        "word": "peer",
-        "meaning": "n. 同龄人; v. 仔细看"
-    },
-    {
-        "word": "threat",
-        "meaning": "n. 威胁,恐吓"
-    },
-    {
-        "word": "portfolio",
-        "meaning": "n. 公文包,文件夹;投资组合"
-    },
-    {
-        "word": "anxiety",
-        "meaning": "n. 焦虑"
-    },
-    {
-        "word": "distinguish",
-        "meaning": "v. 区别,识别;使显著"
-    },
-    {
-        "word": "conscience",
-        "meaning": "n. 良心,良知"
-    },
-    {
-        "word": "athletic",
-        "meaning": "adj. 运动的,体育的"
-    },
-    {
-        "word": "violate",
-        "meaning": "v. 违反,违背;侵犯,妨碍"
-    },
-    {
-        "word": "stimulation",
-        "meaning": "n. 刺激(感)"
-    },
-    {
-        "word": "charter",
-        "meaning": "n. 宪章;特权,豁免权;租赁; v. 包,租(汽车等)"
-    },
-    {
-        "word": "regarding",
-        "meaning": "prep. 关于"
-    },
-    {
-        "word": "tedious",
-        "meaning": "adj. 沉闷的,冗长乏味的"
-    },
-    {
-        "word": "projection",
-        "meaning": "n. 预测;投射,投影"
-    },
-    {
-        "word": "crisis",
-        "meaning": "n. 危机;危急关头,存亡之际"
-    },
-    {
-        "word": "proper",
-        "meaning": "adj. 得体的;适合的,适用的;真正的;独特的;…"
-    },
-    {
-        "word": "notion",
-        "meaning": "n. 观点,看法;概念,观念"
-    },
-    {
-        "word": "entertaining",
-        "meaning": "adj. 有趣的,令人愉快的"
-    },
-    {
-        "word": "visa",
-        "meaning": "n. 签证"
-    },
-    {
-        "word": "camp",
-        "meaning": "v. 露营;宿营; n. 阵营"
-    },
-    {
-        "word": "rent",
-        "meaning": "n. 租金; v. 租"
-    },
-    {
-        "word": "diplomat",
-        "meaning": "n. 外交官,外交家;有交际手腕的人,圆滑的人"
-    },
-    {
-        "word": "impression",
-        "meaning": "n. 印象,感觉,感想;压痕"
-    },
-    {
-        "word": "utility",
-        "meaning": "n. 用途,功用;公用事业; adj. 通用性的"
-    },
-    {
-        "word": "considerable",
-        "meaning": "adj. 相当大的;重要的;可观的"
-    },
-    {
-        "word": "guardian",
-        "meaning": "n. 保护人,守护者;监护人"
-    },
-    {
-        "word": "discard",
-        "meaning": "v. 丢掉;抛弃;打出(无用的牌)(读作/dɪsˈkɑrd/)"
-    },
-    {
-        "word": "sort",
-        "meaning": "v. 把……分类,整理,挑选; n. 种类,类别"
-    },
-    {
-        "word": "genuine",
-        "meaning": "adj. 真的;真正的;真诚的"
-    },
-    {
-        "word": "courageous",
-        "meaning": "adj. 勇敢的,英勇的,有胆量的"
-    },
-    {
-        "word": "junk",
-        "meaning": "n. 垃圾,废旧物品; v. 把……(当废物)丢弃"
-    },
-    {
-        "word": "grant",
-        "meaning": "v. 允许,同意,准允; n. 拨款"
-    },
-    {
-        "word": "betray",
-        "meaning": "v. 背叛;失信于;泄露(秘密等);(非故意地)流露"
-    },
-    {
-        "word": "content",
-        "meaning": "n. 目录; adj. 满足的; v. 使满意(读作/kənˈtent/)"
-    },
-    {
-        "word": "worship",
-        "meaning": "v. 崇拜,爱戴;做礼拜,拜神; n. 礼拜,礼拜仪式"
-    },
-    {
-        "word": "announce",
-        "meaning": "vt. 宣布,通知;预示"
-    },
-    {
-        "word": "condition",
-        "meaning": "n. 环境,形势;状况,状态;疾病; v. 使适应,…"
-    },
-    {
-        "word": "positive",
-        "meaning": "adj. 积极的,乐观的;阳性的; n. 正数"
-    },
-    {
-        "word": "recession",
-        "meaning": "n. (经济)衰退,不景气"
-    },
-    {
-        "word": "doubt",
-        "meaning": "v. 怀疑; n. 怀疑"
-    },
-    {
-        "word": "lawyer",
-        "meaning": "n. 律师"
-    },
-    {
-        "word": "general",
-        "meaning": "adj. 普遍的,总的;大体的,大致的,笼统的;一…"
-    },
-    {
-        "word": "perceive",
-        "meaning": "v. 意识到"
-    },
-    {
-        "word": "construct",
-        "meaning": "v. 建造;作(图);构想,构筑,构思(思想､作品…"
-    },
-    {
-        "word": "hardly",
-        "meaning": "adv. 几乎不,几乎没有"
-    },
-    {
-        "word": "imposing",
-        "meaning": "adj. 壮观的,壮丽的"
-    },
-    {
-        "word": "compete",
-        "meaning": "vi. 竞争"
-    },
-    {
-        "word": "impose",
-        "meaning": "v. 把……强加给;强制实行,强迫接受"
-    },
-    {
-        "word": "entertain",
-        "meaning": "v. 使欢乐;招待,款待"
-    },
-    {
-        "word": "arrangement",
-        "meaning": "n. 布置;排列;准备,筹备;安排"
-    },
-    {
-        "word": "jog",
-        "meaning": "v. 慢跑; n. 慢跑"
-    },
-    {
-        "word": "fare",
-        "meaning": "n. 交通费; v. (事情)进行得(好或坏)"
-    },
-    {
-        "word": "divorce",
-        "meaning": "n. 离婚,离异; v. 离婚"
-    },
-    {
-        "word": "careless",
-        "meaning": "adj. 粗心的"
-    },
-    {
-        "word": "frank",
-        "meaning": "adj. 坦白的,直率的;清楚表明的,明显的"
-    },
-    {
-        "word": "steel",
-        "meaning": "n. 钢,钢铁; v. 下决心应对(不愉快的事); adj.…"
-    },
-    {
-        "word": "circuit",
-        "meaning": "n. 电路,线路;巡游"
-    },
-    {
-        "word": "robbery",
-        "meaning": "n. 抢掠,抢夺"
-    },
-    {
-        "word": "doctoral",
-        "meaning": "adj. 博士的"
-    },
-    {
-        "word": "partner",
-        "meaning": "n. 伙伴,搭档;配偶,伴侣; v. 成为……的合伙人"
-    },
-    {
-        "word": "fantasy",
-        "meaning": "n. 幻想,想象;幻想作品; v. 奏幻想曲;想象;幻想"
-    },
-    {
-        "word": "steak",
-        "meaning": "n. 牛排;鱼块"
-    },
-    {
-        "word": "provision",
-        "meaning": "n. 必需品;(法律等的)条款"
-    },
-    {
-        "word": "ongoing",
-        "meaning": "adj. 仍在进行的; n. 进行,前进,发展"
-    },
-    {
-        "word": "fertile",
-        "meaning": "adj. 肥沃的"
-    },
-    {
-        "word": "hinder",
-        "meaning": "v. 阻碍,妨碍"
-    },
-    {
-        "word": "community",
-        "meaning": "n. 群体,团体"
-    },
-    {
-        "word": "initiative",
-        "meaning": "n. 主动权,主动性;首创精神;倡议"
-    },
-    {
-        "word": "notation",
-        "meaning": "n. 记号;标记法;记录"
-    },
-    {
-        "word": "magnificent",
-        "meaning": "adj. 宏伟的,壮丽的,极好的"
-    },
-    {
-        "word": "expand",
-        "meaning": "v. 扩大;膨胀;详细展开"
-    },
-    {
-        "word": "interact",
-        "meaning": "v. 交流,互动;互相作用,互相影响"
-    },
-    {
-        "word": "conversation",
-        "meaning": "n. 非正式交谈,谈话"
-    },
-    {
-        "word": "sociable",
-        "meaning": "adj. 好交际的"
-    },
-    {
-        "word": "brief",
-        "meaning": "adj. 简洁的,简短的; v. 简单汇报"
-    },
-    {
-        "word": "novelty",
-        "meaning": "n. 新奇;新颖小巧而廉价的物品"
-    },
-    {
-        "word": "fame",
-        "meaning": "n. 名声,声誉; vt. 使有名,使著名"
-    },
-    {
-        "word": "assembly",
-        "meaning": "n. 集会;集合"
-    },
-    {
-        "word": "norm",
-        "meaning": "n. 规范,标准;准则;模范"
-    },
-    {
-        "word": "fine",
-        "meaning": "vt. 罚款; n. 罚款; adj. 优质的;精致的; adv. …"
-    },
-    {
-        "word": "reporter",
-        "meaning": "n. 记者;报告人"
-    },
-    {
-        "word": "intelligence",
-        "meaning": "n. 智力;理解力;情报"
-    },
-    {
-        "word": "cornerstone",
-        "meaning": "n. 奠基石"
-    },
-    {
-        "word": "grand",
-        "meaning": "adj. 壮丽的,宏伟的,宏大的;重大的;主要的; n.…"
-    },
-    {
-        "word": "semester",
-        "meaning": "n. 学期"
-    },
-    {
-        "word": "troublesome",
-        "meaning": "adj. 令人烦恼的,讨厌的"
-    },
-    {
-        "word": "sustainability",
-        "meaning": "n. 【环境】可持续性"
-    },
-    {
-        "word": "tangible",
-        "meaning": "adj. 有形的,可触知的"
-    },
-    {
-        "word": "consist",
-        "meaning": "v. 由……组成"
-    },
-    {
-        "word": "deed",
-        "meaning": "n. 行为;契约"
-    },
-    {
-        "word": "comprise",
-        "meaning": "vt. 构成,由……组成;包含,包括"
-    },
-    {
-        "word": "contest",
-        "meaning": "n. 比赛,竞争(读作/ˈkɑːntest/); v. 争夺,…"
-    },
-    {
-        "word": "persuasion",
-        "meaning": "n. 说服;说服力"
-    },
-    {
-        "word": "hazy",
-        "meaning": "adj. 朦胧的,烟雾弥漫的,模糊的"
-    },
-    {
-        "word": "commuter",
-        "meaning": "n. 通勤者"
-    },
-    {
-        "word": "consistency",
-        "meaning": "n. 一致性;连贯性"
-    },
-    {
-        "word": "acute",
-        "meaning": "adj. 严重的"
-    },
-    {
-        "word": "consciousness",
-        "meaning": "n. 意识,知觉"
-    },
-    {
-        "word": "pressing",
-        "meaning": "adj. 紧迫的,紧急的"
-    },
-    {
-        "word": "expectation",
-        "meaning": "n. 期望;预期"
-    },
-    {
-        "word": "aggression",
-        "meaning": "n. 攻击性;侵略性"
-    },
-    {
-        "word": "outdated",
-        "meaning": "adj. 过时的,老式的"
-    },
-    {
-        "word": "prize",
-        "meaning": "n. 奖品,奖励; adj. 得奖的; v. 珍视"
-    },
-    {
-        "word": "arouse",
-        "meaning": "vt. 唤起"
-    },
-    {
-        "word": "uniform",
-        "meaning": "n. 制服,军服; adj. 相同的,统一的"
-    },
-    {
-        "word": "occasionally",
-        "meaning": "adv. 偶尔地"
-    },
-    {
-        "word": "basin",
-        "meaning": "n. 水池"
-    },
-    {
-        "word": "likelihood",
-        "meaning": "n. 可能性"
-    },
-    {
-        "word": "customs",
-        "meaning": "n. 海关"
-    },
-    {
-        "word": "restore",
-        "meaning": "vt. 恢复"
-    },
-    {
-        "word": "prefer",
-        "meaning": "v. 更喜欢"
-    },
-    {
-        "word": "physician",
-        "meaning": "n. 内科医生"
-    },
-    {
-        "word": "marital",
-        "meaning": "adj. 婚姻的"
-    },
-    {
-        "word": "splendid",
-        "meaning": "adj. 壮观的,辉煌的,华丽的"
-    },
-    {
-        "word": "familiar",
-        "meaning": "adj. 熟悉的,通晓的;不拘礼节的;亲密的;随便的…"
-    },
-    {
-        "word": "opportunity",
-        "meaning": "n. 机会,良机"
-    },
-    {
-        "word": "gear",
-        "meaning": "n. 档位;齿轮; v. 使适合"
-    },
-    {
-        "word": "interfere",
-        "meaning": "vi. 干涉,妨碍"
-    },
-    {
-        "word": "occupation",
-        "meaning": "n. 职业,工作"
-    },
-    {
-        "word": "approve",
-        "meaning": "v. 正式核准,称许;赞成;满意"
-    },
-    {
-        "word": "plague",
-        "meaning": "n. 瘟疫;灾难;麻烦; v. 折磨;烦扰;造成麻烦"
-    },
-    {
-        "word": "minority",
-        "meaning": "n. 少数民族; adj. 构成少数的"
-    },
-    {
-        "word": "solely",
-        "meaning": "adv. 单独地"
-    },
-    {
-        "word": "imposition",
-        "meaning": "n. 征收"
-    },
-    {
-        "word": "extensive",
-        "meaning": "adj. 广泛的;广阔的"
-    },
-    {
-        "word": "stimulate",
-        "meaning": "v. 激发,促进"
-    },
-    {
-        "word": "due",
-        "meaning": "adj. 到期的;适当的;欠债的,应给的"
-    },
-    {
-        "word": "original",
-        "meaning": "adj. 最初的,原始的,原来的"
-    },
-    {
-        "word": "solemn",
-        "meaning": "adj. 严肃的;庄严的,隆重的"
-    },
-    {
-        "word": "gloomy",
-        "meaning": "adj. 愁容满面的,没有希望的;阴暗的,幽暗的"
-    },
-    {
-        "word": "introductory",
-        "meaning": "adj. 入门的"
-    },
-    {
-        "word": "definite",
-        "meaning": "adj. 明确的,肯定的"
-    },
-    {
-        "word": "parliament",
-        "meaning": "n. 国会;议会"
-    },
-    {
-        "word": "seek",
-        "meaning": "v. 寻找;探寻;寻求;争取"
-    },
-    {
-        "word": "dropout",
-        "meaning": "n. 辍学生"
-    },
-    {
-        "word": "infrastructure",
-        "meaning": "n. 基础设施"
-    },
-    {
-        "word": "monumental",
-        "meaning": "adj. 巨大的;意义深远的,不朽的"
-    },
-    {
-        "word": "cultivate",
-        "meaning": "v. 耕作,种植,栽培"
-    },
-    {
-        "word": "custom",
-        "meaning": "n. 风俗; adj. 定制的"
-    },
-    {
-        "word": "feverish",
-        "meaning": "adj. 发烧的;狂热的,焦虑不安的"
-    },
-    {
-        "word": "critical",
-        "meaning": "adj. 危急的;爱挑剔的"
-    },
-    {
-        "word": "steady",
-        "meaning": "adj. 坚定的,扎实的; v. (使)稳固"
-    },
-    {
-        "word": "client",
-        "meaning": "n. 委托人,当事人,客户"
-    },
-    {
-        "word": "employer",
-        "meaning": "n. 雇主,老板"
-    },
-    {
-        "word": "strain",
-        "meaning": "n. 负担,压力; v. 拉紧,使......变紧张;劳累;过…"
-    },
-    {
-        "word": "disguise",
-        "meaning": "v. 伪装;掩饰,掩盖"
-    },
-    {
-        "word": "overwhelming",
-        "meaning": "adj. 压倒性的;巨大的"
-    },
-    {
-        "word": "trainee",
-        "meaning": "n. 受训者,练习生,实习生"
-    },
-    {
-        "word": "various",
-        "meaning": "adj. 各种各样的,不同的"
-    },
-    {
-        "word": "improvement",
-        "meaning": "n. 改进,改善,进步"
-    },
-    {
-        "word": "cooperative",
-        "meaning": "adj. 合作的; n. 合作社"
-    },
-    {
-        "word": "define",
-        "meaning": "v. 给(词､短语等)下定义;界定,解释"
-    },
-    {
-        "word": "conquer",
-        "meaning": "v. 征服,攻克"
-    },
-    {
-        "word": "increasingly",
-        "meaning": "adv. 日益,越来越多地"
-    },
-    {
-        "word": "accomplish",
-        "meaning": "vt. (通过努力)完成;实现"
-    },
-    {
-        "word": "emission",
-        "meaning": "n. 排放物;放射物"
-    },
-    {
-        "word": "alter",
-        "meaning": "v. 改变;改动,使变样"
-    },
-    {
-        "word": "immensely",
-        "meaning": "adv. 极大地"
-    },
-    {
-        "word": "charity",
-        "meaning": "n. 慈善机构(或组织);仁慈;施舍"
-    },
-    {
-        "word": "revelation",
-        "meaning": "n. 揭露;(出乎意料的)被揭示的真相"
-    },
-    {
-        "word": "dispute",
-        "meaning": "n. 争论,争端; v. 争执,驳斥"
-    },
-    {
-        "word": "cheerful",
-        "meaning": "adj. 高兴的"
-    },
-    {
-        "word": "attraction",
-        "meaning": "n. 吸引力,魅力"
-    },
-    {
-        "word": "delight",
-        "meaning": "n. 快乐;高兴事; v. 使快乐"
-    },
-    {
-        "word": "prospect",
-        "meaning": "n. 前景,展望;有前途的人; v. 对……进行仔细…"
-    },
-    {
-        "word": "assumption",
-        "meaning": "n. 假定,设想"
-    },
-    {
-        "word": "mission",
-        "meaning": "n. 任务,使命; vi. 派遣……执行任务"
-    },
-    {
-        "word": "lately",
-        "meaning": "adv. 最近,不久前,近来"
-    },
-    {
-        "word": "conclude",
-        "meaning": "v. 推断出"
-    },
-    {
-        "word": "insistence",
-        "meaning": "n. 坚持,强调,坚决要求"
-    },
-    {
-        "word": "stretch",
-        "meaning": "v. 伸展,延伸,张开;夸大;超越; n. 伸展,张开"
-    },
-    {
-        "word": "dictator",
-        "meaning": "n. 独裁者,独裁政权执政者;口授令他人做笔录者"
-    },
-    {
-        "word": "accommodation",
-        "meaning": "n. 住宿,膳宿;调解;住处,停留处"
-    },
-    {
-        "word": "mere",
-        "meaning": "adj. 仅仅的;纯粹的"
-    },
-    {
-        "word": "cue",
-        "meaning": "n. 球杆; vt. 给……提示"
-    },
-    {
-        "word": "motion",
-        "meaning": "n. 运动,移动"
-    },
-    {
-        "word": "guest",
-        "meaning": "n. 客人,宾客"
-    },
-    {
-        "word": "riotous",
-        "meaning": "adj. 狂欢的"
-    },
-    {
-        "word": "hire",
-        "meaning": "v. 雇佣;租用; n. 雇用;租用,租借;新雇员"
-    },
-    {
-        "word": "retain",
-        "meaning": "v. 保持,保留,保存"
-    },
-    {
-        "word": "force",
-        "meaning": "v. 强迫;推动;用力移动或强行打开某物; n. 力量…"
-    },
-    {
-        "word": "advocacy",
-        "meaning": "n. 主张;辩护"
-    },
-    {
-        "word": "literature",
-        "meaning": "n. 文学;文献;宣传册"
-    },
-    {
-        "word": "violin",
-        "meaning": "n. 小提琴(一种乐器)"
-    },
-    {
-        "word": "tremendous",
-        "meaning": "adj. 巨大的;精彩的,出色的;惊人的"
-    },
-    {
-        "word": "vegetarian",
-        "meaning": "adj. 素食的; n. 素食者"
-    },
-    {
-        "word": "borrow",
-        "meaning": "vt. 借,借入"
-    },
-    {
-        "word": "adequate",
-        "meaning": "adj. 足够的,充分的;尚可的,过得去的"
-    },
-    {
-        "word": "gasoline",
-        "meaning": "n. <美>汽油"
-    },
-    {
-        "word": "completion",
-        "meaning": "n. 完成,完满"
-    },
-    {
-        "word": "inclined",
-        "meaning": "adj. 斜着的"
-    },
-    {
-        "word": "remainder",
-        "meaning": "n. 剩余物,残留部分; v. 减价出售,削价处理"
-    },
-    {
-        "word": "election",
-        "meaning": "n. 选举"
-    },
-    {
-        "word": "abstract",
-        "meaning": "adj. 抽象的; n. 摘要"
-    },
-    {
-        "word": "receptive",
-        "meaning": "adj. 善于接受的"
-    },
-    {
-        "word": "logic",
-        "meaning": "n. 逻辑,推理"
-    },
-    {
-        "word": "arrange",
-        "meaning": "v. 整理;改编(乐曲);筹备,安排;达成协议;安排"
-    },
-    {
-        "word": "explosion",
-        "meaning": "n. 爆炸"
-    },
-    {
-        "word": "lively",
-        "meaning": "adj. 富有活力的;活泼的"
-    },
-    {
-        "word": "obliged",
-        "meaning": "adj. 感激的"
-    },
-    {
-        "word": "hint",
-        "meaning": "n. 暗示,示意;有益的建议"
-    },
-    {
-        "word": "architect",
-        "meaning": "n. 建筑师;设计师"
-    },
-    {
-        "word": "retail",
-        "meaning": "adj. 零售的; n. 零售; v. 零售; adv. 以零售形式"
-    },
-    {
-        "word": "oven",
-        "meaning": "n. 烤箱,炉,灶"
-    },
-    {
-        "word": "species",
-        "meaning": "n. 种类;物种;人类"
-    },
-    {
-        "word": "lend",
-        "meaning": "v. 借给(某人钱或东西)"
-    },
-    {
-        "word": "span",
-        "meaning": "n. 跨度;时间段;持续时间;小范围,短距离; v.…"
-    },
-    {
-        "word": "harmful",
-        "meaning": "adj. 有害的"
-    },
-    {
-        "word": "tendency",
-        "meaning": "n. 趋向,趋势,倾向"
-    },
-    {
-        "word": "trial",
-        "meaning": "n. 审判,审讯;考验; adj. 试验的,试验性的"
-    },
-    {
-        "word": "correction",
-        "meaning": "n. 改正,修正"
-    },
-    {
-        "word": "needy",
-        "meaning": "adj. 生活艰苦的"
-    },
-    {
-        "word": "exceptional",
-        "meaning": "adj. 优越的,杰出的;例外的,特殊的"
-    },
-    {
-        "word": "artificial",
-        "meaning": "adj. 人造的"
-    },
-    {
-        "word": "lodge",
-        "meaning": "n. (乡村)小屋; v. 存放,保管"
-    },
-    {
-        "word": "consent",
-        "meaning": "n. 同意,准许;赞成; v. 同意"
-    },
-    {
-        "word": "debt",
-        "meaning": "n. 债"
-    },
-    {
-        "word": "gadget",
-        "meaning": "n. 小装置,小机件,小玩意儿;小巧的机械"
-    },
-    {
-        "word": "tobacco",
-        "meaning": "n. 烟草,烟叶"
-    },
-    {
-        "word": "comprehensive",
-        "meaning": "adj. 全面的,完整的;详尽的;综合的;广泛的,无…"
-    },
-    {
-        "word": "panic",
-        "meaning": "n. 惊慌;慌乱; v. (使)惊慌失措"
-    },
-    {
-        "word": "bride",
-        "meaning": "n. 新娘"
-    },
-    {
-        "word": "refer",
-        "meaning": "v. 参考;把……描述为"
-    },
-    {
-        "word": "humble",
-        "meaning": "adj. 卑微的;谦逊的; v. 使……谦逊,使……卑下"
-    },
-    {
-        "word": "terrific",
-        "meaning": "adj. 极好的;可怕的;(尺寸或程度)极其巨大的,…"
-    },
-    {
-        "word": "amateur",
-        "meaning": "adj. 业余爱好的; n. 业余爱好者;外行"
-    },
-    {
-        "word": "identification",
-        "meaning": "n. 辨认;密切联系;鉴定,验明;身份证明"
-    },
-    {
-        "word": "gym",
-        "meaning": "n. 体育馆,健身房"
-    },
-    {
-        "word": "adaptation",
-        "meaning": "n. 适应,适应性的变化;改编,改写本"
-    },
-    {
-        "word": "territory",
-        "meaning": "n. 地区,领土;属地"
-    },
-    {
-        "word": "proposal",
-        "meaning": "n. 求婚"
-    },
-    {
-        "word": "tireless",
-        "meaning": "adj. 不知疲倦的"
-    },
-    {
-        "word": "progress",
-        "meaning": "n. 进步;前进(读作/ˈprɑːɡres/)"
-    },
-    {
-        "word": "battery",
-        "meaning": "n. 电池(组)"
-    },
-    {
-        "word": "plate",
-        "meaning": "n. 盘子,碟子; v. 电镀"
-    },
-    {
-        "word": "accumulate",
-        "meaning": "v. 积攒,积累"
-    },
-    {
-        "word": "trust",
-        "meaning": "v. 信任,相信;盼望,希望; n. 委托"
-    },
-    {
-        "word": "dilemma",
-        "meaning": "n. 进退两难的窘境"
-    },
-    {
-        "word": "investigation",
-        "meaning": "n. 调查,调查研究"
-    },
-    {
-        "word": "convincing",
-        "meaning": "adj. 有说服力的"
-    },
-    {
-        "word": "affection",
-        "meaning": "n. 感情;喜爱,爱慕;作用,影响"
-    },
-    {
-        "word": "criticism",
-        "meaning": "n. 批评;批判;评论"
-    },
-    {
-        "word": "lunar",
-        "meaning": "adj. 阴历的,农历的;月亮的,月球的"
-    },
-    {
-        "word": "capability",
-        "meaning": "n. (实际)能力,性能"
-    },
-    {
-        "word": "democratic",
-        "meaning": "adj. 民主的,民主政体的,民主党的"
-    },
-    {
-        "word": "motivate",
-        "meaning": "vt. 激励;成为……的动机;促进;促使;激发"
-    },
-    {
-        "word": "computation",
-        "meaning": "n. 估计,计算"
-    },
-    {
-        "word": "shelf",
-        "meaning": "n. 架子,搁板"
-    },
-    {
-        "word": "army",
-        "meaning": "n. 陆军,军队,部队;大群"
-    },
-    {
-        "word": "strive",
-        "meaning": "v. 努力,奋斗"
-    },
-    {
-        "word": "campaign",
-        "meaning": "n. (社会性､政治性)活动,运动; v. 从事活动"
-    },
-    {
-        "word": "picnic",
-        "meaning": "n. 野餐"
-    },
-    {
-        "word": "inspect",
-        "meaning": "v. 检查,审查"
-    },
-    {
-        "word": "diner",
-        "meaning": "n. (尤指餐馆的)就餐者"
-    },
-    {
-        "word": "persistent",
-        "meaning": "adj. 坚持的;持续的"
-    },
-    {
-        "word": "recognition",
-        "meaning": "n. 承认,认可"
-    },
-    {
-        "word": "canteen",
-        "meaning": "n. 食堂,餐厅"
-    },
-    {
-        "word": "dizzy",
-        "meaning": "adj. 头晕目眩的,(非正式)傻乎乎的; vt. 使头…"
-    },
-    {
-        "word": "extension",
-        "meaning": "n. (建筑物的)扩建部分;延期;扩展"
-    },
-    {
-        "word": "shoulder",
-        "meaning": "n. 肩膀; vt. 肩负,承担"
-    },
-    {
-        "word": "purpose",
-        "meaning": "n. 目的,意图; v. 打算"
-    },
-    {
-        "word": "sector",
-        "meaning": "n. (经济等的)行业"
-    },
-    {
-        "word": "punishment",
-        "meaning": "n. 惩罚,处罚"
-    },
-    {
-        "word": "corridor",
-        "meaning": "n. 走廊,回廊,通道;(沿着重要道路或河道的)狭…"
-    },
-    {
-        "word": "admission",
-        "meaning": "n. 准许进入;进入权"
-    },
-    {
-        "word": "implication",
-        "meaning": "n. 暗示;含义;牵连,卷入"
-    },
-    {
-        "word": "circumstance",
-        "meaning": "n. 条件;情况;客观环境"
-    },
-    {
-        "word": "presently",
-        "meaning": "adv. 马上"
-    },
-    {
-        "word": "prominent",
-        "meaning": "adj. 突起的,显眼的"
-    },
-    {
-        "word": "nationwide",
-        "meaning": "adv. 在全国; adj. 全国范围的,全国性的"
-    },
-    {
-        "word": "participant",
-        "meaning": "n. 参与者,参加者"
-    },
-    {
-        "word": "enlarge",
-        "meaning": "v. 放大,扩展"
-    },
-    {
-        "word": "miserable",
-        "meaning": "adj. 痛苦的,悲惨的 ;令人难受的"
-    },
-    {
-        "word": "fierce",
-        "meaning": "adj. 凶猛的,凶狠的;激烈的"
-    },
-    {
-        "word": "aviation",
-        "meaning": "n. 航空,航空学;航空制造业"
-    },
-    {
-        "word": "bonus",
-        "meaning": "n. 奖金,额外津贴"
-    },
-    {
-        "word": "besides",
-        "meaning": "prep. 除……之外(还); adv. 此外"
-    },
-    {
-        "word": "equivalent",
-        "meaning": "adj. 相等的;等值的; n. 同义词;等价物"
-    },
-    {
-        "word": "suppose",
-        "meaning": "v. 认为;设想,推想"
-    },
-    {
-        "word": "exert",
-        "meaning": "vt. 尽(力),运用,发挥"
-    },
-    {
-        "word": "favor",
-        "meaning": "v. 偏爱;支持;有利于;长得像; n. 偏爱…"
-    },
-    {
-        "word": "statement",
-        "meaning": "n. 声明;结算单,报表"
-    },
-    {
-        "word": "hang",
-        "meaning": "v. 悬挂,吊起;吊死"
-    },
-    {
-        "word": "silk",
-        "meaning": "n. 丝,丝绸"
-    },
-    {
-        "word": "modest",
-        "meaning": "adj. 谦虚的;端庄的"
-    },
-    {
-        "word": "attentive",
-        "meaning": "adj. 专心的,注意的;肯帮忙的"
-    },
-    {
-        "word": "applause",
-        "meaning": "n. 鼓掌,掌声"
-    },
-    {
-        "word": "leap",
-        "meaning": "v. 跳跃,跃过; n. 跳跃"
-    },
-    {
-        "word": "stiffen",
-        "meaning": "v. (使)变硬,(使)难以弯曲"
-    },
-    {
-        "word": "wonder",
-        "meaning": "v. 想知道,想弄明白; n. 惊奇,惊异"
-    },
-    {
-        "word": "obesity",
-        "meaning": "n. 肥胖"
-    },
-    {
-        "word": "release",
-        "meaning": "v. 释放;排放(气体等);免除(责任､债务等);…"
-    },
-    {
-        "word": "approximately",
-        "meaning": "adv. 近似地,大约"
-    },
-    {
-        "word": "scarcity",
-        "meaning": "n. 缺乏,不足"
-    },
-    {
-        "word": "plunge",
-        "meaning": "v. 跳进,(使)投入;使陷入;暴跌; n. 卷入,参…"
-    },
-    {
-        "word": "exaggerate",
-        "meaning": "v. 夸大,夸张;(使)扩大"
-    },
-    {
-        "word": "stuff",
-        "meaning": "n. 东西;材料;原料; vt. 把……塞进;装满"
-    },
-    {
-        "word": "celebrate",
-        "meaning": "v. 庆祝,庆贺;赞美"
-    },
-    {
-        "word": "airline",
-        "meaning": "n. 航空公司; adj. 航空公司的,航线的"
-    },
-    {
-        "word": "flourish",
-        "meaning": "vi. 茂盛;繁荣,兴旺"
-    },
-    {
-        "word": "spin",
-        "meaning": "v. (使)旋转; n. 纺织"
-    },
-    {
-        "word": "cap",
-        "meaning": "n. 帽子"
-    },
-    {
-        "word": "transfer",
-        "meaning": "v. 转移;调任;换乘; n. 转让;转移;汇兑(读作…"
-    },
-    {
-        "word": "express",
-        "meaning": "v. 表达,表示;用快递寄出; adj. 快速的;明确…"
-    },
-    {
-        "word": "kick",
-        "meaning": "v. 踢;踢腿; n. 踢"
-    },
-    {
-        "word": "sociologist",
-        "meaning": "n. 社会学家"
-    },
-    {
-        "word": "joint",
-        "meaning": "n. 关节;接合处;(尤指廉价的)公共场所; adj. …"
-    },
-    {
-        "word": "accomplishment",
-        "meaning": "n. 成就;技艺,技能"
-    },
-    {
-        "word": "gentle",
-        "meaning": "adj. 温柔的,文雅的"
-    },
-    {
-        "word": "enthusiastic",
-        "meaning": "adj. 狂热的,极感兴趣的"
-    },
-    {
-        "word": "provoke",
-        "meaning": "v. 挑衅,激怒;对……挑衅"
-    },
-    {
-        "word": "grain",
-        "meaning": "n. 谷物,谷粒;一点儿; v. 使成粒状"
-    },
-    {
-        "word": "tip",
-        "meaning": "n. 小费; v. 给小费"
-    },
-    {
-        "word": "sleepiness",
-        "meaning": "n. 睡意,困乏"
-    },
-    {
-        "word": "intake",
-        "meaning": "n. 吸入;纳入(数量)"
-    },
-    {
-        "word": "supplier",
-        "meaning": "n. 供应商,供货商"
-    },
-    {
-        "word": "dip",
-        "meaning": "v. 浸,蘸; n. 倾斜,下降"
-    },
-    {
-        "word": "practical",
-        "meaning": "adj. 实用的,可行的;实际的,实践的"
-    },
-    {
-        "word": "dealing",
-        "meaning": "n. 交易"
-    },
-    {
-        "word": "stare",
-        "meaning": "v. 盯,凝视"
-    },
-    {
-        "word": "poverty",
-        "meaning": "n. 贫困,贫穷;贫乏"
-    },
-    {
-        "word": "wheat",
-        "meaning": "n. 小麦"
-    },
-    {
-        "word": "residential",
-        "meaning": "adj. 住宅的,居住的;寄宿的"
-    },
-    {
-        "word": "enlighten",
-        "meaning": "vt. 启发,开导"
-    },
-    {
-        "word": "dispose",
-        "meaning": "v. 处理,处置"
-    },
-    {
-        "word": "consumer",
-        "meaning": "n. 用户"
-    },
-    {
-        "word": "orbit",
-        "meaning": "vt. 沿轨道运行,环绕……运行; n. 轨道"
-    },
-    {
-        "word": "protein",
-        "meaning": "n. 蛋白质; adj. 蛋白质的"
-    },
-    {
-        "word": "hasten",
-        "meaning": "v. 赶快,急忙;加速"
-    },
-    {
-        "word": "diet",
-        "meaning": "n. 节食,规定饮食(为健康或减肥等目的);日常饮…"
-    },
-    {
-        "word": "attendance",
-        "meaning": "n. 出席;出席人数;出席者;随员"
-    },
-    {
-        "word": "motive",
-        "meaning": "n. 动机,目的; adj. 发动的,运动的; v. 引发,…"
-    },
-    {
-        "word": "appetite",
-        "meaning": "n. 食欲"
-    },
-    {
-        "word": "optimism",
-        "meaning": "n. 乐观,乐观主义"
-    },
-    {
-        "word": "convince",
-        "meaning": "v. 使确信,使相信;说服"
-    },
-    {
-        "word": "concrete",
-        "meaning": "n. 混凝土; adj. 具体的"
-    },
-    {
-        "word": "undermine",
-        "meaning": "vt. 暗中破坏;逐渐削弱;侵蚀……的基础"
-    },
-    {
-        "word": "mighty",
-        "meaning": "adj. 强大的,强有力的; adv. 非常"
-    },
-    {
-        "word": "underwear",
-        "meaning": "n. 内衣裤"
-    },
-    {
-        "word": "necessarily",
-        "meaning": "adv. 必定"
-    },
-    {
-        "word": "regional",
-        "meaning": "adj. 地区性的;局部的;方言的"
-    },
-    {
-        "word": "vague",
-        "meaning": "adj. 含糊的,模糊的"
-    },
-    {
-        "word": "commercial",
-        "meaning": "adj. 贸易的; n. 商业广告"
-    },
-    {
-        "word": "integrate",
-        "meaning": "v. (使)成为一体,(使)合并"
-    },
-    {
-        "word": "rewarding",
-        "meaning": "adj. 有报酬的,有回报的"
-    },
-    {
-        "word": "blouse",
-        "meaning": "n. 短上衣;女式衬衫;宽松的工作服; v. 宽松下垂"
-    },
-    {
-        "word": "plenty",
-        "meaning": "pron. 大量,丰富"
+{
+  "categories": [
+    {
+      "id": "junior-high",
+      "name": "初中",
+      "vocabularies": [
+        {
+          "id": "junior-basic",
+          "name": "初中基础词汇",
+          "description": "初中英语基础词汇表",
+          "words": [
+            {
+              "word": "corridor",
+              "meaning": "n. 走廊,回廊,通道;(沿着重要道路或河道的)狭…"
+            },
+            {
+              "word": "admission",
+              "meaning": "n. 准许进入;进入权"
+            },
+            {
+              "word": "implication",
+              "meaning": "n. 暗示;含义;牵连,卷入"
+            },
+            {
+              "word": "circumstance",
+              "meaning": "n. 条件;情况;客观环境"
+            },
+            {
+              "word": "presently",
+              "meaning": "adv. 马上"
+            },
+            {
+              "word": "prominent",
+              "meaning": "adj. 突起的,显眼的"
+            },
+            {
+              "word": "nationwide",
+              "meaning": "adv. 在全国; adj. 全国范围的,全国性的"
+            },
+            {
+              "word": "participant",
+              "meaning": "n. 参与者,参加者"
+            },
+            {
+              "word": "enlarge",
+              "meaning": "v. 放大,扩展"
+            },
+            {
+              "word": "miserable",
+              "meaning": "adj. 痛苦的,悲惨的 ;令人难受的"
+            },
+            {
+              "word": "fierce",
+              "meaning": "adj. 凶猛的,凶狠的;激烈的"
+            },
+            {
+              "word": "aviation",
+              "meaning": "n. 航空,航空学;航空制造业"
+            },
+            {
+              "word": "bonus",
+              "meaning": "n. 奖金,额外津贴"
+            },
+            {
+              "word": "besides",
+              "meaning": "prep. 除……之外(还); adv. 此外"
+            },
+            {
+              "word": "equivalent",
+              "meaning": "adj. 相等的;等值的; n. 同义词;等价物"
+            },
+            {
+              "word": "suppose",
+              "meaning": "v. 认为;设想,推想"
+            },
+            {
+              "word": "exert",
+              "meaning": "vt. 尽(力),运用,发挥"
+            },
+            {
+              "word": "favor",
+              "meaning": "v. 偏爱;支持;有利于;长得像; n. 偏爱…"
+            },
+            {
+              "word": "statement",
+              "meaning": "n. 声明;结算单,报表"
+            },
+            {
+              "word": "hang",
+              "meaning": "v. 悬挂,吊起;吊死"
+            },
+            {
+              "word": "silk",
+              "meaning": "n. 丝,丝绸"
+            },
+            {
+              "word": "modest",
+              "meaning": "adj. 谦虚的;端庄的"
+            },
+            {
+              "word": "attentive",
+              "meaning": "adj. 专心的,注意的;肯帮忙的"
+            },
+            {
+              "word": "applause",
+              "meaning": "n. 鼓掌,掌声"
+            },
+            {
+              "word": "leap",
+              "meaning": "v. 跳跃,跃过; n. 跳跃"
+            },
+            {
+              "word": "stiffen",
+              "meaning": "v. (使)变硬,(使)难以弯曲"
+            },
+            {
+              "word": "wonder",
+              "meaning": "v. 想知道,想弄明白; n. 惊奇,惊异"
+            },
+            {
+              "word": "obesity",
+              "meaning": "n. 肥胖"
+            },
+            {
+              "word": "release",
+              "meaning": "v. 释放;排放(气体等);免除(责任､债务等);…"
+            },
+            {
+              "word": "approximately",
+              "meaning": "adv. 近似地,大约"
+            },
+            {
+              "word": "scarcity",
+              "meaning": "n. 缺乏,不足"
+            },
+            {
+              "word": "plunge",
+              "meaning": "v. 跳进,(使)投入;使陷入;暴跌; n. 卷入,参…"
+            },
+            {
+              "word": "exaggerate",
+              "meaning": "v. 夸大,夸张;(使)扩大"
+            },
+            {
+              "word": "stuff",
+              "meaning": "n. 东西;材料;原料; vt. 把……塞进;装满"
+            },
+            {
+              "word": "celebrate",
+              "meaning": "v. 庆祝,庆贺;赞美"
+            },
+            {
+              "word": "airline",
+              "meaning": "n. 航空公司; adj. 航空公司的,航线的"
+            },
+            {
+              "word": "flourish",
+              "meaning": "vi. 茂盛;繁荣,兴旺"
+            },
+            {
+              "word": "spin",
+              "meaning": "v. (使)旋转; n. 纺织"
+            },
+            {
+              "word": "cap",
+              "meaning": "n. 帽子"
+            },
+            {
+              "word": "transfer",
+              "meaning": "v. 转移;调任;换乘; n. 转让;转移;汇兑(读作…"
+            },
+            {
+              "word": "express",
+              "meaning": "v. 表达,表示;用快递寄出; adj. 快速的;明确…"
+            },
+            {
+              "word": "kick",
+              "meaning": "v. 踢;踢腿; n. 踢"
+            },
+            {
+              "word": "sociologist",
+              "meaning": "n. 社会学家"
+            },
+            {
+              "word": "joint",
+              "meaning": "n. 关节;接合处;(尤指廉价的)公共场所; adj. …"
+            },
+            {
+              "word": "accomplishment",
+              "meaning": "n. 成就;技艺,技能"
+            },
+            {
+              "word": "gentle",
+              "meaning": "adj. 温柔的,文雅的"
+            },
+            {
+              "word": "enthusiastic",
+              "meaning": "adj. 狂热的,极感兴趣的"
+            },
+            {
+              "word": "provoke",
+              "meaning": "v. 挑衅,激怒;对……挑衅"
+            },
+            {
+              "word": "grain",
+              "meaning": "n. 谷物,谷粒;一点儿; v. 使成粒状"
+            },
+            {
+              "word": "tip",
+              "meaning": "n. 小费; v. 给小费"
+            }
+          ],
+          "levels": 2,
+          "wordCount": 50
+        }
+      ]
+    },
+    {
+      "id": "senior-high",
+      "name": "高中",
+      "vocabularies": [
+        {
+          "id": "senior-basic",
+          "name": "高中基础词汇",
+          "description": "高中英语基础词汇表",
+          "words": [
+            {
+              "word": "sleepiness",
+              "meaning": "n. 睡意,困乏"
+            },
+            {
+              "word": "intake",
+              "meaning": "n. 吸入;纳入(数量)"
+            },
+            {
+              "word": "supplier",
+              "meaning": "n. 供应商,供货商"
+            },
+            {
+              "word": "dip",
+              "meaning": "v. 浸,蘸; n. 倾斜,下降"
+            },
+            {
+              "word": "practical",
+              "meaning": "adj. 实用的,可行的;实际的,实践的"
+            },
+            {
+              "word": "dealing",
+              "meaning": "n. 交易"
+            },
+            {
+              "word": "stare",
+              "meaning": "v. 盯,凝视"
+            },
+            {
+              "word": "poverty",
+              "meaning": "n. 贫困,贫穷;贫乏"
+            },
+            {
+              "word": "wheat",
+              "meaning": "n. 小麦"
+            },
+            {
+              "word": "residential",
+              "meaning": "adj. 住宅的,居住的;寄宿的"
+            },
+            {
+              "word": "enlighten",
+              "meaning": "vt. 启发,开导"
+            },
+            {
+              "word": "dispose",
+              "meaning": "v. 处理,处置"
+            },
+            {
+              "word": "consumer",
+              "meaning": "n. 用户"
+            },
+            {
+              "word": "orbit",
+              "meaning": "vt. 沿轨道运行,环绕……运行; n. 轨道"
+            },
+            {
+              "word": "protein",
+              "meaning": "n. 蛋白质; adj. 蛋白质的"
+            },
+            {
+              "word": "hasten",
+              "meaning": "v. 赶快,急忙;加速"
+            },
+            {
+              "word": "diet",
+              "meaning": "n. 节食,规定饮食(为健康或减肥等目的);日常饮…"
+            },
+            {
+              "word": "attendance",
+              "meaning": "n. 出席;出席人数;出席者;随员"
+            },
+            {
+              "word": "motive",
+              "meaning": "n. 动机,目的; adj. 发动的,运动的; v. 引发,…"
+            },
+            {
+              "word": "appetite",
+              "meaning": "n. 食欲"
+            }
+          ],
+          "levels": 1,
+          "wordCount": 20
+        }
+      ]
+    },
+    {
+      "id": "new-concept",
+      "name": "新概念",
+      "vocabularies": [
+        {
+          "id": "new-concept-basic",
+          "name": "新概念英语",
+          "description": "新概念英语词汇表",
+          "words": [
+            {
+              "word": "optimism",
+              "meaning": "n. 乐观,乐观主义"
+            },
+            {
+              "word": "convince",
+              "meaning": "v. 使确信,使相信;说服"
+            },
+            {
+              "word": "concrete",
+              "meaning": "n. 混凝土; adj. 具体的"
+            },
+            {
+              "word": "undermine",
+              "meaning": "vt. 暗中破坏;逐渐削弱;侵蚀……的基础"
+            },
+            {
+              "word": "mighty",
+              "meaning": "adj. 强大的,强有力的; adv. 非常"
+            },
+            {
+              "word": "underwear",
+              "meaning": "n. 内衣裤"
+            },
+            {
+              "word": "necessarily",
+              "meaning": "adv. 必定"
+            },
+            {
+              "word": "regional",
+              "meaning": "adj. 地区性的;局部的;方言的"
+            },
+            {
+              "word": "vague",
+              "meaning": "adj. 含糊的,模糊的"
+            },
+            {
+              "word": "commercial",
+              "meaning": "adj. 贸易的; n. 商业广告"
+            },
+            {
+              "word": "integrate",
+              "meaning": "v. (使)成为一体,(使)合并"
+            },
+            {
+              "word": "rewarding",
+              "meaning": "adj. 有报酬的,有回报的"
+            },
+            {
+              "word": "blouse",
+              "meaning": "n. 短上衣;女式衬衫;宽松的工作服; v. 宽松下垂"
+            },
+            {
+              "word": "plenty",
+              "meaning": "pron. 大量,丰富"
+            }
+          ],
+          "levels": 1,
+          "wordCount": 14
+        }
+      ]
+    },
+    {
+      "id": "university",
+      "name": "大学",
+      "vocabularies": [
+        {
+          "id": "cet4",
+          "name": "四级英语",
+          "description": "大学英语四级词汇表",
+          "words": [
+            {
+              "word": "grief",
+              "meaning": "n. 悲伤,悲痛;悲痛的缘由,伤心事;担心,忧虑"
+            },
+            {
+              "word": "company",
+              "meaning": "n. 公司;陪伴"
+            },
+            {
+              "word": "wolves",
+              "meaning": "n. 狼(wolf的复数形式);贪婪者"
+            },
+            {
+              "word": "associated",
+              "meaning": "adj. 联合的;相关的;有关联的;【计】关联的"
+            },
+            {
+              "word": "professor",
+              "meaning": "n. (学院或大学的)教员;(尤指高职称的)教授"
+            },
+            {
+              "word": "humans",
+              "meaning": "n. 人类"
+            },
+            {
+              "word": "lovable",
+              "meaning": "adj. 可爱的"
+            },
+            {
+              "word": "communicate",
+              "meaning": "v. 沟通,交流;传达,传递"
+            },
+            {
+              "word": "communication",
+              "meaning": "n. 通信,交流;沟通方式;信息"
+            },
+            {
+              "word": "their",
+              "meaning": "det. 在提及性别不详的人时;她们的,他们的,它…"
+            },
+            {
+              "word": "variety",
+              "meaning": "n. 种类;变化,多样性"
+            },
+            {
+              "word": "nonprofit",
+              "meaning": "adj. 非盈利的;非营利的; n. 非营利组织"
+            },
+            {
+              "word": "attract",
+              "meaning": "v. 吸引"
+            },
+            {
+              "word": "encourage",
+              "meaning": "v. 鼓励,支持"
+            },
+            {
+              "word": "pretty",
+              "meaning": "adj. 漂亮的,俊俏的; adv. 很,颇,相当"
+            },
+            {
+              "word": "complex",
+              "meaning": "adj. 复杂的,难解的;复合的(读作/kɑmˈplɛks/)…"
+            },
+            {
+              "word": "digital",
+              "meaning": "adj. 数字显示的;数码的"
+            },
+            {
+              "word": "far",
+              "meaning": "adv. (空间或时间)远,久远;很大程度上,大大…"
+            },
+            {
+              "word": "advance",
+              "meaning": "n. 预先;进步,进展;增长; v. 提前;提升;预付"
+            },
+            {
+              "word": "instructor",
+              "meaning": "n. 指导者,教员,教练"
+            },
+            {
+              "word": "following",
+              "meaning": "adj. 接着的;下列的,下述的; n. 下列事物;一批…"
+            },
+            {
+              "word": "closely",
+              "meaning": "adv. 紧密地;接近地;严密地;亲近地;密切地"
+            },
+            {
+              "word": "confident",
+              "meaning": "adj. 自信的"
+            },
+            {
+              "word": "challenge",
+              "meaning": "n. 挑战;质疑; vt. 挑战"
+            },
+            {
+              "word": "temporary",
+              "meaning": "adj. 临时的"
+            },
+            {
+              "word": "attend",
+              "meaning": "v. 护理,照顾;处理;参加"
+            },
+            {
+              "word": "fall",
+              "meaning": "v. 发生,适逢;被打败;下跌,下降;跌落; vi. 落…"
+            },
+            {
+              "word": "particular",
+              "meaning": "adj. 特别的,不寻常的;格外的;挑剔的,讲究的;…"
+            },
+            {
+              "word": "graduation",
+              "meaning": "n. 毕业典礼;毕业,毕业典礼"
+            },
+            {
+              "word": "career",
+              "meaning": "n. 职业,事业"
+            },
+            {
+              "word": "impress",
+              "meaning": "v. 给……留下深刻印象"
+            },
+            {
+              "word": "goal",
+              "meaning": "n. 目标;(进球)得分"
+            },
+            {
+              "word": "gain",
+              "meaning": "v. 获得; n. 增加"
+            },
+            {
+              "word": "likely",
+              "meaning": "adj. 有可能的;适合的; adv. 很可能"
+            },
+            {
+              "word": "purely",
+              "meaning": "adv. 仅仅,纯粹地;清白地;纯洁地;完全地;贞…"
+            },
+            {
+              "word": "generally",
+              "meaning": "adv. 普遍地,广泛地 ;一般地,通常;笼统地,概…"
+            },
+            {
+              "word": "achieved",
+              "meaning": "adj. 获得的;达到的;实现的; 动词achieve的过去…"
+            },
+            {
+              "word": "demand",
+              "meaning": "v. 强烈要求,坚决要求; n. 需求,需要"
+            },
+            {
+              "word": "ideally",
+              "meaning": "adv. 理想地,在观念上地,完美地"
+            },
+            {
+              "word": "insight",
+              "meaning": "n. 深刻的理解,洞察力"
+            },
+            {
+              "word": "figure",
+              "meaning": "n. 身形,身影;数字; v. 想出"
+            },
+            {
+              "word": "identify",
+              "meaning": "v. 识别出;认出;确定,鉴定"
+            },
+            {
+              "word": "gaps",
+              "meaning": "n. 不同;[植物学]裂;间隔;缺口"
+            },
+            {
+              "word": "invaluable",
+              "meaning": "adj. 非常宝贵的,极为有用的"
+            },
+            {
+              "word": "necessity",
+              "meaning": "n. 必需品"
+            },
+            {
+              "word": "desired",
+              "meaning": "adj. 渴望的,想得到的"
+            },
+            {
+              "word": "guidance",
+              "meaning": "n. 指导,引导"
+            },
+            {
+              "word": "happiness",
+              "meaning": "n. 幸福,快乐"
+            },
+            {
+              "word": "honestly",
+              "meaning": "adv. 公正地;真诚地,诚实地;正直地;真的,不…"
+            },
+            {
+              "word": "examine",
+              "meaning": "vt. 检查;测验"
+            },
+            {
+              "word": "entirely",
+              "meaning": "adv. 全部地;完全地;完整地;彻底地"
+            },
+            {
+              "word": "depend",
+              "meaning": "vi. 依靠"
+            },
+            {
+              "word": "towards",
+              "meaning": "prep. 向;朝,对着;关于;(=toward)向,朝"
+            },
+            {
+              "word": "pet",
+              "meaning": "n. 宠物;宠儿; adj. 宠爱的,钟爱的; v. 宠爱,…"
+            },
+            {
+              "word": "satisfied",
+              "meaning": "adj. 感到满意的;满意的,满足的"
+            },
+            {
+              "word": "few",
+              "meaning": "adj. 很少的,几乎没有的;有些;很少;少数的;…"
+            },
+            {
+              "word": "achieve",
+              "meaning": "v. 实现,(尤指凭长期努力)达到(某目标)"
+            },
+            {
+              "word": "self-esteem",
+              "meaning": "n. 自尊;自负"
+            },
+            {
+              "word": "boost",
+              "meaning": "vt. 使增长,使兴旺; n. 提高,增长;激励;推动;…"
+            },
+            {
+              "word": "track",
+              "meaning": "v. 跟踪,追赶; n. 跑道;小路;足迹"
+            },
+            {
+              "word": "fit",
+              "meaning": "n. 匹配,相配;合身; v. 使适合; adj. 合适的"
+            },
+            {
+              "word": "shoe",
+              "meaning": "n. 鞋; v. 给……钉蹄铁"
+            },
+            {
+              "word": "appearance",
+              "meaning": "n. 外貌,外表;出现,公开露面"
+            },
+            {
+              "word": "ultimately",
+              "meaning": "adv. 最终,最后"
+            },
+            {
+              "word": "verify",
+              "meaning": "v. 验证;查证,证明,证实"
+            },
+            {
+              "word": "realistically",
+              "meaning": "adv. 实际地;现实地;逼真地"
+            },
+            {
+              "word": "worse",
+              "meaning": "adv. 更坏地,更恶劣地; adj. 更坏的,更恶劣的;…"
+            },
+            {
+              "word": "tough",
+              "meaning": "adj. 健壮的;棘手的"
+            },
+            {
+              "word": "escape",
+              "meaning": "v. 逃跑,逃脱; n. 逃跑,逃脱"
+            },
+            {
+              "word": "same",
+              "meaning": "pron. 同样的人或事物; adj. 相同的,完全相同的…"
+            },
+            {
+              "word": "guilty",
+              "meaning": "adj. 内疚的;负罪的"
+            },
+            {
+              "word": "tend",
+              "meaning": "v. 照顾,照料;倾向,趋于"
+            },
+            {
+              "word": "relieve",
+              "meaning": "v. 减轻"
+            },
+            {
+              "word": "combat",
+              "meaning": "n. 战斗,格斗; v. 与……战斗,与……斗争(读…"
+            },
+            {
+              "word": "sincere",
+              "meaning": "adj. 真诚的,诚恳的"
+            },
+            {
+              "word": "construction",
+              "meaning": "n. 建筑;建造;施工;建筑物;构造;(句子､短语…"
+            },
+            {
+              "word": "auction",
+              "meaning": "n. 拍卖会;拍卖; v. 拍卖"
+            },
+            {
+              "word": "bid",
+              "meaning": "n. 出价;投标;努力争取; v. 出价;投标"
+            },
+            {
+              "word": "delighted",
+              "meaning": "adj. 高兴的,愉快的,快乐的;乐意的,荣幸的"
+            },
+            {
+              "word": "bound",
+              "meaning": "adj. 必然的;受约束的,(在法律或道德上)有义…"
+            },
+            {
+              "word": "prisoner",
+              "meaning": "n. 囚犯,俘虏;拘留犯;被关起来的人"
+            },
+            {
+              "word": "execution",
+              "meaning": "n. 死刑;实行,执行;演奏,表演;【法】签署;…"
+            },
+            {
+              "word": "ripe",
+              "meaning": "adj. 熟的,成熟的"
+            },
+            {
+              "word": "preacher",
+              "meaning": "n. 传道士"
+            },
+            {
+              "word": "guarantee",
+              "meaning": "n. 保证;保证金;担保,担保物;保修单; v. 保证…"
+            },
+            {
+              "word": "diploma",
+              "meaning": "n. 毕业文凭,毕业证书"
+            },
+            {
+              "word": "awesome",
+              "meaning": "adj. 极好的,令人惊叹的;可怕的"
+            },
+            {
+              "word": "substance",
+              "meaning": "n. 物质;实质"
+            },
+            {
+              "word": "pathetic",
+              "meaning": "adj. 可怜的;不足的;无力的;不成功的"
+            },
+            {
+              "word": "cruel",
+              "meaning": "adj. 残忍的,残酷的;伤人的;冷酷的;引起痛苦的"
+            },
+            {
+              "word": "vacancy",
+              "meaning": "n. (职位)空缺"
+            },
+            {
+              "word": "squirrels",
+              "meaning": "n. 松鼠"
+            },
+            {
+              "word": "nuts",
+              "meaning": "adj. 疯的;狂热的;愚蠢的; n. 坚果,果仁;螺…"
+            },
+            {
+              "word": "legislation",
+              "meaning": "n. 法律,法规"
+            },
+            {
+              "word": "diverse",
+              "meaning": "adj. 多样的"
+            },
+            {
+              "word": "lodging",
+              "meaning": "n. 租住的房间;寄宿,借宿"
+            },
+            {
+              "word": "disagreement",
+              "meaning": "n. 分歧,不和;不一致"
+            },
+            {
+              "word": "ray",
+              "meaning": "n. 光线;射线; v. 放射,照射"
+            },
+            {
+              "word": "effective",
+              "meaning": "adj. 有效的;生效的"
+            },
+            {
+              "word": "vehicle",
+              "meaning": "n. 车辆"
+            },
+            {
+              "word": "detective",
+              "meaning": "n. 侦探,警探; adj. 侦探的"
+            },
+            {
+              "word": "athletes",
+              "meaning": "n. 运动员(athlete 的复数)"
+            },
+            {
+              "word": "agricultural",
+              "meaning": "adj. 农业的;农艺的"
+            },
+            {
+              "word": "perception",
+              "meaning": "n. 洞察力,理解力;感知;观念,看法;认识"
+            },
+            {
+              "word": "inquisitive",
+              "meaning": "adj. 好奇的,好打听的"
+            },
+            {
+              "word": "amazed",
+              "meaning": "adj. 惊奇的,吃惊的;惊讶的;大为惊奇"
+            },
+            {
+              "word": "cutesy",
+              "meaning": "adj. 矫揉造作的;忸怩作态的"
+            },
+            {
+              "word": "sweater",
+              "meaning": "n. 毛衣,厚运动衫,羊毛衫,针织套衫;毛衣;线衣"
+            },
+            {
+              "word": "comedy",
+              "meaning": "n. 喜剧,喜剧片,滑稽节目"
+            },
+            {
+              "word": "sunscreen",
+              "meaning": "n. 防晒霜;防晒霜(又作sunblock);(防晒油中…"
+            },
+            {
+              "word": "transaction",
+              "meaning": "n. 交易;学报"
+            },
+            {
+              "word": "mutual",
+              "meaning": "adj. 互相的;共同的"
+            },
+            {
+              "word": "equality",
+              "meaning": "n. 同等,平等;【数】等式"
+            },
+            {
+              "word": "peel",
+              "meaning": "v. 剥皮,削皮,去壳;剥皮,剥掉;脱落;去皮;…"
+            },
+            {
+              "word": "accidental",
+              "meaning": "adj. 偶然的,意外的;非本质的"
+            },
+            {
+              "word": "metals",
+              "meaning": "n. 五金; 名词metal的复数形式."
+            },
+            {
+              "word": "maid",
+              "meaning": "n. 女仆;少女,未婚女子;女服务员"
+            },
+            {
+              "word": "empress",
+              "meaning": "n. 皇后;女皇"
+            },
+            {
+              "word": "cautious",
+              "meaning": "adj. 小心的,谨慎的"
+            },
+            {
+              "word": "bath",
+              "meaning": "n. 洗澡;浴缸;浴盆;洗澡水;浴室; v. 给……洗…"
+            },
+            {
+              "word": "doves",
+              "meaning": "n. 鸽子"
+            },
+            {
+              "word": "investment",
+              "meaning": "n. 投资"
+            },
+            {
+              "word": "cargo",
+              "meaning": "n. 货物"
+            },
+            {
+              "word": "decline",
+              "meaning": "n. 衰退,衰落;下降; v. 【语】使发生词尾变化,…"
+            },
+            {
+              "word": "narrative",
+              "meaning": "n. 叙述; adj. 叙述的"
+            },
+            {
+              "word": "conducted",
+              "meaning": "vt. 实施;为人;[物]传导(热,电等);指挥(军…"
+            },
+            {
+              "word": "processor",
+              "meaning": "n. 加工机"
+            },
+            {
+              "word": "tackle",
+              "meaning": "v. 对付,处理,解决(难题);(足球等比赛中)…"
+            },
+            {
+              "word": "hostile",
+              "meaning": "adj. 怀有敌意的;敌对的,敌方的"
+            },
+            {
+              "word": "lean",
+              "meaning": "v. 倾斜;斜靠; adj. 瘦且健康的"
+            },
+            {
+              "word": "workforce",
+              "meaning": "n. 劳动力"
+            },
+            {
+              "word": "badly",
+              "meaning": "adv. 严重地;非常"
+            },
+            {
+              "word": "elementary",
+              "meaning": "adj. 基本的;初级的;非常简单的;小学的;简单的"
+            },
+            {
+              "word": "energetic",
+              "meaning": "adj. 精力充沛的,充满活力的"
+            },
+            {
+              "word": "conflict",
+              "meaning": "n. 冲突,争执,矛盾; vi. 冲突,抵触(读作/kən…"
+            },
+            {
+              "word": "passive",
+              "meaning": "adj. 被动的;消极的; n. 被动语态"
+            },
+            {
+              "word": "tiring",
+              "meaning": "adj. 累人的"
+            },
+            {
+              "word": "stylish",
+              "meaning": "adj. 时尚的,漂亮的"
+            },
+            {
+              "word": "peer",
+              "meaning": "n. 同龄人; v. 仔细看"
+            },
+            {
+              "word": "threat",
+              "meaning": "n. 威胁,恐吓"
+            },
+            {
+              "word": "portfolio",
+              "meaning": "n. 公文包,文件夹;投资组合"
+            },
+            {
+              "word": "anxiety",
+              "meaning": "n. 焦虑"
+            },
+            {
+              "word": "distinguish",
+              "meaning": "v. 区别,识别;使显著"
+            },
+            {
+              "word": "conscience",
+              "meaning": "n. 良心,良知"
+            },
+            {
+              "word": "athletic",
+              "meaning": "adj. 运动的,体育的"
+            },
+            {
+              "word": "violate",
+              "meaning": "v. 违反,违背;侵犯,妨碍"
+            },
+            {
+              "word": "stimulation",
+              "meaning": "n. 刺激(感)"
+            },
+            {
+              "word": "charter",
+              "meaning": "n. 宪章;特权,豁免权;租赁; v. 包,租(汽车等)"
+            },
+            {
+              "word": "regarding",
+              "meaning": "prep. 关于"
+            },
+            {
+              "word": "tedious",
+              "meaning": "adj. 沉闷的,冗长乏味的"
+            }
+          ],
+          "levels": 4,
+          "wordCount": 150
+        },
+        {
+          "id": "cet4-highfreq",
+          "name": "四级英语-高频词",
+          "description": "大学英语四级高频词汇",
+          "words": [
+            {
+              "word": "projection",
+              "meaning": "n. 预测;投射,投影"
+            },
+            {
+              "word": "crisis",
+              "meaning": "n. 危机;危急关头,存亡之际"
+            },
+            {
+              "word": "proper",
+              "meaning": "adj. 得体的;适合的,适用的;真正的;独特的;…"
+            },
+            {
+              "word": "notion",
+              "meaning": "n. 观点,看法;概念,观念"
+            },
+            {
+              "word": "entertaining",
+              "meaning": "adj. 有趣的,令人愉快的"
+            },
+            {
+              "word": "visa",
+              "meaning": "n. 签证"
+            },
+            {
+              "word": "camp",
+              "meaning": "v. 露营;宿营; n. 阵营"
+            },
+            {
+              "word": "rent",
+              "meaning": "n. 租金; v. 租"
+            },
+            {
+              "word": "diplomat",
+              "meaning": "n. 外交官,外交家;有交际手腕的人,圆滑的人"
+            },
+            {
+              "word": "impression",
+              "meaning": "n. 印象,感觉,感想;压痕"
+            },
+            {
+              "word": "utility",
+              "meaning": "n. 用途,功用;公用事业; adj. 通用性的"
+            },
+            {
+              "word": "considerable",
+              "meaning": "adj. 相当大的;重要的;可观的"
+            },
+            {
+              "word": "guardian",
+              "meaning": "n. 保护人,守护者;监护人"
+            },
+            {
+              "word": "discard",
+              "meaning": "v. 丢掉;抛弃;打出(无用的牌)(读作/dɪsˈkɑrd/)"
+            },
+            {
+              "word": "sort",
+              "meaning": "v. 把……分类,整理,挑选; n. 种类,类别"
+            },
+            {
+              "word": "genuine",
+              "meaning": "adj. 真的;真正的;真诚的"
+            },
+            {
+              "word": "courageous",
+              "meaning": "adj. 勇敢的,英勇的,有胆量的"
+            },
+            {
+              "word": "junk",
+              "meaning": "n. 垃圾,废旧物品; v. 把……(当废物)丢弃"
+            },
+            {
+              "word": "grant",
+              "meaning": "v. 允许,同意,准允; n. 拨款"
+            },
+            {
+              "word": "betray",
+              "meaning": "v. 背叛;失信于;泄露(秘密等);(非故意地)流露"
+            },
+            {
+              "word": "content",
+              "meaning": "n. 目录; adj. 满足的; v. 使满意(读作/kənˈtent/)"
+            },
+            {
+              "word": "worship",
+              "meaning": "v. 崇拜,爱戴;做礼拜,拜神; n. 礼拜,礼拜仪式"
+            },
+            {
+              "word": "announce",
+              "meaning": "vt. 宣布,通知;预示"
+            },
+            {
+              "word": "condition",
+              "meaning": "n. 环境,形势;状况,状态;疾病; v. 使适应,…"
+            },
+            {
+              "word": "positive",
+              "meaning": "adj. 积极的,乐观的;阳性的; n. 正数"
+            },
+            {
+              "word": "recession",
+              "meaning": "n. (经济)衰退,不景气"
+            },
+            {
+              "word": "doubt",
+              "meaning": "v. 怀疑; n. 怀疑"
+            },
+            {
+              "word": "lawyer",
+              "meaning": "n. 律师"
+            },
+            {
+              "word": "general",
+              "meaning": "adj. 普遍的,总的;大体的,大致的,笼统的;一…"
+            },
+            {
+              "word": "perceive",
+              "meaning": "v. 意识到"
+            },
+            {
+              "word": "construct",
+              "meaning": "v. 建造;作(图);构想,构筑,构思(思想､作品…"
+            },
+            {
+              "word": "hardly",
+              "meaning": "adv. 几乎不,几乎没有"
+            },
+            {
+              "word": "imposing",
+              "meaning": "adj. 壮观的,壮丽的"
+            },
+            {
+              "word": "compete",
+              "meaning": "vi. 竞争"
+            },
+            {
+              "word": "impose",
+              "meaning": "v. 把……强加给;强制实行,强迫接受"
+            },
+            {
+              "word": "entertain",
+              "meaning": "v. 使欢乐;招待,款待"
+            },
+            {
+              "word": "arrangement",
+              "meaning": "n. 布置;排列;准备,筹备;安排"
+            },
+            {
+              "word": "jog",
+              "meaning": "v. 慢跑; n. 慢跑"
+            },
+            {
+              "word": "fare",
+              "meaning": "n. 交通费; v. (事情)进行得(好或坏)"
+            },
+            {
+              "word": "divorce",
+              "meaning": "n. 离婚,离异; v. 离婚"
+            },
+            {
+              "word": "careless",
+              "meaning": "adj. 粗心的"
+            },
+            {
+              "word": "frank",
+              "meaning": "adj. 坦白的,直率的;清楚表明的,明显的"
+            },
+            {
+              "word": "steel",
+              "meaning": "n. 钢,钢铁; v. 下决心应对(不愉快的事); adj.…"
+            },
+            {
+              "word": "circuit",
+              "meaning": "n. 电路,线路;巡游"
+            },
+            {
+              "word": "robbery",
+              "meaning": "n. 抢掠,抢夺"
+            },
+            {
+              "word": "doctoral",
+              "meaning": "adj. 博士的"
+            },
+            {
+              "word": "partner",
+              "meaning": "n. 伙伴,搭档;配偶,伴侣; v. 成为……的合伙人"
+            },
+            {
+              "word": "fantasy",
+              "meaning": "n. 幻想,想象;幻想作品; v. 奏幻想曲;想象;幻想"
+            },
+            {
+              "word": "steak",
+              "meaning": "n. 牛排;鱼块"
+            },
+            {
+              "word": "provision",
+              "meaning": "n. 必需品;(法律等的)条款"
+            },
+            {
+              "word": "ongoing",
+              "meaning": "adj. 仍在进行的; n. 进行,前进,发展"
+            },
+            {
+              "word": "fertile",
+              "meaning": "adj. 肥沃的"
+            },
+            {
+              "word": "hinder",
+              "meaning": "v. 阻碍,妨碍"
+            },
+            {
+              "word": "community",
+              "meaning": "n. 群体,团体"
+            },
+            {
+              "word": "initiative",
+              "meaning": "n. 主动权,主动性;首创精神;倡议"
+            },
+            {
+              "word": "notation",
+              "meaning": "n. 记号;标记法;记录"
+            },
+            {
+              "word": "magnificent",
+              "meaning": "adj. 宏伟的,壮丽的,极好的"
+            },
+            {
+              "word": "expand",
+              "meaning": "v. 扩大;膨胀;详细展开"
+            },
+            {
+              "word": "interact",
+              "meaning": "v. 交流,互动;互相作用,互相影响"
+            },
+            {
+              "word": "conversation",
+              "meaning": "n. 非正式交谈,谈话"
+            },
+            {
+              "word": "sociable",
+              "meaning": "adj. 好交际的"
+            },
+            {
+              "word": "brief",
+              "meaning": "adj. 简洁的,简短的; v. 简单汇报"
+            },
+            {
+              "word": "novelty",
+              "meaning": "n. 新奇;新颖小巧而廉价的物品"
+            },
+            {
+              "word": "fame",
+              "meaning": "n. 名声,声誉; vt. 使有名,使著名"
+            },
+            {
+              "word": "assembly",
+              "meaning": "n. 集会;集合"
+            },
+            {
+              "word": "norm",
+              "meaning": "n. 规范,标准;准则;模范"
+            },
+            {
+              "word": "fine",
+              "meaning": "vt. 罚款; n. 罚款; adj. 优质的;精致的; adv. …"
+            },
+            {
+              "word": "reporter",
+              "meaning": "n. 记者;报告人"
+            },
+            {
+              "word": "intelligence",
+              "meaning": "n. 智力;理解力;情报"
+            },
+            {
+              "word": "cornerstone",
+              "meaning": "n. 奠基石"
+            },
+            {
+              "word": "grand",
+              "meaning": "adj. 壮丽的,宏伟的,宏大的;重大的;主要的; n.…"
+            },
+            {
+              "word": "semester",
+              "meaning": "n. 学期"
+            },
+            {
+              "word": "troublesome",
+              "meaning": "adj. 令人烦恼的,讨厌的"
+            },
+            {
+              "word": "sustainability",
+              "meaning": "n. 【环境】可持续性"
+            },
+            {
+              "word": "tangible",
+              "meaning": "adj. 有形的,可触知的"
+            },
+            {
+              "word": "consist",
+              "meaning": "v. 由……组成"
+            },
+            {
+              "word": "deed",
+              "meaning": "n. 行为;契约"
+            },
+            {
+              "word": "comprise",
+              "meaning": "vt. 构成,由……组成;包含,包括"
+            },
+            {
+              "word": "contest",
+              "meaning": "n. 比赛,竞争(读作/ˈkɑːntest/); v. 争夺,…"
+            },
+            {
+              "word": "persuasion",
+              "meaning": "n. 说服;说服力"
+            },
+            {
+              "word": "hazy",
+              "meaning": "adj. 朦胧的,烟雾弥漫的,模糊的"
+            },
+            {
+              "word": "commuter",
+              "meaning": "n. 通勤者"
+            },
+            {
+              "word": "consistency",
+              "meaning": "n. 一致性;连贯性"
+            },
+            {
+              "word": "acute",
+              "meaning": "adj. 严重的"
+            },
+            {
+              "word": "consciousness",
+              "meaning": "n. 意识,知觉"
+            },
+            {
+              "word": "pressing",
+              "meaning": "adj. 紧迫的,紧急的"
+            },
+            {
+              "word": "expectation",
+              "meaning": "n. 期望;预期"
+            },
+            {
+              "word": "aggression",
+              "meaning": "n. 攻击性;侵略性"
+            },
+            {
+              "word": "outdated",
+              "meaning": "adj. 过时的,老式的"
+            },
+            {
+              "word": "prize",
+              "meaning": "n. 奖品,奖励; adj. 得奖的; v. 珍视"
+            },
+            {
+              "word": "arouse",
+              "meaning": "vt. 唤起"
+            },
+            {
+              "word": "uniform",
+              "meaning": "n. 制服,军服; adj. 相同的,统一的"
+            },
+            {
+              "word": "occasionally",
+              "meaning": "adv. 偶尔地"
+            },
+            {
+              "word": "basin",
+              "meaning": "n. 水池"
+            },
+            {
+              "word": "likelihood",
+              "meaning": "n. 可能性"
+            },
+            {
+              "word": "customs",
+              "meaning": "n. 海关"
+            },
+            {
+              "word": "restore",
+              "meaning": "vt. 恢复"
+            },
+            {
+              "word": "prefer",
+              "meaning": "v. 更喜欢"
+            },
+            {
+              "word": "physician",
+              "meaning": "n. 内科医生"
+            },
+            {
+              "word": "marital",
+              "meaning": "adj. 婚姻的"
+            }
+          ],
+          "levels": 3,
+          "wordCount": 100
+        },
+        {
+          "id": "cet6",
+          "name": "六级英语",
+          "description": "六级英语新大纲词汇表",
+          "words": [
+            {
+              "word": "splendid",
+              "meaning": "adj. 壮观的,辉煌的,华丽的"
+            },
+            {
+              "word": "familiar",
+              "meaning": "adj. 熟悉的,通晓的;不拘礼节的;亲密的;随便的…"
+            },
+            {
+              "word": "opportunity",
+              "meaning": "n. 机会,良机"
+            },
+            {
+              "word": "gear",
+              "meaning": "n. 档位;齿轮; v. 使适合"
+            },
+            {
+              "word": "interfere",
+              "meaning": "vi. 干涉,妨碍"
+            },
+            {
+              "word": "occupation",
+              "meaning": "n. 职业,工作"
+            },
+            {
+              "word": "approve",
+              "meaning": "v. 正式核准,称许;赞成;满意"
+            },
+            {
+              "word": "plague",
+              "meaning": "n. 瘟疫;灾难;麻烦; v. 折磨;烦扰;造成麻烦"
+            },
+            {
+              "word": "minority",
+              "meaning": "n. 少数民族; adj. 构成少数的"
+            },
+            {
+              "word": "solely",
+              "meaning": "adv. 单独地"
+            },
+            {
+              "word": "imposition",
+              "meaning": "n. 征收"
+            },
+            {
+              "word": "extensive",
+              "meaning": "adj. 广泛的;广阔的"
+            },
+            {
+              "word": "stimulate",
+              "meaning": "v. 激发,促进"
+            },
+            {
+              "word": "due",
+              "meaning": "adj. 到期的;适当的;欠债的,应给的"
+            },
+            {
+              "word": "original",
+              "meaning": "adj. 最初的,原始的,原来的"
+            },
+            {
+              "word": "solemn",
+              "meaning": "adj. 严肃的;庄严的,隆重的"
+            },
+            {
+              "word": "gloomy",
+              "meaning": "adj. 愁容满面的,没有希望的;阴暗的,幽暗的"
+            },
+            {
+              "word": "introductory",
+              "meaning": "adj. 入门的"
+            },
+            {
+              "word": "definite",
+              "meaning": "adj. 明确的,肯定的"
+            },
+            {
+              "word": "parliament",
+              "meaning": "n. 国会;议会"
+            },
+            {
+              "word": "seek",
+              "meaning": "v. 寻找;探寻;寻求;争取"
+            },
+            {
+              "word": "dropout",
+              "meaning": "n. 辍学生"
+            },
+            {
+              "word": "infrastructure",
+              "meaning": "n. 基础设施"
+            },
+            {
+              "word": "monumental",
+              "meaning": "adj. 巨大的;意义深远的,不朽的"
+            },
+            {
+              "word": "cultivate",
+              "meaning": "v. 耕作,种植,栽培"
+            },
+            {
+              "word": "custom",
+              "meaning": "n. 风俗; adj. 定制的"
+            },
+            {
+              "word": "feverish",
+              "meaning": "adj. 发烧的;狂热的,焦虑不安的"
+            },
+            {
+              "word": "critical",
+              "meaning": "adj. 危急的;爱挑剔的"
+            },
+            {
+              "word": "steady",
+              "meaning": "adj. 坚定的,扎实的; v. (使)稳固"
+            },
+            {
+              "word": "client",
+              "meaning": "n. 委托人,当事人,客户"
+            },
+            {
+              "word": "employer",
+              "meaning": "n. 雇主,老板"
+            },
+            {
+              "word": "strain",
+              "meaning": "n. 负担,压力; v. 拉紧,使......变紧张;劳累;过…"
+            },
+            {
+              "word": "disguise",
+              "meaning": "v. 伪装;掩饰,掩盖"
+            },
+            {
+              "word": "overwhelming",
+              "meaning": "adj. 压倒性的;巨大的"
+            },
+            {
+              "word": "trainee",
+              "meaning": "n. 受训者,练习生,实习生"
+            },
+            {
+              "word": "various",
+              "meaning": "adj. 各种各样的,不同的"
+            },
+            {
+              "word": "improvement",
+              "meaning": "n. 改进,改善,进步"
+            },
+            {
+              "word": "cooperative",
+              "meaning": "adj. 合作的; n. 合作社"
+            },
+            {
+              "word": "define",
+              "meaning": "v. 给(词､短语等)下定义;界定,解释"
+            },
+            {
+              "word": "conquer",
+              "meaning": "v. 征服,攻克"
+            },
+            {
+              "word": "increasingly",
+              "meaning": "adv. 日益,越来越多地"
+            },
+            {
+              "word": "accomplish",
+              "meaning": "vt. (通过努力)完成;实现"
+            },
+            {
+              "word": "emission",
+              "meaning": "n. 排放物;放射物"
+            },
+            {
+              "word": "alter",
+              "meaning": "v. 改变;改动,使变样"
+            },
+            {
+              "word": "immensely",
+              "meaning": "adv. 极大地"
+            },
+            {
+              "word": "charity",
+              "meaning": "n. 慈善机构(或组织);仁慈;施舍"
+            },
+            {
+              "word": "revelation",
+              "meaning": "n. 揭露;(出乎意料的)被揭示的真相"
+            },
+            {
+              "word": "dispute",
+              "meaning": "n. 争论,争端; v. 争执,驳斥"
+            },
+            {
+              "word": "cheerful",
+              "meaning": "adj. 高兴的"
+            },
+            {
+              "word": "attraction",
+              "meaning": "n. 吸引力,魅力"
+            },
+            {
+              "word": "delight",
+              "meaning": "n. 快乐;高兴事; v. 使快乐"
+            },
+            {
+              "word": "prospect",
+              "meaning": "n. 前景,展望;有前途的人; v. 对……进行仔细…"
+            },
+            {
+              "word": "assumption",
+              "meaning": "n. 假定,设想"
+            },
+            {
+              "word": "mission",
+              "meaning": "n. 任务,使命; vi. 派遣……执行任务"
+            },
+            {
+              "word": "lately",
+              "meaning": "adv. 最近,不久前,近来"
+            },
+            {
+              "word": "conclude",
+              "meaning": "v. 推断出"
+            },
+            {
+              "word": "insistence",
+              "meaning": "n. 坚持,强调,坚决要求"
+            },
+            {
+              "word": "stretch",
+              "meaning": "v. 伸展,延伸,张开;夸大;超越; n. 伸展,张开"
+            },
+            {
+              "word": "dictator",
+              "meaning": "n. 独裁者,独裁政权执政者;口授令他人做笔录者"
+            },
+            {
+              "word": "accommodation",
+              "meaning": "n. 住宿,膳宿;调解;住处,停留处"
+            },
+            {
+              "word": "mere",
+              "meaning": "adj. 仅仅的;纯粹的"
+            },
+            {
+              "word": "cue",
+              "meaning": "n. 球杆; vt. 给……提示"
+            },
+            {
+              "word": "motion",
+              "meaning": "n. 运动,移动"
+            },
+            {
+              "word": "guest",
+              "meaning": "n. 客人,宾客"
+            },
+            {
+              "word": "riotous",
+              "meaning": "adj. 狂欢的"
+            },
+            {
+              "word": "hire",
+              "meaning": "v. 雇佣;租用; n. 雇用;租用,租借;新雇员"
+            },
+            {
+              "word": "retain",
+              "meaning": "v. 保持,保留,保存"
+            },
+            {
+              "word": "force",
+              "meaning": "v. 强迫;推动;用力移动或强行打开某物; n. 力量…"
+            },
+            {
+              "word": "advocacy",
+              "meaning": "n. 主张;辩护"
+            },
+            {
+              "word": "literature",
+              "meaning": "n. 文学;文献;宣传册"
+            },
+            {
+              "word": "violin",
+              "meaning": "n. 小提琴(一种乐器)"
+            },
+            {
+              "word": "tremendous",
+              "meaning": "adj. 巨大的;精彩的,出色的;惊人的"
+            },
+            {
+              "word": "vegetarian",
+              "meaning": "adj. 素食的; n. 素食者"
+            },
+            {
+              "word": "borrow",
+              "meaning": "vt. 借,借入"
+            },
+            {
+              "word": "adequate",
+              "meaning": "adj. 足够的,充分的;尚可的,过得去的"
+            },
+            {
+              "word": "gasoline",
+              "meaning": "n. <美>汽油"
+            },
+            {
+              "word": "completion",
+              "meaning": "n. 完成,完满"
+            },
+            {
+              "word": "inclined",
+              "meaning": "adj. 斜着的"
+            },
+            {
+              "word": "remainder",
+              "meaning": "n. 剩余物,残留部分; v. 减价出售,削价处理"
+            },
+            {
+              "word": "election",
+              "meaning": "n. 选举"
+            },
+            {
+              "word": "abstract",
+              "meaning": "adj. 抽象的; n. 摘要"
+            },
+            {
+              "word": "receptive",
+              "meaning": "adj. 善于接受的"
+            },
+            {
+              "word": "logic",
+              "meaning": "n. 逻辑,推理"
+            },
+            {
+              "word": "arrange",
+              "meaning": "v. 整理;改编(乐曲);筹备,安排;达成协议;安排"
+            },
+            {
+              "word": "explosion",
+              "meaning": "n. 爆炸"
+            },
+            {
+              "word": "lively",
+              "meaning": "adj. 富有活力的;活泼的"
+            },
+            {
+              "word": "obliged",
+              "meaning": "adj. 感激的"
+            },
+            {
+              "word": "hint",
+              "meaning": "n. 暗示,示意;有益的建议"
+            },
+            {
+              "word": "architect",
+              "meaning": "n. 建筑师;设计师"
+            },
+            {
+              "word": "retail",
+              "meaning": "adj. 零售的; n. 零售; v. 零售; adv. 以零售形式"
+            },
+            {
+              "word": "oven",
+              "meaning": "n. 烤箱,炉,灶"
+            },
+            {
+              "word": "species",
+              "meaning": "n. 种类;物种;人类"
+            },
+            {
+              "word": "lend",
+              "meaning": "v. 借给(某人钱或东西)"
+            },
+            {
+              "word": "span",
+              "meaning": "n. 跨度;时间段;持续时间;小范围,短距离; v.…"
+            },
+            {
+              "word": "harmful",
+              "meaning": "adj. 有害的"
+            },
+            {
+              "word": "tendency",
+              "meaning": "n. 趋向,趋势,倾向"
+            },
+            {
+              "word": "trial",
+              "meaning": "n. 审判,审讯;考验; adj. 试验的,试验性的"
+            },
+            {
+              "word": "correction",
+              "meaning": "n. 改正,修正"
+            },
+            {
+              "word": "needy",
+              "meaning": "adj. 生活艰苦的"
+            },
+            {
+              "word": "exceptional",
+              "meaning": "adj. 优越的,杰出的;例外的,特殊的"
+            },
+            {
+              "word": "artificial",
+              "meaning": "adj. 人造的"
+            },
+            {
+              "word": "lodge",
+              "meaning": "n. (乡村)小屋; v. 存放,保管"
+            },
+            {
+              "word": "consent",
+              "meaning": "n. 同意,准许;赞成; v. 同意"
+            },
+            {
+              "word": "debt",
+              "meaning": "n. 债"
+            },
+            {
+              "word": "gadget",
+              "meaning": "n. 小装置,小机件,小玩意儿;小巧的机械"
+            },
+            {
+              "word": "tobacco",
+              "meaning": "n. 烟草,烟叶"
+            },
+            {
+              "word": "comprehensive",
+              "meaning": "adj. 全面的,完整的;详尽的;综合的;广泛的,无…"
+            },
+            {
+              "word": "panic",
+              "meaning": "n. 惊慌;慌乱; v. (使)惊慌失措"
+            },
+            {
+              "word": "bride",
+              "meaning": "n. 新娘"
+            },
+            {
+              "word": "refer",
+              "meaning": "v. 参考;把……描述为"
+            },
+            {
+              "word": "humble",
+              "meaning": "adj. 卑微的;谦逊的; v. 使……谦逊,使……卑下"
+            },
+            {
+              "word": "terrific",
+              "meaning": "adj. 极好的;可怕的;(尺寸或程度)极其巨大的,…"
+            },
+            {
+              "word": "amateur",
+              "meaning": "adj. 业余爱好的; n. 业余爱好者;外行"
+            },
+            {
+              "word": "identification",
+              "meaning": "n. 辨认;密切联系;鉴定,验明;身份证明"
+            },
+            {
+              "word": "gym",
+              "meaning": "n. 体育馆,健身房"
+            },
+            {
+              "word": "adaptation",
+              "meaning": "n. 适应,适应性的变化;改编,改写本"
+            },
+            {
+              "word": "territory",
+              "meaning": "n. 地区,领土;属地"
+            },
+            {
+              "word": "proposal",
+              "meaning": "n. 求婚"
+            },
+            {
+              "word": "tireless",
+              "meaning": "adj. 不知疲倦的"
+            },
+            {
+              "word": "progress",
+              "meaning": "n. 进步;前进(读作/ˈprɑːɡres/)"
+            },
+            {
+              "word": "battery",
+              "meaning": "n. 电池(组)"
+            },
+            {
+              "word": "plate",
+              "meaning": "n. 盘子,碟子; v. 电镀"
+            },
+            {
+              "word": "accumulate",
+              "meaning": "v. 积攒,积累"
+            },
+            {
+              "word": "trust",
+              "meaning": "v. 信任,相信;盼望,希望; n. 委托"
+            },
+            {
+              "word": "dilemma",
+              "meaning": "n. 进退两难的窘境"
+            },
+            {
+              "word": "investigation",
+              "meaning": "n. 调查,调查研究"
+            },
+            {
+              "word": "convincing",
+              "meaning": "adj. 有说服力的"
+            },
+            {
+              "word": "affection",
+              "meaning": "n. 感情;喜爱,爱慕;作用,影响"
+            },
+            {
+              "word": "criticism",
+              "meaning": "n. 批评;批判;评论"
+            },
+            {
+              "word": "lunar",
+              "meaning": "adj. 阴历的,农历的;月亮的,月球的"
+            },
+            {
+              "word": "capability",
+              "meaning": "n. (实际)能力,性能"
+            },
+            {
+              "word": "democratic",
+              "meaning": "adj. 民主的,民主政体的,民主党的"
+            },
+            {
+              "word": "motivate",
+              "meaning": "vt. 激励;成为……的动机;促进;促使;激发"
+            },
+            {
+              "word": "computation",
+              "meaning": "n. 估计,计算"
+            },
+            {
+              "word": "shelf",
+              "meaning": "n. 架子,搁板"
+            },
+            {
+              "word": "army",
+              "meaning": "n. 陆军,军队,部队;大群"
+            },
+            {
+              "word": "strive",
+              "meaning": "v. 努力,奋斗"
+            },
+            {
+              "word": "campaign",
+              "meaning": "n. (社会性､政治性)活动,运动; v. 从事活动"
+            },
+            {
+              "word": "picnic",
+              "meaning": "n. 野餐"
+            },
+            {
+              "word": "inspect",
+              "meaning": "v. 检查,审查"
+            },
+            {
+              "word": "diner",
+              "meaning": "n. (尤指餐馆的)就餐者"
+            },
+            {
+              "word": "persistent",
+              "meaning": "adj. 坚持的;持续的"
+            },
+            {
+              "word": "recognition",
+              "meaning": "n. 承认,认可"
+            },
+            {
+              "word": "canteen",
+              "meaning": "n. 食堂,餐厅"
+            },
+            {
+              "word": "dizzy",
+              "meaning": "adj. 头晕目眩的,(非正式)傻乎乎的; vt. 使头…"
+            },
+            {
+              "word": "extension",
+              "meaning": "n. (建筑物的)扩建部分;延期;扩展"
+            },
+            {
+              "word": "shoulder",
+              "meaning": "n. 肩膀; vt. 肩负,承担"
+            },
+            {
+              "word": "purpose",
+              "meaning": "n. 目的,意图; v. 打算"
+            },
+            {
+              "word": "sector",
+              "meaning": "n. (经济等的)行业"
+            },
+            {
+              "word": "punishment",
+              "meaning": "n. 惩罚,处罚"
+            }
+          ],
+          "levels": 4,
+          "wordCount": 150
+        }
+      ]
+    },
+    {
+      "id": "study-abroad",
+      "name": "留学",
+      "vocabularies": []
+    },
+    {
+      "id": "professional",
+      "name": "专业英语",
+      "vocabularies": []
     }
-]
+  ]
+}
