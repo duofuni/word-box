@@ -215,11 +215,6 @@
     "emoji": "🐓"
   },
   {
-    "word": "duck",
-    "meaning": "n. 鸭子",
-    "emoji": "🦆"
-  },
-  {
     "word": "swan",
     "meaning": "n. 天鹅",
     "emoji": "🦢"
@@ -290,11 +285,6 @@
     "emoji": "🦎"
   },
   {
-    "word": "fish",
-    "meaning": "n. 鱼",
-    "emoji": "🐟"
-  },
-  {
     "word": "whale",
     "meaning": "n. 鲸鱼",
     "emoji": "🐳"
@@ -308,105 +298,5 @@
     "word": "shark",
     "meaning": "n. 鲨鱼",
     "emoji": "🦈"
-  },
-  {
-    "word": "octopus",
-    "meaning": "n. 章鱼",
-    "emoji": "🐙"
-  },
-  {
-    "word": "crab",
-    "meaning": "n. 螃蟹",
-    "emoji": "🦀"
-  },
-  {
-    "word": "shrimp",
-    "meaning": "n. 虾",
-    "emoji": "🦐"
-  },
-  {
-    "word": "squid",
-    "meaning": "n. 鱿鱼/乌贼",
-    "emoji": "🦑"
-  },
-  {
-    "word": "oyster",
-    "meaning": "n. 牡蛎/蚝",
-    "emoji": "🦪"
-  },
-  {
-    "word": "lobster",
-    "meaning": "n. 龙虾",
-    "emoji": "🦞"
-  },
-  {
-    "word": "spider",
-    "meaning": "n. 蜘蛛",
-    "emoji": "🕷️"
-  },
-  {
-    "word": "ant",
-    "meaning": "n. 蚂蚁",
-    "emoji": "🐜"
-  },
-  {
-    "word": "bee",
-    "meaning": "n. 蜜蜂",
-    "emoji": "🐝"
-  },
-  {
-    "word": "butterfly",
-    "meaning": "n. 蝴蝶",
-    "emoji": "🦋"
-  },
-  {
-    "word": "worm",
-    "meaning": "n. 蠕虫/蚯蚓",
-    "emoji": "🪱"
-  },
-  {
-    "word": "mosquito",
-    "meaning": "n. 蚊子",
-    "emoji": "🦟"
-  },
-  {
-    "word": "locust",
-    "meaning": "n. 蝗虫",
-    "emoji": "🦗"
-  },
-  {
-    "word": "ladybug",
-    "meaning": "n. 瓢虫",
-    "emoji": "🐞"
-  },
-  {
-    "word": "cockroach",
-    "meaning": "n. 蟑螂",
-    "emoji": "🪳"
-  },
-  {
-    "word": "fly",
-    "meaning": "n. 苍蝇",
-    "emoji": "🪰"
-  },
-  {
-    "word": "scorpion",
-    "meaning": "n. 蝎子",
-    "emoji": "🦂"
-  },
-  {
-    "word": "beetle",
-    "meaning": "n. 甲虫",
-    "emoji": "🪲"
-  },
-  {
-    "word": "caterpillar",
-    "meaning": "n. 毛毛虫",
-    "emoji": "🐛"
-  },
-  {
-    "word": "snail",
-    "meaning": "n. 蜗牛",
-    "emoji": "🐌"
   }
 ]

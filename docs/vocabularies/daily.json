@@ -6,77 +6,77 @@
       "id": "animals",
       "name": "动物类",
       "description": "日常动物词汇",
-      "wordCount": 82,
+      "wordCount": 60,
       "file": "vocabularies/daily_animals.json"
     },
     {
       "id": "insects",
       "name": "昆虫类",
       "description": "昆虫相关词汇",
-      "wordCount": 8,
+      "wordCount": 28,
       "file": "vocabularies/daily_insects.json"
     },
     {
       "id": "furniture",
       "name": "家具类",
       "description": "家具相关词汇",
-      "wordCount": 8,
+      "wordCount": 18,
       "file": "vocabularies/daily_furniture.json"
     },
     {
       "id": "fruits",
       "name": "水果类",
       "description": "水果相关词汇",
-      "wordCount": 8,
+      "wordCount": 27,
       "file": "vocabularies/daily_fruits.json"
     },
     {
       "id": "vehicles",
       "name": "交通工具类",
       "description": "交通工具相关词汇",
-      "wordCount": 8,
+      "wordCount": 22,
       "file": "vocabularies/daily_vehicles.json"
     },
     {
       "id": "vegetables",
       "name": "蔬菜类",
       "description": "蔬菜相关词汇",
-      "wordCount": 8,
+      "wordCount": 19,
       "file": "vocabularies/daily_vegetables.json"
     },
     {
       "id": "clothing",
       "name": "服装类",
       "description": "服装相关词汇",
-      "wordCount": 8,
+      "wordCount": 22,
       "file": "vocabularies/daily_clothing.json"
     },
     {
       "id": "body-parts",
       "name": "五官、肢体、器官类",
       "description": "身体部位相关词汇",
-      "wordCount": 10,
+      "wordCount": 25,
       "file": "vocabularies/daily_body-parts.json"
     },
     {
       "id": "plants",
       "name": "植物类",
       "description": "植物相关词汇",
-      "wordCount": 8,
+      "wordCount": 18,
       "file": "vocabularies/daily_plants.json"
     },
     {
       "id": "meat",
       "name": "肉类",
       "description": "肉类相关词汇",
-      "wordCount": 7,
+      "wordCount": 20,
       "file": "vocabularies/daily_meat.json"
     },
     {
       "id": "kitchen",
       "name": "厨房类",
       "description": "厨房用品相关词汇",
-      "wordCount": 8,
+      "wordCount": 18,
       "file": "vocabularies/daily_kitchen.json"
     },
     {

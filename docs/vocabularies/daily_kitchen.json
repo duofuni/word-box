@@ -1,34 +1,92 @@
 [
   {
     "word": "knife",
-    "meaning": "n. 刀"
+    "meaning": "n. 刀",
+    "emoji": "🔪"
   },
   {
     "word": "fork",
-    "meaning": "n. 叉子"
+    "meaning": "n. 叉子",
+    "emoji": "🍴"
   },
   {
     "word": "spoon",
-    "meaning": "n. 勺子"
+    "meaning": "n. 勺子",
+    "emoji": "🍴"
   },
   {
     "word": "plate",
-    "meaning": "n. 盘子"
+    "meaning": "n. 盘子",
+    "emoji": "🍽️"
   },
   {
     "word": "bowl",
-    "meaning": "n. 碗"
+    "meaning": "n. 碗",
+    "emoji": "🥣"
   },
   {
     "word": "cup",
-    "meaning": "n. 杯子"
+    "meaning": "n. 杯子",
+    "emoji": "☕"
   },
   {
     "word": "pot",
-    "meaning": "n. 锅"
+    "meaning": "n. 锅",
+    "emoji": "🍲"
   },
   {
     "word": "pan",
-    "meaning": "n. 平底锅"
+    "meaning": "n. 平底锅",
+    "emoji": "🍳"
+  },
+  {
+    "word": "glass",
+    "meaning": "n. 玻璃杯",
+    "emoji": "🥛"
+  },
+  {
+    "word": "bottle",
+    "meaning": "n. 瓶子",
+    "emoji": "🍾"
+  },
+  {
+    "word": "teapot",
+    "meaning": "n. 茶壶",
+    "emoji": "🫖"
+  },
+  {
+    "word": "blender",
+    "meaning": "n. 搅拌机",
+    "emoji": ""
+  },
+  {
+    "word": "oven",
+    "meaning": "n. 烤箱",
+    "emoji": ""
+  },
+  {
+    "word": "apron",
+    "meaning": "n. 围裙",
+    "emoji": ""
+  },
+  {
+    "word": "microwave",
+    "meaning": "n. 微波炉",
+    "emoji": ""
+  },
+  {
+    "word": "toaster",
+    "meaning": "n. 烤面包机",
+    "emoji": ""
+  },
+  {
+    "word": "whisk",
+    "meaning": "n. 打蛋器",
+    "emoji": ""
+  },
+  {
+    "word": "can",
+    "meaning": "n. 罐子/易拉罐",
+    "emoji": "🥫"
   }
 ]

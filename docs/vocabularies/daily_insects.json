@@ -1,34 +1,142 @@
 [
   {
     "word": "bee",
-    "meaning": "n. 蜜蜂"
+    "meaning": "n. 蜜蜂",
+    "emoji": "🐝"
   },
   {
     "word": "butterfly",
-    "meaning": "n. 蝴蝶"
+    "meaning": "n. 蝴蝶",
+    "emoji": "🦋"
   },
   {
     "word": "ant",
-    "meaning": "n. 蚂蚁"
+    "meaning": "n. 蚂蚁",
+    "emoji": "🐜"
   },
   {
     "word": "spider",
-    "meaning": "n. 蜘蛛"
+    "meaning": "n. 蜘蛛",
+    "emoji": "🕷️"
   },
   {
     "word": "fly",
-    "meaning": "n. 苍蝇"
+    "meaning": "n. 苍蝇",
+    "emoji": "🪰"
   },
   {
     "word": "mosquito",
-    "meaning": "n. 蚊子"
+    "meaning": "n. 蚊子",
+    "emoji": "🦟"
   },
   {
     "word": "dragonfly",
-    "meaning": "n. 蜻蜓"
+    "meaning": "n. 蜻蜓",
+    "emoji": ""
   },
   {
     "word": "grasshopper",
-    "meaning": "n. 蚱蜢"
+    "meaning": "n. 蚱蜢",
+    "emoji": "🦗"
+  },
+  {
+    "word": "ladybug",
+    "meaning": "n. 瓢虫",
+    "emoji": "🐞"
+  },
+  {
+    "word": "worm",
+    "meaning": "n. 虫，蠕虫",
+    "emoji": "🐛"
+  },
+  {
+    "word": "snail",
+    "meaning": "n. 蜗牛",
+    "emoji": "🐌"
+  },
+  {
+    "word": "scorpion",
+    "meaning": "n. 蝎子",
+    "emoji": "🦂"
+  },
+  {
+    "word": "roach",
+    "meaning": "n. 蟑螂",
+    "emoji": "🪳"
+  },
+  {
+    "word": "beetle",
+    "meaning": "n. 甲虫",
+    "emoji": "🪲"
+  },
+  {
+    "word": "moth",
+    "meaning": "n. 蛾",
+    "emoji": ""
+  },
+  {
+    "word": "caterpillar",
+    "meaning": "n. 毛虫",
+    "emoji": "🐛"
+  },
+  {
+    "word": "wasp",
+    "meaning": "n. 黄蜂",
+    "emoji": ""
+  },
+  {
+    "word": "cricket",
+    "meaning": "n. 蟋蟀",
+    "emoji": "🦗"
+  },
+  {
+    "word": "louse",
+    "meaning": "n. 虱子",
+    "emoji": ""
+  },
+  {
+    "word": "praying mantis",
+    "meaning": "n. 螳螂",
+    "emoji": ""
+  },
+  {
+    "word": "flea",
+    "meaning": "n. 跳蚤",
+    "emoji": ""
+  },
+  {
+    "word": "centipede",
+    "meaning": "n. 蜈蚣",
+    "emoji": ""
+  },
+  {
+    "word": "termite",
+    "meaning": "n. 白蚁",
+    "emoji": ""
+  },
+  {
+    "word": "tick",
+    "meaning": "n. 蜱虫",
+    "emoji": ""
+  },
+  {
+    "word": "firefly",
+    "meaning": "n. 萤火虫",
+    "emoji": ""
+  },
+  {
+    "word": "locust",
+    "meaning": "n. 蝗虫",
+    "emoji": "🦗"
+  },
+  {
+    "word": "earwig",
+    "meaning": "n. 蠼螋",
+    "emoji": ""
+  },
+  {
+    "word": "tarantula",
+    "meaning": "n. 狼蛛/大蜘蛛",
+    "emoji": "🕷️"
   }
 ]

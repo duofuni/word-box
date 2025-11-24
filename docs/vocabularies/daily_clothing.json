@@ -1,34 +1,112 @@
 [
   {
     "word": "shirt",
-    "meaning": "n. 衬衫"
+    "meaning": "n. 衬衫",
+    "emoji": "👕"
   },
   {
     "word": "pants",
-    "meaning": "n. 裤子"
+    "meaning": "n. 裤子",
+    "emoji": "👖"
   },
   {
     "word": "dress",
-    "meaning": "n. 连衣裙"
+    "meaning": "n. 连衣裙",
+    "emoji": "👗"
   },
   {
     "word": "shoes",
-    "meaning": "n. 鞋子"
+    "meaning": "n. 鞋子",
+    "emoji": "👟"
   },
   {
     "word": "hat",
-    "meaning": "n. 帽子"
+    "meaning": "n. 帽子",
+    "emoji": "👒"
   },
   {
     "word": "jacket",
-    "meaning": "n. 夹克"
+    "meaning": "n. 夹克",
+    "emoji": "🧥"
   },
   {
     "word": "socks",
-    "meaning": "n. 袜子"
+    "meaning": "n. 袜子",
+    "emoji": "🧦"
   },
   {
     "word": "gloves",
-    "meaning": "n. 手套"
+    "meaning": "n. 手套",
+    "emoji": "🧤"
+  },
+  {
+    "word": "sweater",
+    "meaning": "n. 毛衣",
+    "emoji": ""
+  },
+  {
+    "word": "skirt",
+    "meaning": "n. 半身裙",
+    "emoji": ""
+  },
+  {
+    "word": "tie",
+    "meaning": "n. 领带",
+    "emoji": "👔"
+  },
+  {
+    "word": "scarf",
+    "meaning": "n. 围巾",
+    "emoji": ""
+  },
+  {
+    "word": "t-shirt",
+    "meaning": "n. T恤",
+    "emoji": "👕"
+  },
+  {
+    "word": "boots",
+    "meaning": "n. 靴子",
+    "emoji": "👢"
+  },
+  {
+    "word": "shorts",
+    "meaning": "n. 短裤",
+    "emoji": "🩳"
+  },
+  {
+    "word": "bra",
+    "meaning": "n. 胸罩",
+    "emoji": "👙"
+  },
+  {
+    "word": "bikini",
+    "meaning": "n. 比基尼",
+    "emoji": "👙"
+  },
+  {
+    "word": "ring",
+    "meaning": "n. 戒指",
+    "emoji": "💍"
+  },
+  {
+    "word": "watch",
+    "meaning": "n. 手表",
+    "emoji": "⌚"
+  },
+  {
+    "word": "glasses",
+    "meaning": "n. 眼镜",
+    "emoji": "👓"
+  },
+  {
+    "word": "belt",
+    "meaning": "n. 腰带",
+    "emoji": ""
+  },
+  {
+    "word": "umbrella",
+    "meaning": "n. 雨伞",
+    "emoji": "🌂"
   }
 ]

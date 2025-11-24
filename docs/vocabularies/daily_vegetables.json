@@ -1,34 +1,97 @@
 [
   {
     "word": "tomato",
-    "meaning": "n. 西红柿"
+    "meaning": "n. 西红柿",
+    "emoji": "🍅"
   },
   {
     "word": "potato",
-    "meaning": "n. 土豆"
+    "meaning": "n. 土豆",
+    "emoji": "🥔"
   },
   {
     "word": "carrot",
-    "meaning": "n. 胡萝卜"
+    "meaning": "n. 胡萝卜",
+    "emoji": "🥕"
   },
   {
     "word": "cabbage",
-    "meaning": "n. 卷心菜"
+    "meaning": "n. 卷心菜",
+    "emoji": "🥬"
   },
   {
     "word": "onion",
-    "meaning": "n. 洋葱"
+    "meaning": "n. 洋葱",
+    "emoji": "🧅"
   },
   {
     "word": "cucumber",
-    "meaning": "n. 黄瓜"
+    "meaning": "n. 黄瓜",
+    "emoji": "🥒"
   },
   {
     "word": "pepper",
-    "meaning": "n. 辣椒"
+    "meaning": "n. 辣椒",
+    "emoji": "🌶️"
   },
   {
     "word": "corn",
-    "meaning": "n. 玉米"
+    "meaning": "n. 玉米",
+    "emoji": "🌽"
+  },
+  {
+    "word": "broccoli",
+    "meaning": "n. 西兰花",
+    "emoji": "🥦"
+  },
+  {
+    "word": "mushroom",
+    "meaning": "n. 蘑菇",
+    "emoji": "🍄"
+  },
+  {
+    "word": "garlic",
+    "meaning": "n. 大蒜",
+    "emoji": "🧄"
+  },
+  {
+    "word": "ginger",
+    "meaning": "n. 姜",
+    "emoji": "🫚"
+  },
+  {
+    "word": "eggplant",
+    "meaning": "n. 茄子",
+    "emoji": "🍆"
+  },
+  {
+    "word": "salad",
+    "meaning": "n. 沙拉",
+    "emoji": "🥗"
+  },
+  {
+    "word": "peas",
+    "meaning": "n. 豌豆",
+    "emoji": ""
+  },
+  {
+    "word": "lettuce",
+    "meaning": "n. 生菜",
+    "emoji": "🥬"
+  },
+  {
+    "word": "pumpkin",
+    "meaning": "n. 南瓜",
+    "emoji": "🎃"
+  },
+  {
+    "word": "chili",
+    "meaning": "n. 辣椒",
+    "emoji": "🌶️"
+  },
+  {
+    "word": "beans",
+    "meaning": "n. 豆子",
+    "emoji": ""
   }
 ]

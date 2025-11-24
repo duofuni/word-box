@@ -1,34 +1,137 @@
 [
   {
     "word": "apple",
-    "meaning": "n. 苹果"
+    "meaning": "n. 苹果",
+    "emoji": "🍎"
   },
   {
     "word": "banana",
-    "meaning": "n. 香蕉"
+    "meaning": "n. 香蕉",
+    "emoji": "🍌"
   },
   {
     "word": "orange",
-    "meaning": "n. 橙子"
+    "meaning": "n. 橙子",
+    "emoji": "🍊"
   },
   {
     "word": "grape",
-    "meaning": "n. 葡萄"
+    "meaning": "n. 葡萄",
+    "emoji": "🍇"
   },
   {
     "word": "strawberry",
-    "meaning": "n. 草莓"
+    "meaning": "n. 草莓",
+    "emoji": "🍓"
   },
   {
     "word": "watermelon",
-    "meaning": "n. 西瓜"
+    "meaning": "n. 西瓜",
+    "emoji": "🍉"
   },
   {
     "word": "pear",
-    "meaning": "n. 梨"
+    "meaning": "n. 梨",
+    "emoji": "🍐"
   },
   {
     "word": "peach",
-    "meaning": "n. 桃子"
+    "meaning": "n. 桃子",
+    "emoji": "🍑"
+  },
+  {
+    "word": "cherry",
+    "meaning": "n. 樱桃",
+    "emoji": "🍒"
+  },
+  {
+    "word": "kiwi",
+    "meaning": "n. 奇异果/猕猴桃",
+    "emoji": "🥝"
+  },
+  {
+    "word": "pineapple",
+    "meaning": "n. 菠萝",
+    "emoji": "🍍"
+  },
+  {
+    "word": "coconut",
+    "meaning": "n. 椰子",
+    "emoji": "🥥"
+  },
+  {
+    "word": "mango",
+    "meaning": "n. 芒果",
+    "emoji": "🥭"
+  },
+  {
+    "word": "lemon",
+    "meaning": "n. 柠檬",
+    "emoji": "🍋"
+  },
+  {
+    "word": "melon",
+    "meaning": "n. 甜瓜",
+    "emoji": "🍈"
+  },
+  {
+    "word": "avocado",
+    "meaning": "n. 牛油果",
+    "emoji": "🥑"
+  },
+  {
+    "word": "pomegranate",
+    "meaning": "n. 石榴",
+    "emoji": ""
+  },
+  {
+    "word": "raspberry",
+    "meaning": "n. 覆盆子",
+    "emoji": ""
+  },
+  {
+    "word": "blueberry",
+    "meaning": "n. 蓝莓",
+    "emoji": ""
+  },
+  {
+    "word": "apricot",
+    "meaning": "n. 杏子",
+    "emoji": ""
+  },
+  {
+    "word": "plum",
+    "meaning": "n. 李子",
+    "emoji": ""
+  },
+  {
+    "word": "tangerine",
+    "meaning": "n. 橘子",
+    "emoji": "🍊"
+  },
+  {
+    "word": "fig",
+    "meaning": "n. 无花果",
+    "emoji": ""
+  },
+  {
+    "word": "olive",
+    "meaning": "n. 橄榄",
+    "emoji": ""
+  },
+  {
+    "word": "nut",
+    "meaning": "n. 坚果",
+    "emoji": "🌰"
+  },
+  {
+    "word": "peanut",
+    "meaning": "n. 花生",
+    "emoji": ""
+  },
+  {
+    "word": "chestnut",
+    "meaning": "n. 栗子",
+    "emoji": "🌰"
   }
 ]
