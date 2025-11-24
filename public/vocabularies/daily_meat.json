@@ -1,30 +1,102 @@
 [
   {
     "word": "beef",
-    "meaning": "n. 牛肉"
+    "meaning": "n. 牛肉",
+    "emoji": "🥩"
   },
   {
     "word": "pork",
-    "meaning": "n. 猪肉"
+    "meaning": "n. 猪肉",
+    "emoji": "🥩"
   },
   {
     "word": "chicken",
-    "meaning": "n. 鸡肉"
+    "meaning": "n. 鸡肉",
+    "emoji": "🍗"
   },
   {
     "word": "fish",
-    "meaning": "n. 鱼肉"
+    "meaning": "n. 鱼肉",
+    "emoji": "🐟"
   },
   {
     "word": "lamb",
-    "meaning": "n. 羊肉"
+    "meaning": "n. 羊肉",
+    "emoji": "🥩"
   },
   {
     "word": "duck",
-    "meaning": "n. 鸭肉"
+    "meaning": "n. 鸭肉",
+    "emoji": "🦆"
   },
   {
     "word": "turkey",
-    "meaning": "n. 火鸡肉"
+    "meaning": "n. 火鸡肉",
+    "emoji": "🦃"
+  },
+  {
+    "word": "bacon",
+    "meaning": "n. 培根",
+    "emoji": "🥓"
+  },
+  {
+    "word": "sausage",
+    "meaning": "n. 香肠",
+    "emoji": "🌭"
+  },
+  {
+    "word": "steak",
+    "meaning": "n. 牛排",
+    "emoji": "🥩"
+  },
+  {
+    "word": "shrimp",
+    "meaning": "n. 虾",
+    "emoji": "🍤"
+  },
+  {
+    "word": "lobster",
+    "meaning": "n. 龙虾",
+    "emoji": "🦞"
+  },
+  {
+    "word": "crab",
+    "meaning": "n. 螃蟹",
+    "emoji": "🦀"
+  },
+  {
+    "word": "oyster",
+    "meaning": "n. 牡蛎",
+    "emoji": "🦪"
+  },
+  {
+    "word": "sushi",
+    "meaning": "n. 寿司",
+    "emoji": "🍣"
+  },
+  {
+    "word": "veal",
+    "meaning": "n. 小牛肉",
+    "emoji": "🥩"
+  },
+  {
+    "word": "salami",
+    "meaning": "n. 萨拉米",
+    "emoji": ""
+  },
+  {
+    "word": "ham",
+    "meaning": "n. 火腿",
+    "emoji": ""
+  },
+  {
+    "word": "venison",
+    "meaning": "n. 鹿肉",
+    "emoji": ""
+  },
+  {
+    "word": "tuna",
+    "meaning": "n. 金枪鱼",
+    "emoji": "🐟"
   }
 ]

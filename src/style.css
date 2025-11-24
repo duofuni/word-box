@@ -5,14 +5,14 @@
 /* 复古字体 */
 @layer base {
   body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   }
 
   h1,
   h2,
   h3,
   .font-serif {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Georgia', 'Times New Roman', serif;
   }
 }
 

@@ -742,12 +742,15 @@ const loadWords = async () => {
       wordData = await enhanceWordsWithEmoji(wordData)
     }
     
+    // 过滤掉没有emoji的单词
+    wordData = wordData.filter(w => w.emoji || w.image)
+    
     if (wordData.length === 0) {
-      error.value = '选择的词库为空，请选择其他词库'
+      error.value = '选择的词库中没有带emoji的单词，请选择其他词库'
       return
     }
     
-    console.log('成功加载词汇，共', wordData.length, '个单词')
+    console.log('成功加载词汇，共', wordData.length, '个单词（已过滤无emoji的单词）')
     words.value = wordData
     initGame()
   } catch (err) {
@@ -999,7 +1002,7 @@ onUnmounted(() => {
 
 /* 在存储区中的 emoji 显示 */
 .storage-content .emoji-display {
-  font-size: 2em;
+  font-size: 3.5em;
 }
 
 /* 3D 气泡标题样式 */
@@ -1069,7 +1072,7 @@ onUnmounted(() => {
   }
   
   .storage-content .emoji-display {
-    font-size: 1.8em;
+    font-size: 3em;
   }
 }
 </style>

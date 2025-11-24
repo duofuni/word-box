@@ -51,8 +51,19 @@ export const playMusic = async () => {
       isPlaying.value = true
       console.log('Music started playing')
     } catch (err) {
-      console.error('Failed to play audio:', err)
-      // 某些浏览器需要用户交互才能播放音频
+      // 检查是否是预期的自动播放限制错误
+      const isAutoplayError = err.name === 'NotAllowedError' || 
+                             err.message?.includes('user didn\'t interact') ||
+                             err.message?.includes('play() failed')
+      
+      if (isAutoplayError) {
+        // 这是预期的浏览器安全限制，不记录为错误
+        // 用户交互后会重试播放
+        return false
+      } else {
+        // 其他错误才记录
+        console.error('Failed to play audio:', err)
+      }
       // 不设置 isPlaying 为 true，这样用户点击时可以重试
       return false
     }
@@ -138,11 +149,12 @@ export const loadMusicSettings = async () => {
 let userInteracted = false
 export const tryPlayOnUserInteraction = async () => {
   if (!isPlaying.value && !isMuted.value && audio.value) {
-    console.log('User interacted, trying to play music')
     const success = await playMusic()
     if (success) {
       userInteracted = true
+      console.log('Music started after user interaction')
     }
+    // 如果失败（可能是其他错误），不记录，因为 playMusic 内部已处理
   }
 }
 

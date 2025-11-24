@@ -254,7 +254,37 @@ loadSelectedVocabulary()
 export const getCategoryVocabularies = async (categoryId) => {
   try {
     const categoryData = await loadCategoryData(categoryId)
-    return categoryData.vocabularies || []
+    const vocabularies = categoryData.vocabularies || []
+    
+    // Calculate actual wordCount for each vocabulary dynamically
+    const vocabulariesWithCount = await Promise.all(
+      vocabularies.map(async (vocab) => {
+        // If vocabulary has a file, try to load and count words
+        if (vocab.file) {
+          try {
+            const cacheKey = `${categoryId}_${vocab.id}`
+            // Check cache first
+            if (vocabularyWordsCache.value[cacheKey]) {
+              vocab.wordCount = vocabularyWordsCache.value[cacheKey].length
+            } else {
+              // Load words to get actual count
+              const words = await loadVocabularyWords(categoryId, vocab.id)
+              vocab.wordCount = words.length
+            }
+          } catch (err) {
+            console.warn(`Failed to load words for ${vocab.id}, using cached wordCount:`, err)
+            // Keep the existing wordCount as fallback
+          }
+        } else if (vocab.words && Array.isArray(vocab.words)) {
+          // Old format: words are in the vocab object
+          vocab.wordCount = vocab.words.length
+        }
+        
+        return vocab
+      })
+    )
+    
+    return vocabulariesWithCount
   } catch (err) {
     console.error(`Failed to get vocabularies for category ${categoryId}:`, err)
     return []

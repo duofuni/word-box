@@ -1,42 +1,127 @@
 [
   {
     "word": "head",
-    "meaning": "n. 头"
+    "meaning": "n. 头",
+    "emoji": ""
   },
   {
     "word": "eye",
-    "meaning": "n. 眼睛"
+    "meaning": "n. 眼睛",
+    "emoji": "👁️"
   },
   {
     "word": "nose",
-    "meaning": "n. 鼻子"
+    "meaning": "n. 鼻子",
+    "emoji": "👃"
   },
   {
     "word": "mouth",
-    "meaning": "n. 嘴巴"
+    "meaning": "n. 嘴巴",
+    "emoji": "👄"
   },
   {
     "word": "ear",
-    "meaning": "n. 耳朵"
+    "meaning": "n. 耳朵",
+    "emoji": "👂"
   },
   {
     "word": "hand",
-    "meaning": "n. 手"
+    "meaning": "n. 手",
+    "emoji": "🤚"
   },
   {
     "word": "foot",
-    "meaning": "n. 脚"
+    "meaning": "n. 脚",
+    "emoji": "🦶"
   },
   {
     "word": "leg",
-    "meaning": "n. 腿"
+    "meaning": "n. 腿",
+    "emoji": ""
   },
   {
     "word": "arm",
-    "meaning": "n. 手臂"
+    "meaning": "n. 手臂",
+    "emoji": ""
   },
   {
     "word": "finger",
-    "meaning": "n. 手指"
+    "meaning": "n. 手指",
+    "emoji": "👆"
+  },
+  {
+    "word": "brain",
+    "meaning": "n. 大脑",
+    "emoji": "🧠"
+  },
+  {
+    "word": "heart",
+    "meaning": "n. 心脏",
+    "emoji": "🫀"
+  },
+  {
+    "word": "lungs",
+    "meaning": "n. 肺",
+    "emoji": "🫁"
+  },
+  {
+    "word": "bone",
+    "meaning": "n. 骨头",
+    "emoji": "🦴"
+  },
+  {
+    "word": "tooth",
+    "meaning": "n. 牙齿",
+    "emoji": "🦷"
+  },
+  {
+    "word": "tongue",
+    "meaning": "n. 舌头",
+    "emoji": "👅"
+  },
+  {
+    "word": "nail",
+    "meaning": "n. 指甲",
+    "emoji": "💅"
+  },
+  {
+    "word": "hair",
+    "meaning": "n. 头发",
+    "emoji": ""
+  },
+  {
+    "word": "stomach",
+    "meaning": "n. 胃/肚子",
+    "emoji": ""
+  },
+  {
+    "word": "skin",
+    "meaning": "n. 皮肤",
+    "emoji": ""
+  },
+  {
+    "word": "blood",
+    "meaning": "n. 血液",
+    "emoji": "🩸"
+  },
+  {
+    "word": "muscle",
+    "meaning": "n. 肌肉",
+    "emoji": "💪"
+  },
+  {
+    "word": "knee",
+    "meaning": "n. 膝盖",
+    "emoji": ""
+  },
+  {
+    "word": "back",
+    "meaning": "n. 背部",
+    "emoji": ""
+  },
+  {
+    "word": "neck",
+    "meaning": "n. 脖子",
+    "emoji": ""
   }
 ]

@@ -1,34 +1,92 @@
 [
   {
     "word": "chair",
-    "meaning": "n. 椅子"
+    "meaning": "n. 椅子",
+    "emoji": "🪑"
   },
   {
     "word": "table",
-    "meaning": "n. 桌子"
+    "meaning": "n. 桌子",
+    "emoji": ""
   },
   {
     "word": "bed",
-    "meaning": "n. 床"
+    "meaning": "n. 床",
+    "emoji": "🛌"
   },
   {
     "word": "sofa",
-    "meaning": "n. 沙发"
+    "meaning": "n. 沙发",
+    "emoji": "🛋️"
   },
   {
     "word": "desk",
-    "meaning": "n. 书桌"
+    "meaning": "n. 书桌",
+    "emoji": ""
   },
   {
     "word": "cabinet",
-    "meaning": "n. 柜子"
+    "meaning": "n. 柜子",
+    "emoji": ""
   },
   {
     "word": "wardrobe",
-    "meaning": "n. 衣柜"
+    "meaning": "n. 衣柜",
+    "emoji": ""
   },
   {
     "word": "bookshelf",
-    "meaning": "n. 书架"
+    "meaning": "n. 书架",
+    "emoji": ""
+  },
+  {
+    "word": "toilet",
+    "meaning": "n. 马桶",
+    "emoji": "🚽"
+  },
+  {
+    "word": "bathtub",
+    "meaning": "n. 浴缸",
+    "emoji": "🛁"
+  },
+  {
+    "word": "door",
+    "meaning": "n. 门",
+    "emoji": "🚪"
+  },
+  {
+    "word": "window",
+    "meaning": "n. 窗户",
+    "emoji": ""
+  },
+  {
+    "word": "lamp",
+    "meaning": "n. 台灯/灯",
+    "emoji": "💡"
+  },
+  {
+    "word": "mirror",
+    "meaning": "n. 镜子",
+    "emoji": ""
+  },
+  {
+    "word": "shelf",
+    "meaning": "n. 架子",
+    "emoji": ""
+  },
+  {
+    "word": "rug",
+    "meaning": "n. 地毯",
+    "emoji": ""
+  },
+  {
+    "word": "pillow",
+    "meaning": "n. 枕头",
+    "emoji": ""
+  },
+  {
+    "word": "picture",
+    "meaning": "n. 图画/照片",
+    "emoji": "🖼️"
   }
 ]

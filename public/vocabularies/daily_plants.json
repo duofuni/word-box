@@ -1,34 +1,92 @@
 [
   {
     "word": "tree",
-    "meaning": "n. 树"
+    "meaning": "n. 树",
+    "emoji": "🌳"
   },
   {
     "word": "flower",
-    "meaning": "n. 花"
+    "meaning": "n. 花",
+    "emoji": "🌸"
   },
   {
     "word": "grass",
-    "meaning": "n. 草"
+    "meaning": "n. 草",
+    "emoji": "🌿"
   },
   {
     "word": "leaf",
-    "meaning": "n. 叶子"
+    "meaning": "n. 叶子",
+    "emoji": "🍃"
   },
   {
     "word": "root",
-    "meaning": "n. 根"
+    "meaning": "n. 根",
+    "emoji": ""
   },
   {
     "word": "branch",
-    "meaning": "n. 树枝"
+    "meaning": "n. 树枝",
+    "emoji": ""
   },
   {
     "word": "rose",
-    "meaning": "n. 玫瑰"
+    "meaning": "n. 玫瑰",
+    "emoji": "🌹"
   },
   {
     "word": "sunflower",
-    "meaning": "n. 向日葵"
+    "meaning": "n. 向日葵",
+    "emoji": "🌻"
+  },
+  {
+    "word": "seedling",
+    "meaning": "n. 幼苗",
+    "emoji": "🌱"
+  },
+  {
+    "word": "cactus",
+    "meaning": "n. 仙人掌",
+    "emoji": "🌵"
+  },
+  {
+    "word": "herb",
+    "meaning": "n. 香草/药草",
+    "emoji": "🌿"
+  },
+  {
+    "word": "sapling",
+    "meaning": "n. 树苗",
+    "emoji": "🌱"
+  },
+  {
+    "word": "wheat",
+    "meaning": "n. 小麦",
+    "emoji": "🌾"
+  },
+  {
+    "word": "palm",
+    "meaning": "n. 棕榈树",
+    "emoji": "🌴"
+  },
+  {
+    "word": "tulip",
+    "meaning": "n. 郁金香",
+    "emoji": "🌷"
+  },
+  {
+    "word": "bouquet",
+    "meaning": "n. 花束",
+    "emoji": "💐"
+  },
+  {
+    "word": "stem",
+    "meaning": "n. 茎",
+    "emoji": ""
+  },
+  {
+    "word": "thorn",
+    "meaning": "n. 刺",
+    "emoji": ""
   }
 ]

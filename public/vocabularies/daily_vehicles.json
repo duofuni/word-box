@@ -1,34 +1,112 @@
 [
   {
     "word": "car",
-    "meaning": "n. 汽车"
+    "meaning": "n. 汽车",
+    "emoji": "🚗"
   },
   {
     "word": "bus",
-    "meaning": "n. 公交车"
+    "meaning": "n. 公交车",
+    "emoji": "🚌"
   },
   {
     "word": "bike",
-    "meaning": "n. 自行车"
+    "meaning": "n. 自行车",
+    "emoji": "🚲"
   },
   {
     "word": "train",
-    "meaning": "n. 火车"
+    "meaning": "n. 火车",
+    "emoji": "🚂"
   },
   {
     "word": "plane",
-    "meaning": "n. 飞机"
+    "meaning": "n. 飞机",
+    "emoji": "✈️"
   },
   {
     "word": "ship",
-    "meaning": "n. 船"
+    "meaning": "n. 船",
+    "emoji": "🚢"
   },
   {
     "word": "truck",
-    "meaning": "n. 卡车"
+    "meaning": "n. 卡车",
+    "emoji": "🚚"
   },
   {
     "word": "motorcycle",
-    "meaning": "n. 摩托车"
+    "meaning": "n. 摩托车",
+    "emoji": "🏍️"
+  },
+  {
+    "word": "ambulance",
+    "meaning": "n. 救护车",
+    "emoji": "🚑"
+  },
+  {
+    "word": "fire truck",
+    "meaning": "n. 消防车",
+    "emoji": "🚒"
+  },
+  {
+    "word": "police car",
+    "meaning": "n. 警车",
+    "emoji": "🚓"
+  },
+  {
+    "word": "taxi",
+    "meaning": "n. 出租车",
+    "emoji": "🚕"
+  },
+  {
+    "word": "tractor",
+    "meaning": "n. 拖拉机",
+    "emoji": "🚜"
+  },
+  {
+    "word": "rocket",
+    "meaning": "n. 火箭",
+    "emoji": "🚀"
+  },
+  {
+    "word": "submarine",
+    "meaning": "n. 潜艇",
+    "emoji": ""
+  },
+  {
+    "word": "helicopter",
+    "meaning": "n. 直升机",
+    "emoji": "🚁"
+  },
+  {
+    "word": "scooter",
+    "meaning": "n. 踏板车/滑板车",
+    "emoji": "🛵"
+  },
+  {
+    "word": "skateboard",
+    "meaning": "n. 滑板",
+    "emoji": "🛹"
+  },
+  {
+    "word": "ferry",
+    "meaning": "n. 渡轮",
+    "emoji": "⛴️"
+  },
+  {
+    "word": "monorail",
+    "meaning": "n. 单轨列车",
+    "emoji": "🚟"
+  },
+  {
+    "word": "cable car",
+    "meaning": "n. 缆车",
+    "emoji": "🚠"
+  },
+  {
+    "word": "hot air balloon",
+    "meaning": "n. 热气球",
+    "emoji": ""
   }
 ]
