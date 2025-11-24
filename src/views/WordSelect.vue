@@ -2,24 +2,8 @@
   <div class="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-4">
     <!-- Header -->
     <div class="max-w-4xl mx-auto px-4 mb-6">
-      <div class="flex items-center justify-between mb-6">
-        <router-link
-          to="/"
-          class="flex items-center justify-center w-10 h-10 rounded-full bg-white/80 hover:bg-white shadow-md hover:shadow-lg transition-all duration-200 group hover:scale-110"
-        >
-          <svg 
-            class="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" 
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-        </router-link>
-        
+      <div class="flex items-center justify-center mb-6">
         <h1 class="text-2xl font-bold text-gray-800">选择词库</h1>
-        
-        <div class="w-10"></div>
       </div>
 
       <!-- Category Tabs -->

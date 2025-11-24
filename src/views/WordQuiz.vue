@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 flex flex-col items-center justify-center p-4 relative overflow-hidden pattern-dots">
+  <div class="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-orange-50 flex flex-col items-center justify-start pt-4 pb-4 px-4 relative overflow-hidden pattern-dots">
     <!-- 装饰性背景元素 -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
       <div class="absolute top-20 left-20 w-56 h-56 bg-purple-400/10 rounded-full blur-3xl float-animation"></div>
@@ -11,38 +11,20 @@
     </div>
     
     <!-- 头部区域 -->
-    <div class="w-full max-w-2xl mb-8 relative z-10">
-      <div class="flex items-center justify-between mb-6 pb-4 border-b border-gray-200">
-        <!-- 返回首页按钮 -->
-        <router-link
-          to="/"
-          class="flex items-center justify-center w-10 h-10 rounded-full bg-white/80 hover:bg-white shadow-md hover:shadow-lg transition-all duration-200 group hover:scale-110"
-        >
-          <svg 
-            class="w-5 h-5 text-gray-600 group-hover:text-purple-600 transition-colors" 
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-        </router-link>
-        
+    <div class="w-full max-w-2xl mb-2 relative z-10">
+      <div class="flex items-center justify-center mb-2 pb-2 border-b border-gray-200">
         <!-- 标题 -->
-        <div class="flex-1 text-center px-4">
+        <div class="text-center px-4">
           <h1 class="text-3xl md:text-4xl font-bold text-gray-800">单词测验挑战</h1>
         </div>
-        
-        <!-- 占位元素，保持居中 -->
-        <div class="w-10"></div>
       </div>
     </div>
 
     <!-- 数字显示区域 -->
-    <div class="mb-12">
+    <div class="mb-2">
       <div 
         ref="numberElement"
-        class="text-9xl md:text-[12rem] font-bold transition-all duration-500 ease-out"
+        class="text-6xl md:text-7xl font-bold transition-all duration-500 ease-out"
         :class="{
           'text-purple-600': count > 10,
           'text-pink-600': count > 5 && count <= 10,
@@ -73,14 +55,14 @@
     <!-- 游戏区域 -->
     <div v-else-if="count > 0" class="w-full max-w-2xl relative z-10">
       <!-- 当前单词卡片 -->
-      <div ref="questionCard" class="glass-effect rounded-3xl shadow-xl p-8 mb-6 transform transition-all duration-300 hover:scale-105 border border-white/50">
-        <div class="text-center mb-6">
-          <p class="text-sm text-gray-500 mb-2">请选择正确的中文含义</p>
-          <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-2">{{ currentWord.word }}</h2>
+      <div ref="questionCard" class="glass-effect rounded-3xl shadow-xl p-4 mb-2 transform transition-all duration-300 hover:scale-105 border border-white/50">
+        <div class="text-center mb-3">
+          <p class="text-sm text-gray-500 mb-1">请选择正确的中文含义</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-2">{{ currentWord.word }}</h2>
         </div>
 
         <!-- 选项按钮 -->
-        <div ref="optionsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div ref="optionsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-3">
           <button
             v-for="(option, index) in options"
             :key="`${currentWord.word}-${index}`"
@@ -88,7 +70,7 @@
             @click="selectAnswer(option)"
             :disabled="isAnswered"
             :class="[
-              'px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform',
+              'px-4 py-3 rounded-xl font-semibold text-base transition-all duration-300 transform',
               'hover:scale-105 active:scale-95',
               isAnswered && option === currentWord.meaning
                 ? 'bg-green-500 text-white shadow-lg'
@@ -103,16 +85,16 @@
       </div>
 
       <!-- 提示信息 -->
-      <div v-if="isAnswered" class="text-center">
+      <div v-if="isAnswered" class="text-center mt-2">
         <p 
           :class="[
-            'text-lg font-semibold mb-2',
+            'text-base font-semibold mb-1',
             isCorrect ? 'text-green-600' : 'text-red-600'
           ]"
         >
           {{ isCorrect ? '✓ 回答正确！' : '✗ 回答错误，正确答案是：' + currentWord.meaning }}
         </p>
-        <p class="text-sm text-gray-500 mt-2">自动进入下一题...</p>
+        <p class="text-xs text-gray-500">自动进入下一题...</p>
       </div>
     </div>
 
@@ -132,7 +114,7 @@
     </div>
 
     <!-- 统计信息 -->
-    <div class="mt-8 flex gap-6 text-center relative z-10">
+    <div class="mt-2 flex gap-4 text-center relative z-10">
       <div class="glass-effect rounded-2xl shadow-lg px-6 py-4 border border-white/50">
         <div class="text-2xl font-bold text-purple-600">{{ correctCount }}</div>
         <div class="text-sm text-gray-600">正确</div>
@@ -414,8 +396,8 @@ onUnmounted(() => {
 
 <style scoped>
 /* 数字动画效果 */
-.text-9xl,
-.text-\[12rem\] {
+.text-6xl,
+.text-7xl {
   transition: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 </style>

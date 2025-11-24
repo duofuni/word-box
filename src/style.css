@@ -149,8 +149,7 @@
 
   /* 几何图案背景 */
   .pattern-dots {
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
-    background-size: 20px 20px;
+    background-color: rgb(249 250 251 / var(1, 1));
   }
 
   .pattern-grid {

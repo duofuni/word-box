@@ -1,6 +1,6 @@
 <template>
   <div
-    class="min-h-screen bg-gradient-to-r from-blue-50 via-white to-pink-50 py-4 md:py-8 px-4 relative overflow-hidden pattern-dots"
+    class="min-h-screen bg-gradient-to-r from-blue-50 via-white to-pink-50 py-3 px-4 relative overflow-hidden pattern-dots"
   >
     <!-- 装饰性背景元素 -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
@@ -13,56 +13,38 @@
     
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- 游戏头部信息 -->
-      <div class="glass-effect rounded-3xl shadow-xl p-2 md:p-3 mb-2 md:mb-3 border border-white/50">
-        <div class="flex items-center justify-between mb-2 pb-2 border-b border-gray-200">
-          <!-- 返回首页按钮 -->
-          <router-link
-            to="/"
-            class="flex items-center justify-center w-10 h-10 rounded-full bg-white/80 hover:bg-white shadow-md hover:shadow-lg transition-all duration-200 group hover:scale-110"
-          >
-            <svg 
-              class="w-5 h-5 text-gray-600 group-hover:text-blue-600 transition-colors" 
-              fill="none" 
-              stroke="currentColor" 
-              viewBox="0 0 24 24"
-            >
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-          </router-link>
-          
+      <div class="glass-effect rounded-3xl shadow-xl p-3 mb-2 border border-white/50">
+        <div class="flex items-center justify-center mb-2 pb-2 border-b border-gray-200">
           <!-- 标题和描述 -->
-          <div class="flex-1 text-center px-4">
-            <h2 class="text-lg md:text-xl font-bold text-gray-800 mb-0.5">
+          <div class="text-center px-4">
+            <h2 class="text-base font-bold text-gray-800 mb-0.5">
               单词连线
             </h2>
-            <p class="text-xs md:text-sm text-gray-600">
+            <p class="text-xs text-gray-600">
               点击左边单词，然后点击右边中文进行连线匹配
             </p>
           </div>
-          
-          <!-- 占位元素，保持居中 -->
-          <div class="w-10"></div>
         </div>
         <div
-          class="flex flex-col md:flex-row md:items-center md:justify-between gap-2 md:gap-3"
+          class="flex flex-col md:flex-row md:items-center md:justify-between gap-1"
         >
           <div class="flex-1"></div>
-          <div class="flex items-center gap-3 md:gap-4">
+          <div class="flex items-center gap-2">
             <div class="text-center">
               <div class="text-xs text-gray-500 mb-0.5">关卡</div>
-              <div class="text-xl md:text-2xl font-bold text-purple-600">
+              <div class="text-lg font-bold text-purple-600">
                 {{ currentLevel }}
               </div>
             </div>
             <div class="text-center">
               <div class="text-xs text-gray-500 mb-0.5">得分</div>
-              <div class="text-xl md:text-2xl font-bold text-blue-600">
+              <div class="text-lg font-bold text-blue-600">
                 {{ score }}
               </div>
             </div>
             <div class="text-center">
               <div class="text-xs text-gray-500 mb-0.5">进度</div>
-              <div class="text-xl md:text-2xl font-bold text-green-600">
+              <div class="text-lg font-bold text-green-600">
                 {{ matchedCount }}/{{ totalWords }}
               </div>
             </div>
@@ -184,32 +166,32 @@
           </defs>
         </svg>
 
-        <div class="grid grid-cols-2 gap-2 md:gap-8">
+        <div class="grid grid-cols-2 gap-3">
           <!-- 左侧：英文单词区 -->
-          <div class="glass-effect rounded-3xl shadow-xl p-4 md:p-6 overflow-hidden border border-white/50">
-            <div class="flex items-center mb-3 md:mb-4">
+          <div class="glass-effect rounded-3xl shadow-xl p-3 overflow-hidden border border-white/50">
+            <div class="flex items-center mb-3">
               <div
-                class="text-xl md:text-3xl font-bold text-blue-600 mr-1 md:mr-2"
+                class="text-lg font-bold text-blue-600 mr-1"
               >
                 A
               </div>
-              <h3 class="text-base md:text-2xl font-bold text-gray-800">
+              <h3 class="text-sm font-bold text-gray-800">
                 单词区
               </h3>
               <div
-                class="flex-1 border-b-2 border-dashed border-blue-400 ml-2 md:ml-4"
+                class="flex-1 border-b-2 border-dashed border-blue-400 ml-2"
               ></div>
             </div>
-            <div class="space-y-4 md:space-y-6 relative min-h-[400px] md:min-h-[500px]">
+            <div class="space-y-3 relative">
               <div
                 v-for="(word, index) in leftWords"
                 :key="`left-${word.id}`"
                 :ref="(el) => setLeftCardRef(el, index)"
                 @click="selectLeftWord(index)"
                 :class="[
-                  'word-card rounded-xl p-2 md:p-5 cursor-pointer',
+                  'word-card rounded-xl p-3 cursor-pointer',
                   word.selected
-                    ? 'ring-2 md:ring-4 ring-blue-500 shadow-xl bg-blue-100'
+                    ? 'ring-2 ring-blue-500 shadow-xl bg-blue-100'
                     : word.matched
                     ? 'opacity-0 pointer-events-none'
                     : 'bg-gray-50 hover:bg-gray-100 shadow-md',
@@ -217,7 +199,7 @@
               >
                 <div class="text-center">
                   <div
-                    class="text-sm md:text-xl font-bold text-blue-600 break-words"
+                    class="text-sm font-bold text-blue-600 break-words"
                   >
                     {{ word.word }}
                   </div>
@@ -227,10 +209,10 @@
           </div>
 
           <!-- 右侧：中文释义区 -->
-          <div class="glass-effect rounded-3xl shadow-xl p-4 md:p-6 overflow-hidden border border-white/50">
-            <div class="flex items-center mb-3 md:mb-4">
+          <div class="glass-effect rounded-3xl shadow-xl p-3 overflow-hidden border border-white/50">
+            <div class="flex items-center mb-3">
               <svg
-                class="w-4 h-4 md:w-6 md:h-6 text-green-600 mr-1 md:mr-2"
+                class="w-4 h-4 text-green-600 mr-1"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -242,23 +224,23 @@
                   d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"
                 />
               </svg>
-              <h3 class="text-base md:text-2xl font-bold text-gray-800">
+              <h3 class="text-sm font-bold text-gray-800">
                 释义区
               </h3>
               <div
-                class="flex-1 border-b-2 border-dashed border-green-400 ml-2 md:ml-4"
+                class="flex-1 border-b-2 border-dashed border-green-400 ml-2"
               ></div>
             </div>
-            <div class="space-y-4 md:space-y-6 relative min-h-[400px] md:min-h-[500px]">
+            <div class="space-y-3 relative">
               <div
                 v-for="(word, index) in rightWords"
                 :key="`right-${word.id}`"
                 :ref="(el) => setRightCardRef(el, index)"
                 @click="selectRightWord(index)"
                 :class="[
-                  'word-card rounded-xl p-2 md:p-5 cursor-pointer',
+                  'word-card rounded-xl p-3 cursor-pointer',
                   word.selected
-                    ? 'ring-2 md:ring-4 ring-green-500 shadow-xl bg-green-100'
+                    ? 'ring-2 ring-green-500 shadow-xl bg-green-100'
                     : word.matched
                     ? 'opacity-0 pointer-events-none'
                     : 'bg-gray-50 hover:bg-gray-100 shadow-md',
@@ -266,7 +248,7 @@
               >
                 <div class="text-center">
                   <div
-                    class="text-sm md:text-xl font-bold text-green-600 break-words"
+                    class="text-sm font-bold text-green-600 break-words"
                   >
                     {{ word.meaning }}
                   </div>
@@ -278,16 +260,16 @@
       </div>
 
       <!-- 游戏控制按钮 -->
-      <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+      <div class="mt-3 flex flex-col sm:flex-row gap-2 justify-center">
         <button
           @click="restartGame"
-          class="px-6 py-3 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors font-semibold"
+          class="px-5 py-2.5 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors font-semibold text-sm"
         >
           重新开始
         </button>
         <button
           @click="shuffleWords"
-          class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+          class="px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-sm"
           :disabled="isProcessing"
         >
           打乱顺序
@@ -385,8 +367,8 @@ const initLevel = () => {
   leftCardRefs.value = [];
   rightCardRefs.value = [];
 
-  // 初始化单词列表（每边显示8个单词）
-  const wordCount = 8;
+  // 初始化单词列表（每边显示6个单词）
+  const wordCount = 6;
   const shuffled = [...words.value]
     .sort(() => Math.random() - 0.5)
     .slice(0, wordCount);

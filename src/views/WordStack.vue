@@ -2,29 +2,11 @@
   <div class="min-h-screen flex flex-col items-center justify-center p-2 overflow-x-hidden overflow-y-auto" :style="{ backgroundImage: `url(${baseUrl}word-stack-bg.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }">
     <!-- 游戏标题和统计信息 -->
     <div class="w-full max-w-6xl mb-4">
-      <div class="flex items-center justify-between mb-4 pb-4">
-        <!-- 返回首页按钮 -->
-        <router-link
-          to="/"
-          class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-gray-600 transition-all duration-200 group"
-        >
-          <svg 
-            class="w-5 h-5 text-white group-hover:text-gray-200 transition-colors" 
-            fill="none" 
-            stroke="currentColor" 
-            viewBox="0 0 24 24"
-          >
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-        </router-link>
-        
+      <div class="flex items-center justify-center mb-4 pb-4">
         <!-- 标题 -->
-        <div class="flex-1 text-center px-4">
+        <div class="text-center px-4">
           <h1 class="bubble-title">词了个词</h1>
         </div>
-        
-        <!-- 占位元素，保持居中 -->
-        <div class="w-10"></div>
       </div>
       <div class="flex justify-end items-center text-white">
         <div class="flex gap-4 md:gap-6">
