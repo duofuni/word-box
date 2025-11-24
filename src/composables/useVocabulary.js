@@ -242,6 +242,41 @@ export const loadSelectedVocabulary = () => {
   }
 }
 
+// Auto select default vocabulary if none is selected
+export const autoSelectDefaultVocabulary = async () => {
+  // If already has a selected vocabulary, skip
+  if (selectedVocabularyId.value !== null) {
+    return
+  }
+  
+  try {
+    // Load categories
+    const categories = await loadCategories()
+    if (categories.length === 0) {
+      console.warn('No categories found')
+      return
+    }
+    
+    // Select first category
+    const firstCategory = categories[0]
+    
+    // Load vocabularies for first category
+    const vocabularies = await getCategoryVocabularies(firstCategory.id)
+    if (vocabularies.length === 0) {
+      console.warn(`No vocabularies found in category: ${firstCategory.id}`)
+      return
+    }
+    
+    // Select first vocabulary
+    const firstVocabulary = vocabularies[0]
+    setSelectedVocabulary(firstCategory.id, firstVocabulary.id)
+    
+    console.log(`Auto-selected default vocabulary: ${firstCategory.name} - ${firstVocabulary.name}`)
+  } catch (err) {
+    console.error('Failed to auto-select default vocabulary:', err)
+  }
+}
+
 // Check if vocabulary is selected
 export const hasSelectedVocabulary = computed(() => {
   return selectedVocabularyId.value !== null
@@ -249,6 +284,8 @@ export const hasSelectedVocabulary = computed(() => {
 
 // Initialize on module load
 loadSelectedVocabulary()
+// Auto-select default vocabulary if none is selected (async, won't block)
+autoSelectDefaultVocabulary()
 
 // Get vocabularies for a specific category
 export const getCategoryVocabularies = async (categoryId) => {
@@ -303,7 +340,8 @@ export const useVocabulary = () => {
     hasSelectedVocabulary,
     getCategoryVocabularies,
     loadCategories,
-    loadSelectedVocabulary
+    loadSelectedVocabulary,
+    autoSelectDefaultVocabulary
   }
 }
 

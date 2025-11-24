@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center p-4 overflow-x-hidden overflow-y-auto" :style="{ backgroundImage: `url(${baseUrl}word-stack-bg.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }">
+  <div class="min-h-screen flex flex-col items-center justify-center p-2 overflow-x-hidden overflow-y-auto" :style="{ backgroundImage: `url(${baseUrl}word-stack-bg.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundAttachment: 'fixed' }">
     <!-- 游戏标题和统计信息 -->
     <div class="w-full max-w-6xl mb-4">
       <div class="flex items-center justify-between mb-4 pb-4">
@@ -89,8 +89,8 @@
       <div class="bg-gray-700 rounded-lg px-1 py-2">
         <div 
           ref="storageContainer"
-          class="flex gap-2 justify-center items-center"
-          style="flex-wrap: nowrap; overflow-x: auto;"
+          class="flex justify-center items-center"
+          style="flex-wrap: nowrap; overflow-x: auto; gap: 2px;"
         >
           <div
             v-for="(slot, index) in storageSlots"
@@ -364,7 +364,7 @@ const getTileStyle = (tile) => {
     borderRadius: '8px',
     transition: tile.fadeOut ? 'opacity 0.3s ease, transform 0.3s ease' : 'none', // 只在fade-out时使用transition
     textAlign: 'center',
-    padding: isMobile.value ? '4px' : '8px',
+    padding: isMobile.value ? '2px' : '4px',
     width: `${TILE_SIZE.value}px`,
     height: `${TILE_SIZE.value}px`,
     backgroundColor: tile.selected ? '#fff' : '#c2812e',
@@ -418,7 +418,7 @@ const getColorForWord = (word, type) => {
 // 计算存储槽大小（确保7个槽能在一行显示）
 const storageSlotSize = computed(() => {
   const containerWidth = storageContainerWidth.value || (window.innerWidth - 64) // 默认容器宽度（减去padding）
-  const gap = 8 // gap-2 = 8px
+  const gap = 2 // 进一步缩小边距到 2px
   const padding = 4 // px-1 = 4px on each side
   const availableWidth = containerWidth - padding * 2
   const totalGaps = 6 * gap // 7个槽之间有6个gap
@@ -450,9 +450,11 @@ const getStorageSlotStyle = (slot) => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
+    padding: '2px', // 减少内边距，让 emoji 占满块
     fontSize: `${Math.min(size * 0.25, 16)}px`,
     color: '#fff',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    boxSizing: 'border-box'
   }
 }
 
@@ -924,14 +926,23 @@ onUnmounted(() => {
   white-space: normal;
   word-break: break-word;
   overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 当内容是文本时，使用多行截断 */
+.tile-content > span:not(.emoji-display) {
   display: -webkit-box;
   -webkit-line-clamp: 2;
   line-clamp: 2;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
-  max-width: 100%;
   width: 100%;
-  text-align: center;
 }
 
 .tile.selected {
@@ -985,6 +996,11 @@ onUnmounted(() => {
   font-size: 0.7em;
   font-weight: bold;
   text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .emoji-display {
@@ -997,12 +1013,22 @@ onUnmounted(() => {
 
 /* 在方块中的 emoji 显示 */
 .tile-content .emoji-display {
-  font-size: 3em;
+  font-size: 4.5em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 在存储区中的 emoji 显示 */
 .storage-content .emoji-display {
-  font-size: 3.5em;
+  font-size: 5em;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* 3D 气泡标题样式 */
@@ -1064,7 +1090,7 @@ onUnmounted(() => {
   }
   
   .tile-content .emoji-display {
-    font-size: 2.5em;
+    font-size: 4em;
   }
   
   .storage-content {
@@ -1072,7 +1098,7 @@ onUnmounted(() => {
   }
   
   .storage-content .emoji-display {
-    font-size: 3em;
+    font-size: 4.5em;
   }
 }
 </style>
