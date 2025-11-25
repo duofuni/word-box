@@ -2,99 +2,97 @@
   <div
     :class="`min-h-screen bg-gradient-to-br ${gradientClass} py-4 md:py-8 px-4`"
   >
-    <div class="max-w-md mx-auto">
+    <div class="max-w-4xl mx-auto">
       <!-- 游戏头部信息 -->
-      <div class="bg-white rounded-2xl shadow-xl overflow-hidden transform transition-all duration-500">
-        <!-- 顶部装饰条 -->
-        <div class="h-2 bg-gradient-to-r from-green-500 to-indigo-600"></div>
-        
-        <!-- 游戏标题区域 -->
-        <div class="p-6 text-center">
-          <h2 class="text-[clamp(1.8rem,5vw,2.5rem)] font-bold text-gray-800 mb-2">
-            单词找茬
-          </h2>
-          <p class="text-gray-500 text-sm md:text-base italic">
-            找到颜色不一样的方块，点击它进入下一关
-          </p>
-        </div>
-        
-        <!-- 关卡与得分信息区 -->
-        <div class="bg-gray-50 rounded-xl mx-6 p-4 flex justify-between items-center mb-6">
-          <div class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+      <div class="bg-white rounded-2xl shadow-lg p-4 md:p-6 mb-4 md:mb-6">
+        <div class="flex items-center justify-between mb-4 pb-4 border-b border-gray-200">
+          <!-- 返回首页按钮 -->
+          <router-link
+            to="/"
+            class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-100 hover:bg-gray-200 transition-all duration-200 group"
+          >
+            <svg 
+              class="w-5 h-5 text-gray-600 group-hover:text-gray-800 transition-colors" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
             </svg>
-            <div>
-              <p class="text-xs text-gray-500">当前关卡</p>
-              <p class="text-xl font-bold text-indigo-600">第 {{ currentLevel }} 关</p>
-            </div>
+          </router-link>
+          
+          <!-- 标题和描述 -->
+          <div class="flex-1 text-center px-4">
+            <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-1">
+              单词找茬
+            </h2>
+            <p class="text-sm md:text-base text-gray-600">
+              找到颜色不一样的方块，点击它进入下一关
+            </p>
           </div>
           
-          <div class="h-8 w-px bg-gray-200"></div>
-          
-          <div class="flex items-center gap-2">
-            <svg class="w-5 h-5 text-yellow-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
-            </svg>
-            <div>
-              <p class="text-xs text-gray-500">得分</p>
-              <p class="text-xl font-bold text-yellow-500">{{ score }}</p>
+          <!-- 占位元素，保持居中 -->
+          <div class="w-10"></div>
+        </div>
+        <div
+          class="flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+        >
+          <div class="flex-1"></div>
+          <div class="flex items-center gap-4 md:gap-6">
+            <div class="text-center">
+              <div class="text-xs md:text-sm text-gray-500 mb-1">当前关卡</div>
+              <div class="text-2xl md:text-3xl font-bold" :style="{ color: moduleColors.level }">
+                第 {{ currentLevel }} 关
+              </div>
+            </div>
+            <div class="text-center">
+              <div class="text-xs md:text-sm text-gray-500 mb-1">得分</div>
+              <div class="text-2xl md:text-3xl font-bold" :style="{ color: moduleColors.score }">
+                {{ score }}
+              </div>
             </div>
           </div>
         </div>
         
-        <!-- 难度选择区域 -->
-        <div class="px-6 pb-8">
-          <p class="text-gray-600 font-medium mb-3 flex items-center gap-2">
-            <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
-            </svg>
-            游戏难度
-          </p>
-          
-          <div class="grid grid-cols-3 gap-3">
-            <button
-              @click="setDifficulty('easy')"
-              :class="[
-                'py-3 px-2 rounded-xl font-medium text-sm md:text-base shadow-md flex items-center justify-center gap-1 transition-all duration-300 hover:shadow-lg hover:-translate-y-1',
-                difficulty === 'easy'
-                  ? 'bg-green-500 text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              ]"
-            >
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-              </svg>
-              初级
-            </button>
-            <button
-              @click="setDifficulty('medium')"
-              :class="[
-                'py-3 px-2 rounded-xl font-medium text-sm md:text-base shadow-md flex items-center justify-center gap-1 transition-all duration-300 hover:shadow-lg hover:-translate-y-1',
-                difficulty === 'medium'
-                  ? 'bg-yellow-500 text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              ]"
-            >
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-              </svg>
-              中级
-            </button>
-            <button
-              @click="setDifficulty('hard')"
-              :class="[
-                'py-3 px-2 rounded-xl font-medium text-sm md:text-base shadow-md flex items-center justify-center gap-1 transition-all duration-300 hover:shadow-lg hover:-translate-y-1',
-                difficulty === 'hard'
-                  ? 'bg-red-500 text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-              ]"
-            >
-              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
-              </svg>
-              高级
-            </button>
+        <!-- 难度选择按钮 -->
+        <div class="mt-4 pt-4 border-t border-gray-200">
+          <div class="flex flex-col sm:flex-row items-start sm:items-center gap-3">
+            <div class="text-sm font-semibold text-gray-700">游戏难度：</div>
+            <div class="flex gap-2 flex-wrap">
+              <button
+                @click="setDifficulty('easy')"
+                :class="[
+                  'px-4 py-2 rounded-lg font-semibold transition-all',
+                  difficulty === 'easy'
+                    ? 'bg-green-500 text-white shadow-md scale-105'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                ]"
+              >
+                初级
+              </button>
+              <button
+                @click="setDifficulty('medium')"
+                :class="[
+                  'px-4 py-2 rounded-lg font-semibold transition-all',
+                  difficulty === 'medium'
+                    ? 'bg-yellow-500 text-white shadow-md scale-105'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                ]"
+              >
+                中级
+              </button>
+              <button
+                @click="setDifficulty('hard')"
+                :class="[
+                  'px-4 py-2 rounded-lg font-semibold transition-all',
+                  difficulty === 'hard'
+                    ? 'bg-red-500 text-white shadow-md scale-105'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                ]"
+              >
+                高级
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -230,14 +228,13 @@
 <script setup>
 import { ref, onMounted, computed, nextTick, watch } from "vue";
 import { getGradientClass, getModuleColors } from '../config/colors';
-import { useVocabulary } from '../composables/useVocabulary';
-
-const { loadVocabularyData, getSelectedWords } = useVocabulary();
+import { useVocabulary } from '../composables/useVocabulary'
 
 const gradientClass = computed(() => getGradientClass('spot'));
 const moduleColors = getModuleColors('spot');
 
 const words = ref([]);
+const { loadVocabularyData, getSelectedWords, hasSelectedVocabulary, loadSelectedVocabulary } = useVocabulary()
 const tiles = ref([]);
 const loading = ref(true);
 const error = ref("");
@@ -536,18 +533,31 @@ const getColorScheme = (level) => {
 const loadWords = async () => {
   try {
     loading.value = true;
-    await loadVocabularyData();
-    const wordData = await getSelectedWords();
     
-    if (wordData.length === 0) {
+    // 确保选择的词汇已加载
+    loadSelectedVocabulary();
+    
+    // 加载词汇数据
+    await loadVocabularyData();
+    
+    // 检查是否有选择的词汇
+    if (!hasSelectedVocabulary.value) {
       error.value = "请先选择词库";
       return;
     }
     
-    words.value = wordData;
+    // 获取选中的词库单词
+    const allWords = await getSelectedWords();
+    
+    if (allWords.length === 0) {
+      error.value = "选中的词库中没有单词";
+      return;
+    }
+    
+    words.value = allWords;
     initLevel();
   } catch (err) {
-    error.value = "加载词汇数据失败，请检查 words.json 文件";
+    error.value = "加载词汇数据失败，请检查词库设置";
     console.error("加载词汇数据失败:", err);
   } finally {
     loading.value = false;

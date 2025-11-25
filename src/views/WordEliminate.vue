@@ -1,43 +1,47 @@
 <template>
-  <div class="min-h-screen flex flex-col items-center justify-center p-4 overflow-x-hidden overflow-y-auto" style="background-color: #F7F8FC">
+  <div class="min-h-screen bg-black flex flex-col items-center justify-center p-4 overflow-x-hidden overflow-y-auto">
     <!-- 游戏标题和统计信息 -->
     <div class="w-full max-w-6xl mb-4">
-      <div class="flex items-center justify-center mb-4 pb-4 border-b" style="border-color: #E5E7EB">
+      <div class="flex items-center justify-between mb-4 pb-4 border-b border-gray-600">
+        <!-- 返回首页按钮 -->
+        <router-link
+          to="/"
+          class="flex items-center justify-center w-10 h-10 rounded-full bg-gray-700 hover:bg-gray-600 transition-all duration-200 group"
+        >
+          <svg 
+            class="w-5 h-5 text-white group-hover:text-gray-200 transition-colors" 
+            fill="none" 
+            stroke="currentColor" 
+            viewBox="0 0 24 24"
+          >
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+        </router-link>
+        
         <!-- 标题 -->
-        <div class="text-center px-4">
-          <h1 class="text-2xl md:text-3xl font-bold bg-gradient-to-r from-indigo-600 to-indigo-400 text-transparent bg-clip-text tracking-widest" style="font-family: 'Inter', sans-serif">单词消除</h1>
+        <div class="flex-1 text-center px-4">
+          <h1 class="text-2xl md:text-3xl font-bold text-white">单词消除</h1>
         </div>
+        
+        <!-- 占位元素，保持居中 -->
+        <div class="w-10"></div>
       </div>
-      <div class="flex justify-end items-center">
+      <div class="flex justify-end items-center text-white">
         <div class="flex gap-4 md:gap-6">
           <div class="text-center">
-            <div class="text-xs md:text-sm mb-1 text-gray-600">关卡</div>
-            <div class="text-xl md:text-2xl font-bold text-gray-800">{{ level }}</div>
+            <div class="text-xs md:text-sm text-gray-400 mb-1">关卡</div>
+            <div class="text-xl md:text-2xl font-bold text-blue-400">{{ level }}</div>
           </div>
           <div class="text-center">
-            <div class="text-xs md:text-sm mb-1 text-gray-600">步数</div>
-            <div class="text-xl md:text-2xl font-bold text-gray-800">{{ moves }}</div>
+            <div class="text-xs md:text-sm text-gray-400 mb-1">步数</div>
+            <div class="text-xl md:text-2xl font-bold text-blue-400">{{ moves }}</div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- 错误提示 -->
-    <div v-if="error" class="w-full max-w-6xl mb-4">
-      <div class="rounded-xl p-6 text-center bg-white shadow-sm border border-gray-200">
-        <div class="text-lg font-semibold mb-2 text-gray-800">{{ error }}</div>
-        <router-link
-          to="/word-select"
-          class="inline-block px-6 py-2 rounded-xl transition-all duration-200 font-semibold bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm"
-        >
-          去选择词库
-        </router-link>
       </div>
     </div>
 
     <!-- 游戏区域 -->
     <div 
-      v-else
       ref="gameContainer"
       id="game"
       class="relative w-full max-w-6xl overflow-hidden mx-auto"
@@ -66,7 +70,7 @@
     <div class="mt-6 flex gap-4">
       <button
         @click="restartGame"
-        class="px-6 py-3 rounded-xl transition-all duration-200 font-semibold bg-white text-gray-800 border border-gray-200 shadow-sm hover:shadow-md hover:bg-gray-50"
+        class="px-6 py-3 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors font-semibold"
       >
         重新开始
       </button>
@@ -76,22 +80,21 @@
     <!-- 关卡完成提示弹窗 -->
     <div
       v-if="showLevelComplete"
-      class="fixed inset-0 flex items-center justify-center z-50"
-      style="background-color: rgba(0, 0, 0, 0.5)"
+      class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
       @click.self="handleLevelCompleteClick"
     >
-      <div class="rounded-xl p-8 max-w-md w-full mx-4 text-center bg-white shadow-lg border border-gray-200">
+      <div class="bg-gray-800 rounded-lg p-8 max-w-md w-full mx-4 text-center">
         <div class="mb-6">
           <div class="text-6xl mb-4">🎉</div>
-          <h2 class="text-3xl font-bold mb-2 bg-gradient-to-r from-indigo-600 to-indigo-400 text-transparent bg-clip-text" style="font-family: 'Inter', sans-serif">关卡完成！</h2>
-          <p class="text-lg text-gray-600">恭喜完成第 {{ level }} 关</p>
+          <h2 class="text-3xl font-bold text-white mb-2">关卡完成！</h2>
+          <p class="text-gray-300 text-lg">恭喜完成第 {{ level }} 关</p>
         </div>
-        <div class="mb-6 text-gray-500">
+        <div class="mb-6 text-gray-400">
           <p>本关步数：{{ levelMoves }}</p>
         </div>
         <button
           @click="confirmNextLevel"
-          class="w-full px-6 py-3 rounded-xl transition-all duration-200 font-semibold text-lg bg-indigo-600 text-white hover:bg-indigo-700 shadow-sm"
+          class="w-full px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-semibold text-lg"
         >
           进入下一关
         </button>
@@ -105,7 +108,7 @@ import { ref, onMounted, computed, onUnmounted, nextTick } from 'vue'
 import { gsap } from 'gsap'
 import { useVocabulary } from '../composables/useVocabulary'
 
-const { loadVocabularyData, getSelectedWords } = useVocabulary()
+const { loadVocabularyData, getSelectedWords, hasSelectedVocabulary, loadSelectedVocabulary } = useVocabulary()
 
 const R = Math.random
 const moves = ref(0)
@@ -114,7 +117,6 @@ const levelMoves = ref(0) // 当前关卡步数
 const isLocked = ref(false)
 const tiles = ref([])
 const words = ref([])
-const error = ref('')
 const gameContainer = ref(null)
 const tileRefs = ref({})
 const tileAnimations = ref({}) // 存储每个tile的动画实例
@@ -276,14 +278,27 @@ const setTileRef = (el, id) => {
   }
 }
 
-// 根据单词和含义获取颜色（参考test.html的样式）
+// 根据单词和含义获取颜色（降低饱和度，让背景更柔和）
 const getColorForWord = (word, meaning, type) => {
-  // 英文词使用indigo，中文含义使用emerald（参考test.html的accent颜色）
-  if (type === 'word') {
-    return '#4F46E5' // indigo-600
-  } else {
-    return '#10B981' // emerald-500 (accent color from test.html)
+  if (!word) return 'hsl(0, 40%, 35%)'
+  
+  // 使用单词和含义的哈希值来确定颜色
+  let hash = 0
+  const combined = word + (meaning || '')
+  
+  for (let i = 0; i < combined.length; i++) {
+    hash = combined.charCodeAt(i) + ((hash << 5) - hash)
   }
+  
+  // 确保哈希值为正数
+  hash = Math.abs(hash)
+  
+  // 返回HSL颜色，降低饱和度和亮度，让背景更柔和
+  const hue = hash % 360
+  const saturation = 40 + (hash % 20) // 40-60之间的饱和度，更柔和
+  const lightness = type === 'word' ? 35 + (hash % 15) : 25 + (hash % 15) // 英文稍亮，中文稍暗
+  
+  return `hsl(${hue}, ${saturation}%, ${lightness}%)`
 }
 
 // 创建方块
@@ -314,15 +329,15 @@ const getTileStyle = (tile) => {
   
   return {
     position: 'absolute',
-    borderRadius: '4px', // 极小的圆角
-    transition: 'top 0.3s linear, left 0.1s linear, opacity 0.1s linear, background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease',
+    borderRadius: '5px',
+    transition: 'top 0.3s linear, left 0.1s linear, opacity 0.1s linear, background-color 0.3s ease',
     textAlign: 'center',
     padding: isMobile.value ? '4px' : '8px',
     width: `${TILE_SIZE.value}px`,
     height: `${TILE_SIZE.value}px`,
-    backgroundColor: tile.selected ? '#FFFFFF' : getColorForWord(tile.word, tile.meaning, tile.type),
-    color: tile.selected ? '#1F2937' : '#FFFFFF', // 选中时深灰色文字，未选中时白色文字
-    border: 'none',
+    backgroundColor: tile.selected ? '#fff' : getColorForWord(tile.word, tile.meaning, tile.type),
+    color: tile.selected ? '#000' : '#fff',
+    border: '1px solid rgba(0,0,0,0.3)',
     cursor: 'pointer',
     left: `${left}px`,
     top: `${top}px`,
@@ -330,12 +345,9 @@ const getTileStyle = (tile) => {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    boxShadow: tile.selected 
-      ? '0 0 20px rgba(79, 70, 229, 0.6), 0 0 40px rgba(79, 70, 229, 0.3), 0 4px 6px rgba(0, 0, 0, 0.1)' 
-      : '0 2px 4px rgba(0, 0, 0, 0.1)', // 选中时indigo光芒，未选中时浅阴影
+    boxShadow: tile.selected ? '0 0 10px rgba(255,255,255,0.5), inset 0 0 20px rgba(0,0,0,0.1)' : 'inset 0 0 20px rgba(0,0,0,0.3)', // 选中时添加外发光
     boxSizing: 'border-box',
-    fontSize: `${baseFontSize}px`, // 设置基础字体大小，子元素使用 em 会相对此缩放
-    opacity: 0.75
+    fontSize: `${baseFontSize}px` // 设置基础字体大小，子元素使用 em 会相对此缩放
   }
 }
 
@@ -345,22 +357,9 @@ const getTileAt = (x, y) => {
 }
 
 
-// 移除方块（使用CSS transition，闪烁indigo光后平滑缩小消失）
+// 移除方块（使用CSS transition，与demo保持一致）
 const removeTile = (tile, callback) => {
-  // 先闪烁indigo光芒
-  const tileEl = tileRefs.value[tile.id]
-  if (tileEl) {
-    tileEl.style.boxShadow = '0 0 30px rgba(79, 70, 229, 0.8), 0 0 60px rgba(79, 70, 229, 0.4)'
-  }
-  
-  // 短暂闪烁后开始淡出和缩小
-  setTimeout(() => {
-    tile.fadeOut = true
-    if (tileEl) {
-      tileEl.style.transform = 'scale(0.8)'
-    }
-  }, 150)
-  
+  tile.fadeOut = true
   // CSS transition会自动处理fade-out效果
   setTimeout(() => {
     const index = tiles.value.findIndex(t => t.id === tile.id)
@@ -368,7 +367,7 @@ const removeTile = (tile, callback) => {
       tiles.value.splice(index, 1)
     }
     if (callback) callback()
-  }, 300)
+  }, 100)
 }
 
 // 处理方块点击
@@ -434,7 +433,7 @@ const handleTileClick = (tile) => {
             fallTiles()
           })
         })
-      }, 200) // 短暂延迟让用户看到匹配效果（闪烁indigo光）
+      }, 300) // 短暂延迟让用户看到匹配效果
     })
   } else if (selectedTile.value.type !== tile.type && !isMatch) {
     // 类型不同但不匹配，显示选中效果后取消
@@ -611,20 +610,66 @@ const handleLevelCompleteClick = () => {
 // 加载单词数据
 const loadWords = async () => {
   try {
-    error.value = ''
-    await loadVocabularyData()
-    const wordData = await getSelectedWords()
+    // 确保选择的词汇已加载
+    loadSelectedVocabulary()
     
-    if (wordData.length === 0) {
-      error.value = '请先选择词库'
+    // 加载词汇数据
+    await loadVocabularyData()
+    
+    // 检查是否有选择的词汇
+    if (!hasSelectedVocabulary.value) {
+      console.error('请先选择词库')
+      // 使用默认词汇
+      words.value = [
+        { word: 'hello', meaning: '你好' },
+        { word: 'world', meaning: '世界' },
+        { word: 'apple', meaning: '苹果' },
+        { word: 'book', meaning: '书' },
+        { word: 'cat', meaning: '猫' },
+        { word: 'dog', meaning: '狗' },
+        { word: 'house', meaning: '房子' },
+        { word: 'car', meaning: '汽车' },
+      ]
+      initGame()
       return
     }
     
-    words.value = wordData
+    // 获取选中的词库单词
+    const allWords = await getSelectedWords()
+    
+    if (allWords.length === 0) {
+      console.error('选中的词库中没有单词')
+      // 使用默认词汇
+      words.value = [
+        { word: 'hello', meaning: '你好' },
+        { word: 'world', meaning: '世界' },
+        { word: 'apple', meaning: '苹果' },
+        { word: 'book', meaning: '书' },
+        { word: 'cat', meaning: '猫' },
+        { word: 'dog', meaning: '狗' },
+        { word: 'house', meaning: '房子' },
+        { word: 'car', meaning: '汽车' },
+      ]
+      initGame()
+      return
+    }
+    
+    words.value = allWords
     initGame()
   } catch (err) {
     console.error('加载词汇数据失败:', err)
-    error.value = '加载词汇数据失败，请重试或选择其他词库'
+    // 使用默认词汇
+    words.value = [
+      { word: 'hello', meaning: '你好' },
+      { word: 'world', meaning: '世界' },
+      { word: 'apple', meaning: '苹果' },
+      { word: 'book', meaning: '书' },
+      { word: 'cat', meaning: '猫' },
+      { word: 'dog', meaning: '狗' },
+      { word: 'house', meaning: '房子' },
+      { word: 'car', meaning: '汽车' },
+    ]
+    initGame()
   }
 }
 
@@ -769,8 +814,8 @@ onUnmounted(() => {
 
 .tile-content {
   font-size: 0.5em;
-  font-weight: 600; /* 字重一致，使用无衬线字体 */
-  text-shadow: none; /* 移除文字阴影，保持极简 */
+  font-weight: bold;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5), 0 0 3px rgba(128,128,128,0.3);
   line-height: 1.2;
   white-space: normal;
   word-break: break-word;
@@ -783,7 +828,6 @@ onUnmounted(() => {
   max-width: 100%;
   width: 100%;
   text-align: center;
-  font-family: 'Inter', sans-serif; /* 无衬线字体 */
 }
 
 /* 移动端字体更小 */
@@ -801,9 +845,6 @@ onUnmounted(() => {
 
 .tile.fade-out {
   opacity: 0;
-  transform: scale(0.8);
-  /* 平滑缩小消失 */
-  transition: opacity 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tile:focus-visible {

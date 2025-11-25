@@ -12,12 +12,30 @@
     <div class="max-w-6xl mx-auto relative z-10">
       <!-- 游戏头部信息 -->
       <div class="glass-effect rounded-3xl shadow-xl p-4 md:p-6 mb-4 md:mb-6 border border-white/20">
-        <div class="flex items-center justify-center mb-4 pb-4 border-b border-gray-300">
+        <div class="flex items-center justify-between mb-4 pb-4 border-b border-gray-300">
+          <!-- 返回首页按钮 -->
+          <router-link
+            to="/"
+            class="flex items-center justify-center w-10 h-10 rounded-full bg-white/80 hover:bg-white shadow-md hover:shadow-lg transition-all duration-200 group hover:scale-110"
+          >
+            <svg 
+              class="w-5 h-5 text-gray-600 group-hover:text-purple-600 transition-colors" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+          </router-link>
+          
           <!-- 标题和描述 -->
-          <div class="text-center px-4">
+          <div class="flex-1 text-center px-4">
             <h2 class="text-2xl md:text-3xl font-bold text-gray-800 mb-1">单词记忆</h2>
             <p class="text-sm md:text-base text-gray-600">匹配单词和中文，消除所有卡片</p>
           </div>
+          
+          <!-- 占位元素，保持居中 -->
+          <div class="w-10"></div>
         </div>
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div class="flex-1"></div>
@@ -246,9 +264,8 @@ import { ref, onMounted, computed, onUnmounted, nextTick } from 'vue'
 import { gsap } from 'gsap'
 import { useVocabulary } from '../composables/useVocabulary'
 
-const { loadVocabularyData, getSelectedWords } = useVocabulary()
-
 const words = ref([])
+const { loadVocabularyData, getSelectedWords, hasSelectedVocabulary, loadSelectedVocabulary } = useVocabulary()
 const mixedGrid = ref([])
 const loading = ref(true)
 const error = ref('')
@@ -320,18 +337,31 @@ const handleResize = () => {
 const loadWords = async () => {
   try {
     loading.value = true
-    await loadVocabularyData()
-    const wordData = await getSelectedWords()
     
-    if (wordData.length === 0) {
+    // 确保选择的词汇已加载
+    loadSelectedVocabulary()
+    
+    // 加载词汇数据
+    await loadVocabularyData()
+    
+    // 检查是否有选择的词汇
+    if (!hasSelectedVocabulary.value) {
       error.value = '请先选择词库'
       return
     }
     
-    words.value = wordData
+    // 获取选中的词库单词
+    const allWords = await getSelectedWords()
+    
+    if (allWords.length === 0) {
+      error.value = '选中的词库中没有单词'
+      return
+    }
+    
+    words.value = allWords
     initGame()
   } catch (err) {
-    error.value = '加载词汇数据失败，请检查 words.json 文件'
+    error.value = '加载词汇数据失败，请检查词库设置'
     console.error('加载词汇数据失败:', err)
   } finally {
     loading.value = false
