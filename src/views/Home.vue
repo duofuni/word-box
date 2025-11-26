@@ -334,11 +334,11 @@ const modules = [
     iconType: "book",
   },
   {
-    name: "memory",
-    title: "单词记忆",
-    description: "匹配单词和中文，消除所有卡片",
-    route: "/word-memory",
-    iconType: "gramophone",
+    name: "quiz",
+    title: "单词测验",
+    description: "通过答题将数字减到零，挑战你的单词记忆",
+    route: "/word-quiz",
+    iconType: "chart",
   },
   {
     name: "link",
@@ -355,11 +355,11 @@ const modules = [
     iconType: "eye",
   },
   {
-    name: "quiz",
-    title: "单词测验",
-    description: "通过答题将数字减到零，挑战你的单词记忆",
-    route: "/word-quiz",
-    iconType: "chart",
+    name: "memory",
+    title: "单词记忆",
+    description: "匹配单词和中文，消除所有卡片",
+    route: "/word-memory",
+    iconType: "gramophone",
   },
   {
     name: "eliminate",
@@ -373,6 +373,13 @@ const modules = [
     title: "词了个词",
     description: "消除三层单词，匹配三个相同单词即可消除，挑战你的策略",
     route: "/word-stack",
+    iconType: "chart",
+  },
+  {
+    name: "challenge",
+    title: "词卡闯关",
+    description: "点击单词块选择正确含义，在单词触底前消除它们",
+    route: "/word-challenge",
     iconType: "chart",
   },
 ];

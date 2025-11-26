@@ -11,6 +11,7 @@ import WordQuiz from '../views/WordQuiz.vue'
 import WordEliminate from '../views/WordEliminate.vue'
 import WordStack from '../views/WordStack.vue'
 import WordSelect from '../views/WordSelect.vue'
+import WordChallenge from '../views/WordChallenge.vue'
 
 const routes = [{
     path: '/',
@@ -56,6 +57,11 @@ const routes = [{
     path: '/word-stack',
     name: 'WordStack',
     component: WordStack
+  },
+  {
+    path: '/word-challenge',
+    name: 'WordChallenge',
+    component: WordChallenge
   },
 
 ]

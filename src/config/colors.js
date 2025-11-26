@@ -110,6 +110,8 @@ export const colors = {
     eliminate: 'from-gray-900 to-black',
     // 词了个词背景
     wordstack: 'from-gray-900 to-black',
+    // 词卡闯关背景
+    challenge: 'from-blue-900 to-indigo-900',
   },
   
   // 模块主题色
@@ -209,6 +211,17 @@ export const colors = {
       moves: '#3b82f6',         // blue-500
       gradientFrom: '#ec4899',
       gradientTo: '#f43f5e',    // rose-500
+    },
+    challenge: {
+      primary: '#3b82f6',       // blue-500
+      hover: '#2563eb',         // blue-600
+      gradient: 'from-blue-900 to-indigo-900',
+      iconBg: 'bg-blue-500',
+      iconHover: 'bg-blue-600',
+      score: '#22c55e',         // green-500
+      time: '#fbbf24',          // yellow-400
+      gradientFrom: '#1e3a8a',  // blue-900
+      gradientTo: '#312e81',    // indigo-900
     },
   },
   
