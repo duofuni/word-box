@@ -18,7 +18,13 @@
     <div class="max-w-md w-full relative z-10 pb-8">
       <!-- Header with title and settings -->
       <header class="relative flex items-center justify-between pt-6 pb-2 mb-4">
-        <div class="flex-1"></div>
+        <div class="flex-1 flex items-center">
+          <img
+            :src="`${baseUrl}logo.png`"
+            alt="Logo"
+            class="h-14 w-auto"
+          />
+        </div>
         <div class="relative text-center">
           <!-- 装饰性边框 -->
           <div
